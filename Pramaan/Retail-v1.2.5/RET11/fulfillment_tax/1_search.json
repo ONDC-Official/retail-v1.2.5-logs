@@ -1,0 +1,62 @@
+{
+  "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "0bd444ed-17da-461e-8786-2dc7b31b51ed",
+      "message_id": "d9fbec5e-8b41-4752-b927-39aac087ddfc",
+      "timestamp": "2025-04-26T07:42:17.235Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "catalog_full",
+            "list": [
+              {
+                "code": "payload_type",
+                "value": "inline"
+              }
+            ]
+          },
+          {
+            "code": "bap_features",
+            "list": [
+              {
+                "code": "001",
+                "value": "yes"
+              },
+              {
+                "code": "002",
+                "value": "yes"
+              },
+              {
+                "code": "005",
+                "value": "yes"
+              },
+              {
+                "code": "015",
+                "value": "yes"
+              },
+              {
+                "code": "018",
+                "value": "yes"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

@@ -1,0 +1,348 @@
+{
+  "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "on_select",
+      "transaction_id": "c82badba-be77-4522-b200-a42a04bede41",
+      "message_id": "7eedff1a-fd20-4497-8908-36f2b8edc01c",
+      "timestamp": "2025-04-26T07:38:56.092Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol"
+    },
+    "message": {
+      "order": {
+        "fulfillments": [
+          {
+            "id": "a27f3bdf-b899-4749-bfc9-88aad9227eeb",
+            "type": "Delivery",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "tracking": true,
+            "@ondc/org/category": "Immediate Delivery",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Serviceable"
+              }
+            }
+          },
+          {
+            "id": "430d85df-d933-48a1-874e-704c36e78242",
+            "type": "Self-Pickup",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "tracking": false,
+            "@ondc/org/category": "Takeaway",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Serviceable"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "id": "id_ancc5_0_0",
+            "quantity": {
+              "count": 1
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ],
+            "location_id": "SSL1",
+            "fulfillment_id": "a27f3bdf-b899-4749-bfc9-88aad9227eeb"
+          },
+          {
+            "id": "id_5yzai_2_0",
+            "quantity": {
+              "count": 1
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "customization"
+                  }
+                ]
+              },
+              {
+                "code": "parent",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "CG11"
+                  },
+                  {
+                    "code": "default",
+                    "value": "yes"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "a27f3bdf-b899-4749-bfc9-88aad9227eeb"
+          }
+        ],
+        "quote": {
+          "price": {
+            "currency": "INR",
+            "value": "375.00"
+          },
+          "breakup": [
+            {
+              "@ondc/org/item_id": "id_ancc5_0_0",
+              "title": "Farmhouse Pizza",
+              "@ondc/org/item_quantity": {
+                "count": 1
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "265.00"
+              },
+              "item": {
+                "quantity": {
+                  "available": {
+                    "count": "99"
+                  },
+                  "maximum": {
+                    "count": "99"
+                  }
+                },
+                "price": {
+                  "currency": "INR",
+                  "value": "265"
+                },
+                "parent_item_id": "P3121",
+                "tags": [
+                  {
+                    "code": "veg_nonveg",
+                    "list": [
+                      {
+                        "code": "veg",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "timing",
+                    "list": [
+                      {
+                        "code": "day_from",
+                        "value": "1"
+                      },
+                      {
+                        "code": "day_to",
+                        "value": "5"
+                      },
+                      {
+                        "code": "time_from",
+                        "value": "1100"
+                      },
+                      {
+                        "code": "time_to",
+                        "value": "2200"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "custom_group",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG11"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "id_5yzai_2_0",
+              "title": "100% Wheat Thin Crust",
+              "@ondc/org/item_quantity": {
+                "count": 1
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "item": {
+                "quantity": {
+                  "available": {
+                    "count": "99"
+                  },
+                  "maximum": {
+                    "count": "99"
+                  }
+                },
+                "price": {
+                  "currency": "INR",
+                  "value": "0"
+                },
+                "parent_item_id": "P3121",
+                "tags": [
+                  {
+                    "code": "veg_nonveg",
+                    "list": [
+                      {
+                        "code": "veg",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "timing",
+                    "list": [
+                      {
+                        "code": "day_from",
+                        "value": "1"
+                      },
+                      {
+                        "code": "day_to",
+                        "value": "5"
+                      },
+                      {
+                        "code": "time_from",
+                        "value": "1100"
+                      },
+                      {
+                        "code": "time_to",
+                        "value": "2200"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "customization"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "parent",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG11"
+                      },
+                      {
+                        "code": "default",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "child",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG21"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "a27f3bdf-b899-4749-bfc9-88aad9227eeb",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            {
+              "@ondc/org/item_id": "a27f3bdf-b899-4749-bfc9-88aad9227eeb",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "5"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      },
+                      {
+                        "code": "subtype",
+                        "value": "delivery"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "a27f3bdf-b899-4749-bfc9-88aad9227eeb",
+              "title": "Convenience Fee",
+              "@ondc/org/title_type": "misc",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            {
+              "@ondc/org/item_id": "430d85df-d933-48a1-874e-704c36e78242",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              }
+            },
+            {
+              "@ondc/org/item_id": "430d85df-d933-48a1-874e-704c36e78242",
+              "title": "Packing charges",
+              "@ondc/org/title_type": "packing",
+              "price": {
+                "currency": "INR",
+                "value": "25"
+              }
+            }
+          ],
+          "ttl": "PT6H"
+        },
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        }
+      }
+    }
+}
