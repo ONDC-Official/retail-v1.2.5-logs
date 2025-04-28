@@ -1,0 +1,194 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "init",
+      "transaction_id": "969fbcb2-cbc8-4800-a996-a858bce4b099",
+      "message_id": "1f7b994b-9c29-4fc0-aeab-1e26eb99fab5",
+      "timestamp": "2025-04-28T05:18:30.889Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "id_ancc5_0_0",
+            "location_id": "SSL1",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              },
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "8692ec8f-2505-4ba5-ba5d-35b95ecdf7cc"
+          },
+          {
+            "id": "id_5yzai_2_0",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "customization"
+                  }
+                ]
+              },
+              {
+                "code": "parent",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "CG11"
+                  },
+                  {
+                    "code": "default",
+                    "value": "yes"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "8692ec8f-2505-4ba5-ba5d-35b95ecdf7cc"
+          },
+          {
+            "id": "id_1cctu3_9_0",
+            "location_id": "SSL1",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              },
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "8692ec8f-2505-4ba5-ba5d-35b95ecdf7cc"
+          },
+          {
+            "id": "id_4ohjq_a_0",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "customization"
+                  }
+                ]
+              },
+              {
+                "code": "parent",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "CG41"
+                  },
+                  {
+                    "code": "default",
+                    "value": "yes"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "8692ec8f-2505-4ba5-ba5d-35b95ecdf7cc"
+          }
+        ],
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122007"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-04-28T05:18:30.889Z",
+          "updated_at": "2025-04-28T05:18:30.889Z"
+        },
+        "fulfillments": [
+          {
+            "id": "8692ec8f-2505-4ba5-ba5d-35b95ecdf7cc",
+            "type": "Delivery",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              }
+            }
+          }
+        ]
+      }
+    }
+}
