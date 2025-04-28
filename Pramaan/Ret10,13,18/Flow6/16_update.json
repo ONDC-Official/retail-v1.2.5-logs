@@ -1,0 +1,67 @@
+{
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "update",
+    "transaction_id": "add9f2b7-02ce-46f0-9895-f15f2d869eab",
+    "message_id": "69d5b9a1-9d2a-4513-ac5e-4244cc14d5d8",
+    "timestamp": "2025-04-28T11:16:57.449Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "https://ondc.sequelstring.com/protocol",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "update_target": "item",
+    "order": {
+      "id": "SS1745838915618",
+      "fulfillments": [
+        {
+          "type": "Return",
+          "tags": [
+            {
+              "code": "return_request",
+              "list": [
+                {
+                  "code": "id",
+                  "value": "9bdd8c41-5660-408f-b274-9694e3023441"
+                },
+                {
+                  "code": "item_id",
+                  "value": "id_13owvn_0_0"
+                },
+                {
+                  "code": "item_quantity",
+                  "value": "2"
+                },
+                {
+                  "code": "reason_id",
+                  "value": "003"
+                },
+                {
+                  "code": "reason_desc",
+                  "value": "some detailed reason for return"
+                },
+                {
+                  "code": "images",
+                  "value": "https://some-images-for-item.com"
+                },
+                {
+                  "code": "ttl_approval",
+                  "value": "PT24H"
+                },
+                {
+                  "code": "ttl_reverseqc",
+                  "value": "P3D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

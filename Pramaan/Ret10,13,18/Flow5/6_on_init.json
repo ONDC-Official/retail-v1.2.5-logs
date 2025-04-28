@@ -1,0 +1,331 @@
+{
+  "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "on_init",
+      "transaction_id": "e0056ac3-524d-49b5-a0ac-5a0817c0c13e",
+      "message_id": "e70ec32d-1adf-4988-a147-3568d412a44f",
+      "timestamp": "2025-04-28T10:55:36.733Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/buyer/protocol"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "id_13owvn_0_0",
+            "location_id": "SSL1",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "69b4ce01-db58-4725-956f-167f7e462819"
+          },
+          {
+            "id": "id_1bai73_2_0",
+            "location_id": "SSL1",
+            "quantity": {
+              "count": 3
+            },
+            "tags": [
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "69b4ce01-db58-4725-956f-167f7e462819"
+          }
+        ],
+        "quote": {
+          "price": {
+            "currency": "INR",
+            "value": "1420.00"
+          },
+          "breakup": [
+            {
+              "@ondc/org/item_id": "id_13owvn_0_0",
+              "title": "Plain Atta",
+              "@ondc/org/item_quantity": {
+                "count": 2
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "130.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "65.00"
+                }
+              }
+            },
+            {
+              "@ondc/org/item_id": "id_1bai73_2_0",
+              "title": "Plain Atta",
+              "@ondc/org/item_quantity": {
+                "count": 3
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "975.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "325.00"
+                }
+              }
+            },
+            {
+              "@ondc/org/item_id": "69b4ce01-db58-4725-956f-167f7e462819",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            {
+              "@ondc/org/item_id": "69b4ce01-db58-4725-956f-167f7e462819",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "5"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      },
+                      {
+                        "code": "subtype",
+                        "value": "delivery"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "cancellation_terms": [
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Pending",
+                "short_desc": "002"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "0.00",
+              "amount": {
+                "currency": "INR",
+                "value": "0.00"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Packed",
+                "short_desc": "001,003"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "0.00",
+              "amount": {
+                "currency": "INR",
+                "value": "0.00"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Order-picked-up",
+                "short_desc": "001,003"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "10.00",
+              "amount": {
+                "currency": "INR",
+                "value": "147.00"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Out-for-delivery",
+                "short_desc": "009"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "30.00",
+              "amount": {
+                "currency": "INR",
+                "value": "441.00"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Out-for-delivery",
+                "short_desc": "010,011,012,013,014,015"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "35.00",
+              "amount": {
+                "currency": "INR",
+                "value": "514.50"
+              }
+            }
+          }
+        ],
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet Gotham city",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122007"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-04-28T10:55:36.683Z",
+          "updated_at": "2025-04-28T10:55:36.683Z"
+        },
+        "fulfillments": [
+          {
+            "id": "69b4ce01-db58-4725-956f-167f7e462819",
+            "type": "Delivery",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet Gotham city",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              }
+            },
+            "tracking": true
+          }
+        ],
+        "payment": {
+          "type": "ON-ORDER",
+          "@ondc/org/settlement_basis": "delivery",
+          "@ondc/org/settlement_window": "P1D",
+          "@ondc/org/withholding_amount": "10.00",
+          "tags": [
+            {
+              "code": "bpp_collect",
+              "list": [
+                {
+                  "code": "success",
+                  "value": "Y"
+                },
+                {
+                  "code": "error",
+                  "value": ".."
+                }
+              ]
+            }
+          ],
+          "collected_by": "BPP",
+          "status": "NOT-PAID",
+          "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"1420\"&transaction_id=e0056ac3-524d-49b5-a0ac-5a0817c0c13e&label=RETAIL_PRE_PAID_PAYMENT",
+          "params": {
+            "currency": "INR",
+            "amount": "1420"
+          }
+        },
+        "tags": [
+          {
+            "code": "bpp_terms",
+            "list": [
+              {
+                "code": "np_type",
+                "value": "MSN"
+              },
+              {
+                "code": "tax_number",
+                "value": "00CBADE2145H1Z5"
+              },
+              {
+                "code": "max_liability",
+                "value": "2"
+              },
+              {
+                "code": "max_liability_cap",
+                "value": "10000.00"
+              },
+              {
+                "code": "mandatory_arbitration",
+                "value": "false"
+              },
+              {
+                "code": "court_jurisdiction",
+                "value": "New Delhi"
+              },
+              {
+                "code": "delay_interest",
+                "value": "7.50"
+              },
+              {
+                "code": "provider_tax_number",
+                "value": "ABCDE1234F"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

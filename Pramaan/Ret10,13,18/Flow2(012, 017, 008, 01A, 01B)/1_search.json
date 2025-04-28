@@ -1,0 +1,90 @@
+{
+  "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "b99b9e72-d459-412c-9c37-4cad14d66e61",
+      "message_id": "8694c02e-a5b9-49f1-b794-5dcf379f13eb",
+      "timestamp": "2025-04-28T08:25:56.334Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "catalog_full",
+            "list": [
+              {
+                "code": "payload_type",
+                "value": "inline"
+              }
+            ]
+          },
+          {
+            "code": "bap_features",
+            "list": [
+              {
+                "code": "012",
+                "value": "yes"
+              },
+              {
+                "code": "017",
+                "value": "yes"
+              },
+              {
+                "code": "008",
+                "value": "yes"
+              },
+              {
+                "code": "01A",
+                "value": "yes"
+              },
+              {
+                "code": "01B",
+                "value": "yes"
+              },
+              {
+                "code": "002",
+                "value": "yes"
+              },
+              {
+                "code": "003",
+                "value": "yes"
+              },
+              {
+                "code": "00A",
+                "value": "yes"
+              },
+              {
+                "code": "00F",
+                "value": "yes"
+              },
+              {
+                "code": "01E",
+                "value": "yes"
+              },
+              {
+                "code": "01F",
+                "value": "yes"
+              },
+              {
+                "code": "011",
+                "value": "yes"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

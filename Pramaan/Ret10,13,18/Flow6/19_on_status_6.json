@@ -1,0 +1,787 @@
+{
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "on_status",
+    "transaction_id": "add9f2b7-02ce-46f0-9895-f15f2d869eab",
+    "message_id": "b1c07a58-053b-4991-9153-1fdde88af4b4",
+    "timestamp": "2025-04-28T11:17:24.479Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "https://ondc.sequelstring.com/protocol",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "id": "SS1745838915618",
+      "state": "Cancelled",
+      "provider": {
+        "id": "pramaan_provider_1",
+        "locations": [
+          {
+            "id": "SSL1"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "id_13owvn_0_0",
+          "quantity": {
+            "count": 2
+          },
+          "tags": [
+            {
+              "code": "np_fees",
+              "list": [
+                {
+                  "code": "id"
+                }
+              ]
+            }
+          ],
+          "fulfillment_id": "791fe7c3-38ab-445d-b5eb-a3eee5789dc3"
+        },
+        {
+          "id": "id_13owvn_0_0",
+          "quantity": {
+            "count": 0
+          },
+          "tags": [
+            {
+              "code": "np_fees",
+              "list": [
+                {
+                  "code": "id"
+                }
+              ]
+            }
+          ],
+          "fulfillment_id": "8f504d6f-a24a-4d06-a6a2-ab58789b029f"
+        },
+        {
+          "id": "id_1bai73_2_0",
+          "quantity": {
+            "count": 3
+          },
+          "tags": [
+            {
+              "code": "np_fees",
+              "list": [
+                {
+                  "code": "id"
+                }
+              ]
+            }
+          ],
+          "fulfillment_id": "791fe7c3-38ab-445d-b5eb-a3eee5789dc3"
+        },
+        {
+          "id": "id_1bai73_2_0",
+          "quantity": {
+            "count": 0
+          },
+          "tags": [
+            {
+              "code": "np_fees",
+              "list": [
+                {
+                  "code": "id"
+                }
+              ]
+            }
+          ],
+          "fulfillment_id": "8f504d6f-a24a-4d06-a6a2-ab58789b029f"
+        }
+      ],
+      "billing": {
+        "address": {
+          "name": "Nirdosh Chauhan",
+          "building": "221 B",
+          "locality": "Baker Steeet Gotham city",
+          "city": "Gurgaon",
+          "state": "Haryana",
+          "country": "India",
+          "area_code": "122007"
+        },
+        "tax_number": "00ABCDE1234F1Z5",
+        "name": "Nirdosh Chauhan",
+        "email": "nirdosh.chauhan@sequelstring.com",
+        "phone": "9876543210",
+        "created_at": "2025-04-28T11:15:12.274Z",
+        "updated_at": "2025-04-28T11:15:12.274Z"
+      },
+      "fulfillments": [
+        {
+          "id": "8f504d6f-a24a-4d06-a6a2-ab58789b029f",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "@ondc/org/category": "Standard Delivery",
+          "@ondc/org/TAT": "PT24H",
+          "state": {
+            "descriptor": {
+              "code": "Cancelled"
+            }
+          },
+          "type": "Delivery",
+          "tracking": true,
+          "start": {
+            "location": {
+              "id": "SSL1",
+              "gps": "28.527300,77.182100",
+              "descriptor": {
+                "name": "Pramaan Store 1",
+                "images": [
+                  "https://ondc.org/assets/theme/images/ondc_registered_logo.svg?v=399788fda7"
+                ]
+              },
+              "address": {
+                "locality": "N. Caldwell",
+                "city": "New Delhi",
+                "area_code": "110030",
+                "state": "New Delhi"
+              }
+            },
+            "time": {
+              "range": {
+                "start": "2025-04-28T11:15:15.656Z",
+                "end": "2025-04-28T23:00:00.000Z"
+              },
+              "timestamp": "2025-04-28T11:15:47.744Z"
+            },
+            "contact": {
+              "phone": "9876543210",
+              "email": "ss_seller_1@ss.com"
+            }
+          },
+          "end": {
+            "location": {
+              "gps": "28.4554726,77.0219019",
+              "address": {
+                "name": "Nirdosh Chauhan",
+                "building": "221 B",
+                "locality": "Baker Steeet Gotham city",
+                "city": "Gurgaon",
+                "state": "Haryana",
+                "country": "India",
+                "area_code": "122007"
+              }
+            },
+            "contact": {
+              "phone": "9876543210",
+              "email": "nirdosh.chauhan@sequelstring.com"
+            },
+            "person": {
+              "name": "Nirdosh Chauhan"
+            },
+            "time": {
+              "range": {
+                "start": "2025-04-29T09:30:00.000Z",
+                "end": "2025-04-29T19:00:00.000Z"
+              },
+              "timestamp": "2025-04-28T11:15:59.538Z"
+            }
+          },
+          "tags": [
+            {
+              "code": "routing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "P2P"
+                }
+              ]
+            },
+            {
+              "code": "tracking",
+              "list": [
+                {
+                  "code": "gps_enabled",
+                  "value": "yes"
+                },
+                {
+                  "code": "url_enabled",
+                  "value": "yes"
+                },
+                {
+                  "code": "url",
+                  "value": "https://ondc.sequelstring.com/track/8f504d6f-a24a-4d06-a6a2-ab58789b029f"
+                }
+              ]
+            },
+            {
+              "code": "cancel_request",
+              "list": [
+                {
+                  "code": "retry_count",
+                  "value": "3"
+                },
+                {
+                  "code": "rto_id",
+                  "value": "791fe7c3-38ab-445d-b5eb-a3eee5789dc3"
+                },
+                {
+                  "code": "reason_id",
+                  "value": "011"
+                },
+                {
+                  "code": "initiated_by",
+                  "value": "ondc.sequelstring.com/seller/protocol"
+                }
+              ]
+            },
+            {
+              "code": "precancel_state",
+              "list": [
+                {
+                  "code": "fulfillment_state",
+                  "value": "Order-delivered"
+                },
+                {
+                  "code": "updated_at",
+                  "value": "2025-04-28T11:16:57.495Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "type": "Return",
+          "state": {
+            "descriptor": {
+              "code": "Cancelled"
+            }
+          },
+          "tags": [
+            {
+              "code": "return_request",
+              "list": [
+                {
+                  "code": "id",
+                  "value": "9bdd8c41-5660-408f-b274-9694e3023441"
+                },
+                {
+                  "code": "item_id",
+                  "value": "id_13owvn_0_0"
+                },
+                {
+                  "code": "item_quantity",
+                  "value": "2"
+                },
+                {
+                  "code": "reason_id",
+                  "value": "003"
+                },
+                {
+                  "code": "reason_desc",
+                  "value": "some detailed reason for return"
+                },
+                {
+                  "code": "images",
+                  "value": "https://some-images-for-item.com"
+                },
+                {
+                  "code": "ttl_approval",
+                  "value": "PT24H"
+                },
+                {
+                  "code": "ttl_reverseqc",
+                  "value": "P3D"
+                }
+              ]
+            },
+            {
+              "code": "cancel_request",
+              "list": [
+                {
+                  "code": "retry_count",
+                  "value": "3"
+                },
+                {
+                  "code": "rto_id",
+                  "value": "932cbb24-4aad-4537-9476-d13d2f3ccb3c"
+                },
+                {
+                  "code": "reason_id",
+                  "value": "011"
+                },
+                {
+                  "code": "initiated_by",
+                  "value": "ondc.sequelstring.com/seller/protocol"
+                }
+              ]
+            },
+            {
+              "code": "precancel_state",
+              "list": [
+                {
+                  "code": "fulfillment_state",
+                  "value": "Return_Initiated"
+                },
+                {
+                  "code": "updated_at",
+                  "value": "2025-04-28T11:16:57.495Z"
+                }
+              ]
+            }
+          ],
+          "id": "9bdd8c41-5660-408f-b274-9694e3023441"
+        },
+        {
+          "id": "791fe7c3-38ab-445d-b5eb-a3eee5789dc3",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "end": {
+            "contact": {
+              "phone": "9876543210",
+              "email": "ss_seller_1@ss.com"
+            },
+            "location": {
+              "id": "SSL1",
+              "gps": "28.527300,77.182100",
+              "descriptor": {
+                "name": "Pramaan Store 1",
+                "images": [
+                  "https://ondc.org/assets/theme/images/ondc_registered_logo.svg?v=399788fda7"
+                ]
+              },
+              "address": {
+                "locality": "N. Caldwell",
+                "city": "New Delhi",
+                "area_code": "110030",
+                "state": "New Delhi"
+              }
+            },
+            "time": {
+              "timestamp": "2025-04-28T11:17:24.479Z"
+            }
+          },
+          "start": {
+            "contact": {
+              "phone": "9876543210",
+              "email": "nirdosh.chauhan@sequelstring.com"
+            },
+            "location": {
+              "gps": "28.4554726,77.0219019",
+              "address": {
+                "name": "Nirdosh Chauhan",
+                "building": "221 B",
+                "locality": "Baker Steeet Gotham city",
+                "city": "Gurgaon",
+                "state": "Haryana",
+                "country": "India",
+                "area_code": "122007"
+              }
+            },
+            "time": {
+              "timestamp": "2025-04-28T11:17:14.216Z"
+            }
+          },
+          "type": "RTO",
+          "state": {
+            "descriptor": {
+              "code": "RTO-Delivered"
+            }
+          },
+          "tags": [
+            {
+              "code": "cancel_request",
+              "list": [
+                {
+                  "code": "retry_count",
+                  "value": "3"
+                },
+                {
+                  "code": "rto_id",
+                  "value": "791fe7c3-38ab-445d-b5eb-a3eee5789dc3"
+                },
+                {
+                  "code": "reason_id",
+                  "value": "011"
+                },
+                {
+                  "code": "initiated_by",
+                  "value": "ondc.sequelstring.com/seller/protocol"
+                }
+              ]
+            },
+            {
+              "code": "precancel_state",
+              "list": [
+                {
+                  "code": "fulfillment_state",
+                  "value": "Order-delivered"
+                },
+                {
+                  "code": "updated_at",
+                  "value": "2025-04-28T11:16:57.495Z"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "id_13owvn_0_0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-130.00"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "id_1bai73_2_0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-975.00"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "tax"
+                },
+                {
+                  "code": "id",
+                  "value": "8f504d6f-a24a-4d06-a6a2-ab58789b029f"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "932cbb24-4aad-4537-9476-d13d2f3ccb3c",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "start": {
+            "time": {
+              "timestamp": "2025-04-28T11:17:14.216Z"
+            }
+          },
+          "type": "RTO",
+          "state": {
+            "descriptor": {
+              "code": "RTO-Delivered"
+            }
+          },
+          "tags": [
+            {
+              "code": "cancel_request",
+              "list": [
+                {
+                  "code": "retry_count",
+                  "value": "3"
+                },
+                {
+                  "code": "rto_id",
+                  "value": "932cbb24-4aad-4537-9476-d13d2f3ccb3c"
+                },
+                {
+                  "code": "reason_id",
+                  "value": "011"
+                },
+                {
+                  "code": "initiated_by",
+                  "value": "ondc.sequelstring.com/seller/protocol"
+                }
+              ]
+            },
+            {
+              "code": "precancel_state",
+              "list": [
+                {
+                  "code": "fulfillment_state",
+                  "value": "Return_Initiated"
+                },
+                {
+                  "code": "updated_at",
+                  "value": "2025-04-28T11:16:57.495Z"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "id_13owvn_0_0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-130.00"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "id_1bai73_2_0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-975.00"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "tax"
+                },
+                {
+                  "code": "id",
+                  "value": "8f504d6f-a24a-4d06-a6a2-ab58789b029f"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-5"
+                }
+              ]
+            }
+          ],
+          "end": {
+            "time": {
+              "timestamp": "2025-04-28T11:17:24.479Z"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "40.00"
+        },
+        "breakup": [
+          {
+            "@ondc/org/item_id": "id_13owvn_0_0",
+            "title": "Plain Atta",
+            "@ondc/org/item_quantity": {
+              "count": 0
+            },
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "65.00"
+              }
+            }
+          },
+          {
+            "@ondc/org/item_id": "id_1bai73_2_0",
+            "title": "Plain Atta",
+            "@ondc/org/item_quantity": {
+              "count": 0
+            },
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "325.00"
+              }
+            }
+          },
+          {
+            "@ondc/org/item_id": "8f504d6f-a24a-4d06-a6a2-ab58789b029f",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            }
+          },
+          {
+            "@ondc/org/item_id": "8f504d6f-a24a-4d06-a6a2-ab58789b029f",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "fulfillment"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "delivery"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "payment": {
+        "type": "ON-FULFILLMENT",
+        "@ondc/org/settlement_basis": "delivery",
+        "@ondc/org/settlement_window": "P1D",
+        "@ondc/org/withholding_amount": "10.00",
+        "tags": [
+          {
+            "code": "bpp_collect",
+            "list": [
+              {
+                "code": "success",
+                "value": "Y"
+              },
+              {
+                "code": "error",
+                "value": ".."
+              }
+            ]
+          }
+        ],
+        "collected_by": "BPP",
+        "status": "PAID",
+        "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"1420\"&transaction_id=add9f2b7-02ce-46f0-9895-f15f2d869eab&label=RETAIL_PRE_PAID_PAYMENT",
+        "params": {
+          "amount": "1420.00",
+          "currency": "INR",
+          "transaction_id": "e0f4446c-6cf4-47b2-b15d-908386cc85b4"
+        },
+        "@ondc/org/settlement_details": [
+          {
+            "settlement_counterparty": "buyer-app",
+            "settlement_type": "upi",
+            "beneficiary_name": "Nirdosh Chauhan",
+            "upi_address": "gft@oksbi",
+            "settlement_bank_account_no": "987654321012",
+            "settlement_ifsc_code": "SBI00000001"
+          }
+        ]
+      },
+      "tags": [
+        {
+          "code": "bpp_terms",
+          "list": [
+            {
+              "code": "np_type",
+              "value": "MSN"
+            },
+            {
+              "code": "tax_number",
+              "value": "00CBADE2145H1Z5"
+            },
+            {
+              "code": "max_liability",
+              "value": "2"
+            },
+            {
+              "code": "max_liability_cap",
+              "value": "10000.00"
+            },
+            {
+              "code": "mandatory_arbitration",
+              "value": "false"
+            },
+            {
+              "code": "court_jurisdiction",
+              "value": "New Delhi"
+            },
+            {
+              "code": "delay_interest",
+              "value": "7.50"
+            },
+            {
+              "code": "provider_tax_number",
+              "value": "ABCDE1234F"
+            }
+          ]
+        },
+        {
+          "code": "bap_terms",
+          "list": [
+            {
+              "code": "tax_number",
+              "value": "00XYZAB1234C1Z8"
+            },
+            {
+              "code": "accept_bpp_terms",
+              "value": "Y"
+            }
+          ]
+        }
+      ],
+      "created_at": "2025-04-28T11:15:15.618Z",
+      "updated_at": "2025-04-28T11:17:14.216Z",
+      "cancellation": {
+        "cancelled_by": "ondc.sequelstring.com/seller/protocol",
+        "reason": {
+          "id": "015"
+        }
+      }
+    }
+  }
+}
