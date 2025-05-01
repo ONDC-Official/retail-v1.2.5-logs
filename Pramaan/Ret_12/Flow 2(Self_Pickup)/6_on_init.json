@@ -1,0 +1,380 @@
+{
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "on_init",
+    "transaction_id": "6bb2710e-3f2f-4f53-846c-ebc7a69f1268",
+    "message_id": "8e8be439-a677-4a58-8b30-8e1336f66356",
+    "timestamp": "2025-05-01T07:43:08.138Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "https://ondc.sequelstring.com/protocol"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "pramaan_provider_1",
+        "locations": [
+          {
+            "id": "SSL1"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "id_1bai73_0_0",
+          "location_id": "SSL1",
+          "quantity": {
+            "count": 2
+          },
+          "tags": [
+            {
+              "code": "np_fees",
+              "list": [
+                {
+                  "code": "id",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "fulfillment_id": "5bca9a71-85df-4003-9996-c9a98a9e38ac"
+        },
+        {
+          "id": "id_18yq4w_3_0",
+          "location_id": "SSL1",
+          "quantity": {
+            "count": 2
+          },
+          "tags": [
+            {
+              "code": "np_fees",
+              "list": [
+                {
+                  "code": "id",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "fulfillment_id": "5bca9a71-85df-4003-9996-c9a98a9e38ac"
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "4100.00"
+        },
+        "breakup": [
+          {
+            "@ondc/org/item_id": "id_1bai73_0_0",
+            "title": "Adidas Track Suit",
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "2400.00"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "1200.00"
+              }
+            }
+          },
+          {
+            "@ondc/org/item_id": "id_18yq4w_3_0",
+            "title": "Woodland Shoes",
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "1400.00"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "700.00"
+              }
+            }
+          },
+          {
+            "@ondc/org/item_id": "5bca9a71-85df-4003-9996-c9a98a9e38ac",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            }
+          },
+          {
+            "@ondc/org/item_id": "5bca9a71-85df-4003-9996-c9a98a9e38ac",
+            "title": "Packing charges",
+            "@ondc/org/title_type": "packing",
+            "price": {
+              "currency": "INR",
+              "value": "25"
+            }
+          },
+          {
+            "@ondc/org/item_id": "5bca9a71-85df-4003-9996-c9a98a9e38ac",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "5bca9a71-85df-4003-9996-c9a98a9e38ac",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "cancellation_terms": [
+        {
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "Pending",
+              "short_desc": "002"
+            }
+          },
+          "cancellation_fee": {
+            "percentage": "0.00",
+            "amount": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          }
+        },
+        {
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "Packed",
+              "short_desc": "001,003"
+            }
+          },
+          "cancellation_fee": {
+            "percentage": "0.00",
+            "amount": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          }
+        },
+        {
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "Order-picked-up",
+              "short_desc": "001,003"
+            }
+          },
+          "cancellation_fee": {
+            "percentage": "10.00",
+            "amount": {
+              "currency": "INR",
+              "value": "416.50"
+            }
+          }
+        },
+        {
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "Out-for-delivery",
+              "short_desc": "009"
+            }
+          },
+          "cancellation_fee": {
+            "percentage": "30.00",
+            "amount": {
+              "currency": "INR",
+              "value": "1249.50"
+            }
+          }
+        },
+        {
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "Out-for-delivery",
+              "short_desc": "010,011,012,013,014,015"
+            }
+          },
+          "cancellation_fee": {
+            "percentage": "35.00",
+            "amount": {
+              "currency": "INR",
+              "value": "1457.75"
+            }
+          }
+        }
+      ],
+      "billing": {
+        "address": {
+          "name": "Nirdosh Chauhan",
+          "building": "221 B",
+          "locality": "Baker Steeet Gotham city",
+          "city": "Gurgaon",
+          "state": "Haryana",
+          "country": "India",
+          "area_code": "122007"
+        },
+        "tax_number": "00ABCDE1234F1Z5",
+        "name": "Nirdosh Chauhan",
+        "email": "nirdosh.chauhan@sequelstring.com",
+        "phone": "9876543210",
+        "created_at": "2025-05-01T07:43:08.072Z",
+        "updated_at": "2025-05-01T07:43:08.072Z"
+      },
+      "fulfillments": [
+        {
+          "id": "5bca9a71-85df-4003-9996-c9a98a9e38ac",
+          "type": "Self-Pickup",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "tracking": false,
+          "@ondc/org/category": "Takeaway",
+          "@ondc/org/TAT": "PT24H",
+          "state": {
+            "descriptor": {
+              "code": "Serviceable"
+            }
+          }
+        }
+      ],
+      "payment": {
+        "type": "ON-ORDER",
+        "@ondc/org/settlement_basis": "delivery",
+        "@ondc/org/settlement_window": "P1D",
+        "@ondc/org/withholding_amount": "10.00",
+        "tags": [
+          {
+            "code": "bpp_collect",
+            "list": [
+              {
+                "code": "success",
+                "value": "Y"
+              },
+              {
+                "code": "error",
+                "value": ".."
+              }
+            ]
+          }
+        ],
+        "collected_by": "BPP",
+        "status": "NOT-PAID",
+        "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"4100\"&transaction_id=6bb2710e-3f2f-4f53-846c-ebc7a69f1268&label=RETAIL_PRE_PAID_PAYMENT",
+        "params": {
+          "currency": "INR",
+          "amount": "4100"
+        }
+      },
+      "tags": [
+        {
+          "code": "bpp_terms",
+          "list": [
+            {
+              "code": "np_type",
+              "value": "MSN"
+            },
+            {
+              "code": "tax_number",
+              "value": "00CBADE2145H1Z5"
+            },
+            {
+              "code": "max_liability",
+              "value": "2"
+            },
+            {
+              "code": "max_liability_cap",
+              "value": "10000.00"
+            },
+            {
+              "code": "mandatory_arbitration",
+              "value": "false"
+            },
+            {
+              "code": "court_jurisdiction",
+              "value": "New Delhi"
+            },
+            {
+              "code": "delay_interest",
+              "value": "7.50"
+            },
+            {
+              "code": "provider_tax_number",
+              "value": "ABCDE1234F"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

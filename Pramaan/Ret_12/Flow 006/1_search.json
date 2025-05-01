@@ -1,0 +1,90 @@
+{
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "search",
+    "transaction_id": "a103f233-455e-4cf7-88e6-fe47f9fcb3a0",
+    "message_id": "3d8d7e11-b738-4d56-922a-99c4303f9856",
+    "timestamp": "2025-04-28T09:11:14.896Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      },
+      "tags": [
+        {
+          "code": "catalog_full",
+          "list": [
+            {
+              "code": "payload_type",
+              "value": "inline"
+            }
+          ]
+        },
+        {
+          "code": "bap_features",
+          "list": [
+            {
+              "code": "006",
+              "value": "yes"
+            },
+            {
+              "code": "00B",
+              "value": "yes"
+            },
+            {
+              "code": "012",
+              "value": "yes"
+            },
+            {
+              "code": "017",
+              "value": "yes"
+            },
+            {
+              "code": "00D",
+              "value": "yes"
+            },
+            {
+              "code": "002",
+              "value": "yes"
+            },
+            {
+              "code": "003",
+              "value": "yes"
+            },
+            {
+              "code": "00A",
+              "value": "yes"
+            },
+            {
+              "code": "00F",
+              "value": "yes"
+            },
+            {
+              "code": "01E",
+              "value": "yes"
+            },
+            {
+              "code": "01F",
+              "value": "yes"
+            },
+            {
+              "code": "011",
+              "value": "yes"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

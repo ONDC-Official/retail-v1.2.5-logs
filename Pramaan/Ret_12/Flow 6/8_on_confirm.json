@@ -1,0 +1,20 @@
+{
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "track",
+    "transaction_id": "4007d16f-00a8-4eec-baf9-1925f6e045c6",
+    "message_id": "b421579b-f941-45b5-97b6-3aac7cbb1300",
+    "timestamp": "2025-05-01T07:33:48.867Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "https://ondc.sequelstring.com/protocol",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order_id": "SS1746084823821"
+  }
+}
