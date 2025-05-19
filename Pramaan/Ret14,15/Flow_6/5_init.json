@@ -1,0 +1,110 @@
+{
+  "context": {
+      "domain": "ONDC:RET15",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "init",
+      "transaction_id": "4ad266c6-579b-4967-a7b4-22ed151df32f",
+      "message_id": "a26e0050-3351-462d-94c9-b4e0c1385065",
+      "timestamp": "2025-05-17T10:16:30.350Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "id_18yq4w_0_0",
+            "location_id": "SSL1",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "b85ab99e-bb11-40e8-990f-9ffba817a32c"
+          },
+          {
+            "id": "id_55vxa_1_0",
+            "location_id": "SSL1",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "b85ab99e-bb11-40e8-990f-9ffba817a32c"
+          }
+        ],
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet Gotham city",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122001"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-05-17T10:16:30.350Z",
+          "updated_at": "2025-05-17T10:16:30.350Z"
+        },
+        "fulfillments": [
+          {
+            "id": "b85ab99e-bb11-40e8-990f-9ffba817a32c",
+            "type": "Delivery",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet Gotham city",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122001"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              }
+            }
+          }
+        ]
+      }
+    }
+}
