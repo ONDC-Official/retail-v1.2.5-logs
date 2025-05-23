@@ -5,9 +5,9 @@
     "city": "std:0124",
     "core_version": "1.2.5",
     "action": "on_cancel",
-    "transaction_id": "7ee255e5-c9e0-44dc-9d7f-b9da0d73f70b",
-    "message_id": "d687e31c-1347-425c-8efd-5085a281d3ed",
-    "timestamp": "2025-05-01T07:16:45.066Z",
+    "transaction_id": "6adea628-f724-4164-a780-a1d4c85945db",
+    "message_id": "c4a37af4-1c89-45fa-8807-dc4864e7b2a4",
+    "timestamp": "2025-04-28T12:39:20.423Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -16,7 +16,7 @@
   },
   "message": {
     "order": {
-      "id": "SS1746083750379",
+      "id": "SS1745843335659",
       "state": "Cancelled",
       "provider": {
         "id": "pramaan_provider_1",
@@ -30,7 +30,7 @@
         "address": {
           "name": "Nirdosh Chauhan",
           "building": "221 B",
-          "locality": "Baker Steeet Gotham city",
+          "locality": "Baker Steeet",
           "city": "Gurgaon",
           "state": "Haryana",
           "country": "India",
@@ -40,8 +40,8 @@
         "name": "Nirdosh Chauhan",
         "email": "nirdosh.chauhan@sequelstring.com",
         "phone": "9876543210",
-        "created_at": "2025-05-01T07:15:45.825Z",
-        "updated_at": "2025-05-01T07:15:45.825Z"
+        "created_at": "2025-04-28T12:28:51.477Z",
+        "updated_at": "2025-04-28T12:28:51.477Z"
       },
       "payment": {
         "type": "ON-ORDER",
@@ -65,7 +65,7 @@
         ],
         "collected_by": "BPP",
         "status": "NOT-PAID",
-        "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"4115\"&transaction_id=7ee255e5-c9e0-44dc-9d7f-b9da0d73f70b&label=RETAIL_PRE_PAID_PAYMENT",
+        "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"4115\"&transaction_id=6adea628-f724-4164-a780-a1d4c85945db&label=RETAIL_PRE_PAID_PAYMENT",
         "params": {
           "amount": "4115.00",
           "currency": "INR"
@@ -81,10 +81,10 @@
           }
         ]
       },
-      "created_at": "2025-05-01T07:15:50.379Z",
+      "created_at": "2025-04-28T12:28:55.659Z",
       "fulfillments": [
         {
-          "id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
+          "id": "902aac79-31d9-46b3-8009-587bc6224685",
           "@ondc/org/provider_name": "Pramaan Store 1",
           "@ondc/org/category": "Standard Delivery",
           "@ondc/org/TAT": "PT24H",
@@ -114,10 +114,10 @@
             },
             "time": {
               "range": {
-                "start": "2025-05-01T07:15:50.428Z",
-                "end": "2025-05-01T23:00:00.000Z"
+                "start": "2025-04-28T12:28:55.715Z",
+                "end": "2025-04-28T23:00:00.000Z"
               },
-              "timestamp": "2025-05-01T07:16:34.393Z"
+              "timestamp": "2025-04-28T12:38:44.243Z"
             },
             "contact": {
               "phone": "9876543210",
@@ -130,7 +130,7 @@
               "address": {
                 "name": "Nirdosh Chauhan",
                 "building": "221 B",
-                "locality": "Baker Steeet Gotham city",
+                "locality": "Baker Steeet",
                 "city": "Gurgaon",
                 "state": "Haryana",
                 "country": "India",
@@ -146,8 +146,8 @@
             },
             "time": {
               "range": {
-                "start": "2025-05-02T09:30:00.000Z",
-                "end": "2025-05-02T19:00:00.000Z"
+                "start": "2025-04-29T09:30:00.000Z",
+                "end": "2025-04-29T19:00:00.000Z"
               }
             }
           },
@@ -174,7 +174,7 @@
                 },
                 {
                   "code": "url",
-                  "value": "https://ondc.sequelstring.com/track/8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+                  "value": "https://ondc.sequelstring.com/track/902aac79-31d9-46b3-8009-587bc6224685"
                 }
               ]
             },
@@ -187,7 +187,7 @@
                 },
                 {
                   "code": "rto_id",
-                  "value": "6e01c64c-5029-403c-9d6f-04c0e94a7369"
+                  "value": "1b31722f-01de-4d66-b6d1-aba4e1eb9f6b"
                 },
                 {
                   "code": "reason_id",
@@ -208,14 +208,14 @@
                 },
                 {
                   "code": "updated_at",
-                  "value": "2025-05-01T07:16:37.150Z"
+                  "value": "2025-04-28T12:38:47.946Z"
                 }
               ]
             }
           ]
         },
         {
-          "id": "ed4553d2-621c-4a0e-9b9a-84f03f026369",
+          "id": "e9dac3d3-63de-4bce-95a3-3772ad955a2c",
           "type": "Cancel",
           "state": {
             "descriptor": {
@@ -266,7 +266,7 @@
                 },
                 {
                   "code": "rto_id",
-                  "value": "c7691789-a56d-488f-acb0-6cd8c4c8fe47"
+                  "value": "d96a2622-9062-4611-bb88-3fa0697ac243"
                 },
                 {
                   "code": "reason_id",
@@ -287,14 +287,14 @@
                 },
                 {
                   "code": "updated_at",
-                  "value": "2025-05-01T07:16:37.150Z"
+                  "value": "2025-04-28T12:38:47.946Z"
                 }
               ]
             }
           ]
         },
         {
-          "id": "6e01c64c-5029-403c-9d6f-04c0e94a7369",
+          "id": "1b31722f-01de-4d66-b6d1-aba4e1eb9f6b",
           "@ondc/org/provider_name": "Pramaan Store 1",
           "end": {
             "contact": {
@@ -328,7 +328,7 @@
               "address": {
                 "name": "Nirdosh Chauhan",
                 "building": "221 B",
-                "locality": "Baker Steeet Gotham city",
+                "locality": "Baker Steeet",
                 "city": "Gurgaon",
                 "state": "Haryana",
                 "country": "India",
@@ -336,7 +336,7 @@
               }
             },
             "time": {
-              "timestamp": "2025-05-01T07:16:45.066Z"
+              "timestamp": "2025-04-28T12:39:20.423Z"
             }
           },
           "type": "RTO",
@@ -355,7 +355,7 @@
                 },
                 {
                   "code": "rto_id",
-                  "value": "6e01c64c-5029-403c-9d6f-04c0e94a7369"
+                  "value": "1b31722f-01de-4d66-b6d1-aba4e1eb9f6b"
                 },
                 {
                   "code": "reason_id",
@@ -376,7 +376,7 @@
                 },
                 {
                   "code": "updated_at",
-                  "value": "2025-05-01T07:16:37.150Z"
+                  "value": "2025-04-28T12:38:47.946Z"
                 }
               ]
             },
@@ -431,49 +431,7 @@
                 },
                 {
                   "code": "id",
-                  "value": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "-5"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "misc"
-                },
-                {
-                  "code": "id",
-                  "value": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "-40"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "tax"
-                },
-                {
-                  "code": "id",
-                  "value": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+                  "value": "902aac79-31d9-46b3-8009-587bc6224685"
                 },
                 {
                   "code": "currency",
@@ -488,10 +446,10 @@
           ]
         },
         {
-          "id": "c7691789-a56d-488f-acb0-6cd8c4c8fe47",
+          "id": "d96a2622-9062-4611-bb88-3fa0697ac243",
           "start": {
             "time": {
-              "timestamp": "2025-05-01T07:16:45.066Z"
+              "timestamp": "2025-04-28T12:39:20.423Z"
             }
           },
           "type": "RTO",
@@ -510,7 +468,7 @@
                 },
                 {
                   "code": "rto_id",
-                  "value": "c7691789-a56d-488f-acb0-6cd8c4c8fe47"
+                  "value": "d96a2622-9062-4611-bb88-3fa0697ac243"
                 },
                 {
                   "code": "reason_id",
@@ -531,7 +489,7 @@
                 },
                 {
                   "code": "updated_at",
-                  "value": "2025-05-01T07:16:37.150Z"
+                  "value": "2025-04-28T12:38:47.946Z"
                 }
               ]
             },
@@ -586,49 +544,7 @@
                 },
                 {
                   "code": "id",
-                  "value": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "-5"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "misc"
-                },
-                {
-                  "code": "id",
-                  "value": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "-40"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "tax"
-                },
-                {
-                  "code": "id",
-                  "value": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+                  "value": "902aac79-31d9-46b3-8009-587bc6224685"
                 },
                 {
                   "code": "currency",
@@ -654,13 +570,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "6e01c64c-5029-403c-9d6f-04c0e94a7369"
+          "fulfillment_id": "1b31722f-01de-4d66-b6d1-aba4e1eb9f6b"
         },
         {
           "id": "id_1bai73_0_0",
@@ -672,13 +587,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+          "fulfillment_id": "902aac79-31d9-46b3-8009-587bc6224685"
         },
         {
           "id": "id_18yq4w_3_0",
@@ -690,13 +604,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "6e01c64c-5029-403c-9d6f-04c0e94a7369"
+          "fulfillment_id": "1b31722f-01de-4d66-b6d1-aba4e1eb9f6b"
         },
         {
           "id": "id_18yq4w_3_0",
@@ -708,13 +621,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+          "fulfillment_id": "902aac79-31d9-46b3-8009-587bc6224685"
         },
         {
           "id": "id_18yq4w_3_0",
@@ -726,13 +638,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "c7691789-a56d-488f-acb0-6cd8c4c8fe47"
+          "fulfillment_id": "d96a2622-9062-4611-bb88-3fa0697ac243"
         },
         {
           "id": "id_18yq4w_3_0",
@@ -744,13 +655,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "ed4553d2-621c-4a0e-9b9a-84f03f026369"
+          "fulfillment_id": "e9dac3d3-63de-4bce-95a3-3772ad955a2c"
         }
       ],
       "quote": {
@@ -796,7 +706,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
+            "@ondc/org/item_id": "902aac79-31d9-46b3-8009-587bc6224685",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -805,7 +715,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
+            "@ondc/org/item_id": "902aac79-31d9-46b3-8009-587bc6224685",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -829,80 +739,6 @@
                 }
               ]
             }
-          },
-          {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
-            "title": "Convenience Fee",
-            "@ondc/org/title_type": "misc",
-            "price": {
-              "currency": "INR",
-              "value": "0"
-            },
-            "item": {
-              "tags": [
-                {
-                  "code": "quote",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "item"
-                    }
-                  ]
-                },
-                {
-                  "code": "np_fees",
-                  "list": [
-                    {
-                      "code": "id",
-                      "value": "1"
-                    },
-                    {
-                      "code": "channel_margin_type",
-                      "value": "percent"
-                    },
-                    {
-                      "code": "channel_margin_value",
-                      "value": "0.50"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
-            "title": "Tax",
-            "@ondc/org/title_type": "tax",
-            "price": {
-              "currency": "INR",
-              "value": "0"
-            },
-            "item": {
-              "tags": [
-                {
-                  "code": "quote",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "item"
-                    },
-                    {
-                      "code": "subtype",
-                      "value": "misc"
-                    }
-                  ]
-                },
-                {
-                  "code": "np_fees",
-                  "list": [
-                    {
-                      "code": "id",
-                      "value": "1"
-                    }
-                  ]
-                }
-              ]
-            }
           }
         ],
         "ttl": "PT6H"
@@ -913,7 +749,7 @@
           "id": "015"
         }
       },
-      "updated_at": "2025-05-01T07:16:45.066Z"
+      "updated_at": "2025-04-28T12:39:20.423Z"
     }
   }
 }

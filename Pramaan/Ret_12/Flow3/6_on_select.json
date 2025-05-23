@@ -5,9 +5,9 @@
     "city": "std:0124",
     "core_version": "1.2.5",
     "action": "on_select",
-    "transaction_id": "5067b383-7135-432b-94b8-65750ded5a25",
-    "message_id": "ab22dfb3-e406-4b3e-a228-eab1bad902b6",
-    "timestamp": "2025-05-01T07:06:55.983Z",
+    "transaction_id": "28a5773c-9029-4f1b-abcb-e8a1e9fb85eb",
+    "message_id": "ffc48e7d-315e-42e6-83bd-f50df1c721ef",
+    "timestamp": "2025-04-28T10:17:30.869Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -17,7 +17,7 @@
     "order": {
       "fulfillments": [
         {
-          "id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+          "id": "4f71be37-57bb-439a-b803-e1133d6105d5",
           "type": "Delivery",
           "@ondc/org/provider_name": "Pramaan Store 1",
           "tracking": true,
@@ -30,7 +30,7 @@
           }
         },
         {
-          "id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+          "id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
           "type": "Self-Pickup",
           "@ondc/org/provider_name": "Pramaan Store 1",
           "tracking": false,
@@ -43,7 +43,7 @@
           }
         },
         {
-          "id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+          "id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
           "type": "Buyer-Delivery",
           "@ondc/org/provider_name": "Pramaan Store 1",
           "tracking": false,
@@ -94,7 +94,7 @@
             "count": 2
           },
           "location_id": "SSL1",
-          "fulfillment_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c"
+          "fulfillment_id": "4f71be37-57bb-439a-b803-e1133d6105d5"
         }
       ],
       "quote": {
@@ -130,7 +130,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+            "@ondc/org/item_id": "4f71be37-57bb-439a-b803-e1133d6105d5",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -139,7 +139,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+            "@ondc/org/item_id": "4f71be37-57bb-439a-b803-e1133d6105d5",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -165,7 +165,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+            "@ondc/org/item_id": "4f71be37-57bb-439a-b803-e1133d6105d5",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
@@ -204,7 +204,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+            "@ondc/org/item_id": "4f71be37-57bb-439a-b803-e1133d6105d5",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
@@ -243,7 +243,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+            "@ondc/org/item_id": "4f71be37-57bb-439a-b803-e1133d6105d5",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -278,7 +278,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "83b47d2c-fe5e-481c-bb50-ac209b67354c",
+            "@ondc/org/item_id": "4f71be37-57bb-439a-b803-e1133d6105d5",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -313,7 +313,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+            "@ondc/org/item_id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -322,7 +322,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+            "@ondc/org/item_id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
             "title": "Packing charges",
             "@ondc/org/title_type": "packing",
             "price": {
@@ -331,7 +331,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+            "@ondc/org/item_id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -366,7 +366,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+            "@ondc/org/item_id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -401,7 +401,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+            "@ondc/org/item_id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
@@ -440,7 +440,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "77a469c3-1c7f-441a-8376-9d64796e701e",
+            "@ondc/org/item_id": "2490fae2-690e-4694-bedc-50aac1ed1d85",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
@@ -479,7 +479,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+            "@ondc/org/item_id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -488,7 +488,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+            "@ondc/org/item_id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
             "title": "Packing charges",
             "@ondc/org/title_type": "packing",
             "price": {
@@ -497,7 +497,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+            "@ondc/org/item_id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -532,7 +532,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+            "@ondc/org/item_id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -567,7 +567,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+            "@ondc/org/item_id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
@@ -606,7 +606,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "89f8b1fb-0371-4445-8df3-054c6fec307c",
+            "@ondc/org/item_id": "d0499d73-d43e-4957-b3a2-a3e306db0d1e",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {

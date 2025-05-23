@@ -1,0 +1,48 @@
+{
+    "context": {
+      "domain": "ONDC:RET12",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "update",
+      "transaction_id": "b46cd821-737f-4311-8750-b4f971a329af",
+      "message_id": "58f4f1b5-9111-42a7-890a-b94846445254",
+      "timestamp": "2025-05-23T09:45:20.710Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "update_target": "fulfillment",
+      "order": {
+        "id": "SS1747993478050",
+        "fulfillments": [
+          {
+            "id": "403016d9-f51e-445f-abc9-0541a22be0f0",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "My home",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "person": {
+                "name": "kartikay sharma"
+              },
+              "contact": {
+                "phone": "8445424406"
+              }
+            }
+          }
+        ]
+      }
+    }
+}

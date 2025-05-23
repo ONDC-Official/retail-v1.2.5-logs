@@ -5,9 +5,9 @@
     "city": "std:0124",
     "core_version": "1.2.5",
     "action": "update",
-    "transaction_id": "1a6cf750-3348-4da7-9424-7323080450cf",
-    "message_id": "7353e074-65e8-41f5-9ce9-69e316e7d2fb",
-    "timestamp": "2025-05-01T07:29:59.433Z",
+    "transaction_id": "0e5d2340-cf92-426b-95f5-7ab6db2fd9f2",
+    "message_id": "b9d7e28a-101c-43ab-b987-837661b35525",
+    "timestamp": "2025-04-28T09:47:35.987Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -17,7 +17,7 @@
   "message": {
     "update_target": "item",
     "order": {
-      "id": "SS1746084552638",
+      "id": "SS1745833620254",
       "fulfillments": [
         {
           "type": "Return",
@@ -27,7 +27,7 @@
               "list": [
                 {
                   "code": "id",
-                  "value": "8fef6647-e0d8-4eb5-a62e-13e5a8a1d6f7"
+                  "value": "f452402c-902b-4909-8ad9-fbf92436a5d4"
                 },
                 {
                   "code": "item_id",

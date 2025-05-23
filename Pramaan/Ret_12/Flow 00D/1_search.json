@@ -5,9 +5,9 @@
     "city": "std:0124",
     "core_version": "1.2.5",
     "action": "search",
-    "transaction_id": "1a6cf750-3348-4da7-9424-7323080450cf",
-    "message_id": "f0ba5241-7f5c-4447-b320-8fc4d85b5b82",
-    "timestamp": "2025-05-01T07:29:03.033Z",
+    "transaction_id": "0e5d2340-cf92-426b-95f5-7ab6db2fd9f2",
+    "message_id": "2039a952-1d77-4286-879d-0839d727fbe9",
+    "timestamp": "2025-04-28T09:46:49.898Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "ttl": "PT30S"

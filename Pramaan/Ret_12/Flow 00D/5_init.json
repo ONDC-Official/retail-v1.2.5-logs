@@ -5,9 +5,9 @@
     "city": "std:0124",
     "core_version": "1.2.5",
     "action": "init",
-    "transaction_id": "1a6cf750-3348-4da7-9424-7323080450cf",
-    "message_id": "ee52daa6-99a8-4c52-a26f-8ece1e3aaddd",
-    "timestamp": "2025-05-01T07:29:09.120Z",
+    "transaction_id": "0e5d2340-cf92-426b-95f5-7ab6db2fd9f2",
+    "message_id": "e6089d07-cb56-46a1-92d2-28574376c8ba",
+    "timestamp": "2025-04-28T09:46:57.777Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "ttl": "PT30S",
@@ -36,20 +36,19 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "7cd0ace1-d845-4c77-9474-976c3b993380"
+          "fulfillment_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d"
         }
       ],
       "billing": {
         "address": {
           "name": "Nirdosh Chauhan",
           "building": "221 B",
-          "locality": "Baker Steeet Gotham city",
+          "locality": "Baker Steeet",
           "city": "Gurgaon",
           "state": "Haryana",
           "country": "India",
@@ -59,12 +58,12 @@
         "name": "Nirdosh Chauhan",
         "email": "nirdosh.chauhan@sequelstring.com",
         "phone": "9876543210",
-        "created_at": "2025-05-01T07:29:09.120Z",
-        "updated_at": "2025-05-01T07:29:09.120Z"
+        "created_at": "2025-04-28T09:46:57.777Z",
+        "updated_at": "2025-04-28T09:46:57.777Z"
       },
       "fulfillments": [
         {
-          "id": "7cd0ace1-d845-4c77-9474-976c3b993380",
+          "id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
           "type": "Delivery",
           "end": {
             "location": {
@@ -72,7 +71,7 @@
               "address": {
                 "name": "Nirdosh Chauhan",
                 "building": "221 B",
-                "locality": "Baker Steeet Gotham city",
+                "locality": "Baker Steeet",
                 "city": "Gurgaon",
                 "state": "Haryana",
                 "country": "India",

@@ -5,9 +5,9 @@
     "city": "std:0124",
     "core_version": "1.2.5",
     "action": "on_init",
-    "transaction_id": "7ee255e5-c9e0-44dc-9d7f-b9da0d73f70b",
-    "message_id": "ab57e7d1-8f27-4864-a749-49ac794b857d",
-    "timestamp": "2025-05-01T07:15:45.871Z",
+    "transaction_id": "6adea628-f724-4164-a780-a1d4c85945db",
+    "message_id": "4f11fb48-4953-471b-8b26-87205f713dd3",
+    "timestamp": "2025-04-28T12:28:51.561Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -35,13 +35,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+          "fulfillment_id": "902aac79-31d9-46b3-8009-587bc6224685"
         },
         {
           "id": "id_18yq4w_3_0",
@@ -54,13 +53,12 @@
               "code": "np_fees",
               "list": [
                 {
-                  "code": "id",
-                  "value": "1"
+                  "code": "id"
                 }
               ]
             }
           ],
-          "fulfillment_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c"
+          "fulfillment_id": "902aac79-31d9-46b3-8009-587bc6224685"
         }
       ],
       "quote": {
@@ -106,7 +104,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
+            "@ondc/org/item_id": "902aac79-31d9-46b3-8009-587bc6224685",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -115,7 +113,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
+            "@ondc/org/item_id": "902aac79-31d9-46b3-8009-587bc6224685",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -134,80 +132,6 @@
                     {
                       "code": "subtype",
                       "value": "delivery"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
-            "title": "Convenience Fee",
-            "@ondc/org/title_type": "misc",
-            "price": {
-              "currency": "INR",
-              "value": "40"
-            },
-            "item": {
-              "tags": [
-                {
-                  "code": "quote",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "item"
-                    }
-                  ]
-                },
-                {
-                  "code": "np_fees",
-                  "list": [
-                    {
-                      "code": "id",
-                      "value": "1"
-                    },
-                    {
-                      "code": "channel_margin_type",
-                      "value": "percent"
-                    },
-                    {
-                      "code": "channel_margin_value",
-                      "value": "0.50"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "@ondc/org/item_id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
-            "title": "Tax",
-            "@ondc/org/title_type": "tax",
-            "price": {
-              "currency": "INR",
-              "value": "5"
-            },
-            "item": {
-              "tags": [
-                {
-                  "code": "quote",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "item"
-                    },
-                    {
-                      "code": "subtype",
-                      "value": "misc"
-                    }
-                  ]
-                },
-                {
-                  "code": "np_fees",
-                  "list": [
-                    {
-                      "code": "id",
-                      "value": "1"
                     }
                   ]
                 }
@@ -297,7 +221,7 @@
         "address": {
           "name": "Nirdosh Chauhan",
           "building": "221 B",
-          "locality": "Baker Steeet Gotham city",
+          "locality": "Baker Steeet",
           "city": "Gurgaon",
           "state": "Haryana",
           "country": "India",
@@ -307,12 +231,12 @@
         "name": "Nirdosh Chauhan",
         "email": "nirdosh.chauhan@sequelstring.com",
         "phone": "9876543210",
-        "created_at": "2025-05-01T07:15:45.825Z",
-        "updated_at": "2025-05-01T07:15:45.825Z"
+        "created_at": "2025-04-28T12:28:51.477Z",
+        "updated_at": "2025-04-28T12:28:51.477Z"
       },
       "fulfillments": [
         {
-          "id": "8a01ac2e-0a42-47e1-8be0-4e86b99aac8c",
+          "id": "902aac79-31d9-46b3-8009-587bc6224685",
           "type": "Delivery",
           "end": {
             "location": {
@@ -320,7 +244,7 @@
               "address": {
                 "name": "Nirdosh Chauhan",
                 "building": "221 B",
-                "locality": "Baker Steeet Gotham city",
+                "locality": "Baker Steeet",
                 "city": "Gurgaon",
                 "state": "Haryana",
                 "country": "India",
@@ -357,7 +281,7 @@
         ],
         "collected_by": "BPP",
         "status": "NOT-PAID",
-        "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"4115\"&transaction_id=7ee255e5-c9e0-44dc-9d7f-b9da0d73f70b&label=RETAIL_PRE_PAID_PAYMENT",
+        "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"4115\"&transaction_id=6adea628-f724-4164-a780-a1d4c85945db&label=RETAIL_PRE_PAID_PAYMENT",
         "params": {
           "currency": "INR",
           "amount": "4115"

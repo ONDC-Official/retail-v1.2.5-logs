@@ -1,23 +1,20 @@
 {
-  "context": {
-    "domain": "ONDC:RET12",
-    "country": "IND",
-    "city": "std:0124",
-    "core_version": "1.2.5",
-    "action": "on_track",
-    "transaction_id": "4007d16f-00a8-4eec-baf9-1925f6e045c6",
-    "message_id": "b421579b-f941-45b5-97b6-3aac7cbb1300",
-    "timestamp": "2025-05-01T07:33:48.867Z",
-    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
-    "bap_id": "ondc.sequelstring.com/buyer/protocol",
-    "bpp_id": "ondc.sequelstring.com/seller/protocol",
-    "bpp_uri": "https://ondc.sequelstring.com/protocol"
-  },
-  "message": {
-    "tracking": {
-      "id": "cbf70d8b-c284-4144-ab71-d7374a8e46ce",
-      "url": "http://sequelstring-lsp-ondc.com/track",
-      "status": "active"
+   "context": {
+      "domain": "ONDC:RET12",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "track",
+      "transaction_id": "9027cef6-e2c5-4ffc-b155-975d84b1285c",
+      "message_id": "f18953d3-3ef5-4d24-8f1f-e0824591b744",
+      "timestamp": "2025-05-23T07:34:53.081Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "order_id": "SS1747985682555"
     }
-  }
 }
