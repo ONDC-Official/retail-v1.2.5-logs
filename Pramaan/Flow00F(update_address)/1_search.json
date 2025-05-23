@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "search",
-      "transaction_id": "5f86519a-a674-451c-9eae-38126a22a7b7",
-      "message_id": "0683a848-3cde-47a5-a6db-7ccdb32c5c36",
-      "timestamp": "2025-04-29T10:33:03.694Z",
+      "transaction_id": "6f4c47c5-d2b4-45f2-919a-27186e74d158",
+      "message_id": "6b1b59de-548e-4bb1-af47-de63b41fc87e",
+      "timestamp": "2025-05-23T08:09:26.250Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S"
@@ -23,11 +23,37 @@
         },
         "tags": [
           {
+            "code": "bnp_demand_signal",
+            "list": [
+              {
+                "code": "search_term",
+                "value": "pizza"
+              }
+            ]
+          },
+          {
             "code": "catalog_full",
             "list": [
               {
                 "code": "payload_type",
                 "value": "inline"
+              }
+            ]
+          },
+          {
+            "code": "bap_promos",
+            "list": [
+              {
+                "code": "category",
+                "value": "pizza"
+              },
+              {
+                "code": "from",
+                "value": "2025-05-22T18:30:00Z"
+              },
+              {
+                "code": "to",
+                "value": "2025-06-21T18:30:00Z"
               }
             ]
           },
@@ -76,6 +102,26 @@
               },
               {
                 "code": "01F",
+                "value": "yes"
+              },
+              {
+                "code": "011",
+                "value": "yes"
+              },
+              {
+                "code": "025",
+                "value": "yes"
+              },
+              {
+                "code": "022",
+                "value": "yes"
+              },
+              {
+                "code": "020",
+                "value": "yes"
+              },
+              {
+                "code": "01D",
                 "value": "yes"
               }
             ]

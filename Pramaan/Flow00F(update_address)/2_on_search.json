@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_search",
-      "transaction_id": "5f86519a-a674-451c-9eae-38126a22a7b7",
-      "message_id": "0683a848-3cde-47a5-a6db-7ccdb32c5c36",
-      "timestamp": "2025-04-29T10:33:03.733Z",
+      "transaction_id": "6f4c47c5-d2b4-45f2-919a-27186e74d158",
+      "message_id": "6b1b59de-548e-4bb1-af47-de63b41fc87e",
+      "timestamp": "2025-05-23T08:09:26.312Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -30,10 +30,6 @@
                 {
                   "code": "np_type",
                   "value": "MSN"
-                },
-                {
-                  "code": "collect_payment",
-                  "value": "Y"
                 },
                 {
                   "code": "accept_bap_terms",
@@ -623,7 +619,7 @@
                 "id": "id_ancc5_0_0",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-04-27T07:30:00.000Z"
+                  "timestamp": "2025-05-08T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -1260,7 +1256,7 @@
                 "id": "id_1cctu3_9_0",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-04-27T07:30:00.000Z"
+                  "timestamp": "2025-05-08T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -1894,7 +1890,8 @@
                 ]
               }
             ],
-            "@ondc/org/fssai_license_no": "89673451203241"
+            "@ondc/org/fssai_license_no": "89673451203241",
+            "offers": []
           },
           {
             "id": "pramaan_provider_2",
@@ -2434,7 +2431,7 @@
                 "id": "id_ancc5_0_1",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-04-27T07:30:00.000Z"
+                  "timestamp": "2025-05-08T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -3071,7 +3068,7 @@
                 "id": "id_1cctu3_9_1",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-04-27T07:30:00.000Z"
+                  "timestamp": "2025-05-08T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -3705,7 +3702,8 @@
                 ]
               }
             ],
-            "@ondc/org/fssai_license_no": "78935612403214"
+            "@ondc/org/fssai_license_no": "78935612403214",
+            "offers": []
           }
         ]
       }

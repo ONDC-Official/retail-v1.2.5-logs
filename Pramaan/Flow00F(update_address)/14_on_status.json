@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_status",
-      "transaction_id": "5f86519a-a674-451c-9eae-38126a22a7b7",
-      "message_id": "2025439f-eeb4-4c33-8e59-6a36ce6d5726",
-      "timestamp": "2025-04-29T10:35:04.751Z",
+      "transaction_id": "6f4c47c5-d2b4-45f2-919a-27186e74d158",
+      "message_id": "53351fd8-5fe0-4b45-b0e5-6a7640fad9e2",
+      "timestamp": "2025-05-23T08:13:02.723Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -16,7 +16,7 @@
     },
     "message": {
       "order": {
-        "id": "SS1745922797442",
+        "id": "SS1747987823423",
         "state": "In-progress",
         "provider": {
           "id": "pramaan_provider_1",
@@ -53,7 +53,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "79841175-2f13-4372-9866-d48b29be29dd"
+            "fulfillment_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c"
           },
           {
             "id": "id_5yzai_2_0",
@@ -85,12 +85,12 @@
                 ]
               }
             ],
-            "fulfillment_id": "79841175-2f13-4372-9866-d48b29be29dd"
+            "fulfillment_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c"
           }
         ],
         "billing": {
           "address": {
-            "name": "My home",
+            "name": "Nirdosh Chauhan",
             "building": "221 B",
             "locality": "Baker Steeet",
             "city": "Gurgaon",
@@ -99,15 +99,15 @@
             "area_code": "122007"
           },
           "tax_number": "00ABCDE1234F1Z5",
-          "name": "ashu",
+          "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-04-29T10:33:10.099Z",
-          "updated_at": "2025-04-29T10:34:10.929Z"
+          "created_at": "2025-05-23T08:09:55.146Z",
+          "updated_at": "2025-05-23T08:09:55.146Z"
         },
         "fulfillments": [
           {
-            "id": "79841175-2f13-4372-9866-d48b29be29dd",
+            "id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
             "@ondc/org/provider_name": "Pramaan Store 1",
             "@ondc/org/category": "Immediate Delivery",
             "@ondc/org/TAT": "PT24H",
@@ -137,10 +137,10 @@
               },
               "time": {
                 "range": {
-                  "start": "2025-04-29T10:33:17.469Z",
-                  "end": "2025-04-29T23:00:00.000Z"
+                  "start": "2025-05-23T08:10:23.443Z",
+                  "end": "2025-05-23T23:00:00.000Z"
                 },
-                "timestamp": "2025-04-29T10:35:04.751Z"
+                "timestamp": "2025-05-23T08:13:02.723Z"
               },
               "contact": {
                 "phone": "9876543210",
@@ -161,7 +161,7 @@
                 }
               },
               "contact": {
-                "phone": "ashu",
+                "phone": "8076163407",
                 "email": "nirdosh.chauhan@sequelstring.com"
               },
               "person": {
@@ -169,8 +169,8 @@
               },
               "time": {
                 "range": {
-                  "start": "2025-04-30T09:30:00.000Z",
-                  "end": "2025-04-30T19:00:00.000Z"
+                  "start": "2025-05-24T09:30:00.000Z",
+                  "end": "2025-05-24T19:00:00.000Z"
                 }
               }
             },
@@ -197,7 +197,7 @@
                   },
                   {
                     "code": "url",
-                    "value": "https://ondc.sequelstring.com/track/79841175-2f13-4372-9866-d48b29be29dd"
+                    "value": "https://ondc.sequelstring.com/track/88f70bf1-a6d6-498b-baa6-1db2422d893c"
                   }
                 ]
               }
@@ -333,7 +333,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -342,7 +342,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -368,7 +368,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -407,7 +407,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -444,42 +444,33 @@
           ]
         },
         "payment": {
-          "type": "ON-ORDER",
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3",
+          "@ondc/org/settlement_details": [
+            {
+              "settlement_counterparty": "seller-app",
+              "upi_address": "",
+              "beneficiary_name": "SEQUELSTRING AI",
+              "settlement_type": "neft",
+              "settlement_bank_account_no": "9876543210012",
+              "settlement_ifsc_code": "AXIS123456",
+              "settlement_phase": "sale-amount",
+              "settlement_status": "NOT-PAID",
+              "bank_name": "AXIS BANK LTD ",
+              "branch_name": "NAVI MUMBAI"
+            }
+          ],
+          "collected_by": "BAP",
           "@ondc/org/settlement_basis": "delivery",
           "@ondc/org/settlement_window": "P1D",
           "@ondc/org/withholding_amount": "10.00",
-          "tags": [
-            {
-              "code": "bpp_collect",
-              "list": [
-                {
-                  "code": "success",
-                  "value": "Y"
-                },
-                {
-                  "code": "error",
-                  "value": ".."
-                }
-              ]
-            }
-          ],
-          "collected_by": "BPP",
-          "status": "NOT-PAID",
-          "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"845\"&transaction_id=5f86519a-a674-451c-9eae-38126a22a7b7&label=RETAIL_PRE_PAID_PAYMENT",
           "params": {
             "amount": "845.00",
-            "currency": "INR"
+            "currency": "INR",
+            "transaction_id": "1076ca43-46bf-4df4-8e05-4e7d036c1eef"
           },
-          "@ondc/org/settlement_details": [
-            {
-              "settlement_counterparty": "buyer-app",
-              "settlement_type": "upi",
-              "beneficiary_name": "Nirdosh Chauhan",
-              "upi_address": "gft@oksbi",
-              "settlement_bank_account_no": "987654321012",
-              "settlement_ifsc_code": "SBI00000001"
-            }
-          ]
+          "type": "ON-ORDER",
+          "status": "PAID"
         },
         "tags": [
           {
@@ -533,8 +524,8 @@
             ]
           }
         ],
-        "created_at": "2025-04-29T10:33:17.442Z",
-        "updated_at": "2025-04-29T10:35:04.751Z",
+        "created_at": "2025-05-23T08:10:23.423Z",
+        "updated_at": "2025-05-23T08:13:02.723Z",
         "documents": [
           {
             "label": "Invoice",

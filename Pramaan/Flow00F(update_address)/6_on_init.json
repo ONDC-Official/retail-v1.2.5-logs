@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_init",
-      "transaction_id": "5f86519a-a674-451c-9eae-38126a22a7b7",
-      "message_id": "e63c1856-031a-462b-ada9-cd1ce9eff2e3",
-      "timestamp": "2025-04-29T10:33:10.143Z",
+      "transaction_id": "6f4c47c5-d2b4-45f2-919a-27186e74d158",
+      "message_id": "c16b4fc1-cccd-4c6a-bd02-d10538c28d5b",
+      "timestamp": "2025-05-23T08:09:55.162Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -51,7 +51,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "79841175-2f13-4372-9866-d48b29be29dd"
+            "fulfillment_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c"
           },
           {
             "id": "id_5yzai_2_0",
@@ -83,7 +83,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "79841175-2f13-4372-9866-d48b29be29dd"
+            "fulfillment_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c"
           }
         ],
         "quote": {
@@ -215,7 +215,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -224,7 +224,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -250,7 +250,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -289,7 +289,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "79841175-2f13-4372-9866-d48b29be29dd",
+              "@ondc/org/item_id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -416,12 +416,12 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-04-29T10:33:10.099Z",
-          "updated_at": "2025-04-29T10:33:10.099Z"
+          "created_at": "2025-05-23T08:09:55.146Z",
+          "updated_at": "2025-05-23T08:09:55.146Z"
         },
         "fulfillments": [
           {
-            "id": "79841175-2f13-4372-9866-d48b29be29dd",
+            "id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
             "type": "Delivery",
             "end": {
               "location": {
@@ -445,32 +445,23 @@
           }
         ],
         "payment": {
-          "type": "ON-ORDER",
-          "@ondc/org/settlement_basis": "delivery",
-          "@ondc/org/settlement_window": "P1D",
-          "@ondc/org/withholding_amount": "10.00",
-          "tags": [
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3",
+          "@ondc/org/settlement_details": [
             {
-              "code": "bpp_collect",
-              "list": [
-                {
-                  "code": "success",
-                  "value": "Y"
-                },
-                {
-                  "code": "error",
-                  "value": ".."
-                }
-              ]
+              "settlement_counterparty": "seller-app",
+              "upi_address": "",
+              "beneficiary_name": "SEQUELSTRING AI",
+              "settlement_type": "neft",
+              "settlement_bank_account_no": "9876543210012",
+              "settlement_ifsc_code": "AXIS123456",
+              "settlement_phase": "sale-amount",
+              "settlement_status": "NOT-PAID",
+              "bank_name": "AXIS BANK LTD ",
+              "branch_name": "NAVI MUMBAI"
             }
           ],
-          "collected_by": "BPP",
-          "status": "NOT-PAID",
-          "uri": "http://localhost:5006/seller/toPaymentUtility?amount=\"845\"&transaction_id=5f86519a-a674-451c-9eae-38126a22a7b7&label=RETAIL_PRE_PAID_PAYMENT",
-          "params": {
-            "currency": "INR",
-            "amount": "845"
-          }
+          "collected_by": "BAP"
         },
         "tags": [
           {

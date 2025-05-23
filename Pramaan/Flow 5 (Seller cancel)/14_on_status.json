@@ -1,0 +1,658 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "on_status",
+      "transaction_id": "cd4e5513-8147-4f04-9fb6-15777303c919",
+      "message_id": "d84514e3-ac9c-45da-969e-89d7f090bd0b",
+      "timestamp": "2025-05-22T08:30:39.919Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "order": {
+        "id": "SS1747902250765",
+        "state": "In-progress",
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122007"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-05-22T08:23:57.080Z",
+          "updated_at": "2025-05-22T08:23:57.080Z"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3",
+          "@ondc/org/settlement_details": [
+            {
+              "settlement_counterparty": "seller-app",
+              "upi_address": "",
+              "beneficiary_name": "SEQUELSTRING AI",
+              "settlement_type": "neft",
+              "settlement_bank_account_no": "9876543210012",
+              "settlement_ifsc_code": "AXIS123456",
+              "settlement_phase": "sale-amount",
+              "settlement_status": "NOT-PAID",
+              "bank_name": "AXIS BANK LTD ",
+              "branch_name": "NAVI MUMBAI"
+            }
+          ],
+          "collected_by": "BAP",
+          "@ondc/org/settlement_basis": "delivery",
+          "@ondc/org/settlement_window": "P1D",
+          "@ondc/org/withholding_amount": "10.00",
+          "params": {
+            "amount": "1375.00",
+            "currency": "INR",
+            "transaction_id": "598a1242-9643-4cb0-8392-d19c7d80deaf"
+          },
+          "type": "ON-ORDER",
+          "status": "PAID"
+        },
+        "created_at": "2025-05-22T08:24:10.765Z",
+        "fulfillments": [
+          {
+            "id": "6be33b66-f38f-4eb3-919e-ab483940752a",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "@ondc/org/category": "Immediate Delivery",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Order-picked-up"
+              }
+            },
+            "type": "Delivery",
+            "tracking": true,
+            "start": {
+              "location": {
+                "id": "SSL1",
+                "gps": "28.527300,77.182100",
+                "descriptor": {
+                  "name": "Pramaan Store 1",
+                  "images": [
+                    "https://ondc.org/assets/theme/images/ondc_registered_logo.svg?v=399788fda7"
+                  ]
+                },
+                "address": {
+                  "locality": "N. Caldwell",
+                  "city": "New Delhi",
+                  "area_code": "110030",
+                  "state": "New Delhi"
+                }
+              },
+              "time": {
+                "range": {
+                  "start": "2025-05-22T08:24:10.922Z",
+                  "end": "2025-05-22T23:00:00.000Z"
+                },
+                "timestamp": "2025-05-22T08:30:39.919Z"
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "ss_seller_1@ss.com"
+              }
+            },
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              },
+              "person": {
+                "name": "Nirdosh Chauhan"
+              },
+              "time": {
+                "range": {
+                  "start": "2025-05-23T09:30:00.000Z",
+                  "end": "2025-05-23T19:00:00.000Z"
+                }
+              }
+            },
+            "tags": [
+              {
+                "code": "routing",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "P2P"
+                  }
+                ]
+              },
+              {
+                "code": "tracking",
+                "list": [
+                  {
+                    "code": "gps_enabled",
+                    "value": "yes"
+                  },
+                  {
+                    "code": "url_enabled",
+                    "value": "yes"
+                  },
+                  {
+                    "code": "url",
+                    "value": "https://ondc.sequelstring.com/track/6be33b66-f38f-4eb3-919e-ab483940752a"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "53d0b0c1-6d82-491e-a6b1-75207625e17c",
+            "type": "Cancel",
+            "state": {
+              "descriptor": {
+                "code": "Cancelled"
+              }
+            },
+            "tags": [
+              {
+                "code": "cancel_request",
+                "list": [
+                  {
+                    "code": "reason_id",
+                    "value": "002"
+                  },
+                  {
+                    "code": "initiated_by",
+                    "value": "ondc.sequelstring.com/buyer/protocol"
+                  }
+                ]
+              },
+              {
+                "code": "quote_trail",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  },
+                  {
+                    "code": "id",
+                    "value": "id_1cctu3_9_0"
+                  },
+                  {
+                    "code": "currency",
+                    "value": "INR"
+                  },
+                  {
+                    "code": "value",
+                    "value": "-530.00"
+                  },
+                  {
+                    "code": "parent_item_id",
+                    "value": "P3121"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "id_ancc5_0_0",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              },
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6be33b66-f38f-4eb3-919e-ab483940752a"
+          },
+          {
+            "id": "id_5yzai_2_0",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "customization"
+                  }
+                ]
+              },
+              {
+                "code": "parent",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "CG11"
+                  },
+                  {
+                    "code": "default",
+                    "value": "yes"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6be33b66-f38f-4eb3-919e-ab483940752a"
+          },
+          {
+            "id": "id_1cctu3_9_0",
+            "quantity": {
+              "count": 0
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              },
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6be33b66-f38f-4eb3-919e-ab483940752a"
+          },
+          {
+            "id": "id_1cctu3_9_0",
+            "quantity": {
+              "count": 2
+            },
+            "parent_item_id": "P3121",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              },
+              {
+                "code": "np_fees",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "1"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "53d0b0c1-6d82-491e-a6b1-75207625e17c"
+          }
+        ],
+        "quote": {
+          "price": {
+            "currency": "INR",
+            "value": "620.00"
+          },
+          "breakup": [
+            {
+              "@ondc/org/item_id": "id_ancc5_0_0",
+              "title": "Farmhouse Pizza",
+              "@ondc/org/item_quantity": {
+                "count": 2
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "530.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "265"
+                },
+                "parent_item_id": "P3121",
+                "tags": [
+                  {
+                    "code": "veg_nonveg",
+                    "list": [
+                      {
+                        "code": "veg",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "custom_group",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG11"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "np_fees",
+                    "list": [
+                      {
+                        "code": "channel_margin_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "channel_margin_value",
+                        "value": "0.50"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "id_5yzai_2_0",
+              "title": "100% Wheat Thin Crust",
+              "@ondc/org/item_quantity": {
+                "count": 2
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "0"
+                },
+                "parent_item_id": "P3121",
+                "tags": [
+                  {
+                    "code": "veg_nonveg",
+                    "list": [
+                      {
+                        "code": "veg",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "customization"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "parent",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG11"
+                      },
+                      {
+                        "code": "default",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "child",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG21"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "id_1cctu3_9_0",
+              "title": "Double Patty Cheese Burger",
+              "@ondc/org/item_quantity": {
+                "count": 0
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "265"
+                },
+                "parent_item_id": "P3121",
+                "tags": [
+                  {
+                    "code": "veg_nonveg",
+                    "list": [
+                      {
+                        "code": "veg",
+                        "value": "yes"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "custom_group",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "CG41"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "np_fees",
+                    "list": [
+                      {
+                        "code": "channel_margin_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "channel_margin_value",
+                        "value": "0.50"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "6be33b66-f38f-4eb3-919e-ab483940752a",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            {
+              "@ondc/org/item_id": "6be33b66-f38f-4eb3-919e-ab483940752a",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "5"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      },
+                      {
+                        "code": "subtype",
+                        "value": "delivery"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "6be33b66-f38f-4eb3-919e-ab483940752a",
+              "title": "Convenience Fee",
+              "@ondc/org/title_type": "misc",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "np_fees",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "1"
+                      },
+                      {
+                        "code": "channel_margin_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "channel_margin_value",
+                        "value": "0.50"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "6be33b66-f38f-4eb3-919e-ab483940752a",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "5"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      },
+                      {
+                        "code": "subtype",
+                        "value": "misc"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "np_fees",
+                    "list": [
+                      {
+                        "code": "id",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "ttl": "PT6H"
+        },
+        "cancellation": {
+          "cancelled_by": "ondc.sequelstring.com/seller/protocol",
+          "reason": {
+            "id": "002"
+          }
+        },
+        "updated_at": "2025-05-22T08:30:39.919Z",
+        "documents": [
+          {
+            "label": "Invoice",
+            "url": "https://ondc.sequelstring.com/seller/document/invoice.pdf"
+          }
+        ]
+      }
+    }
+}
