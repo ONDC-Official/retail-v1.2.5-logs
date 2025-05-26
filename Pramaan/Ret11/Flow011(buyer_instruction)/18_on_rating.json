@@ -1,0 +1,24 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "on_rating",
+      "transaction_id": "c66d56a8-e059-4cb1-a3f6-e5651cc68b2d",
+      "message_id": "09d9e997-fb49-4a4d-9555-b941bac4bcd2",
+      "timestamp": "2025-05-26T05:56:12.578Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol"
+    },
+    "message": {
+      "feedback_form": {
+        "form": {
+          "url": "www.sellerapp.com/rating-capture",
+          "mime_type": "text/html"
+        }
+      }
+    }
+}

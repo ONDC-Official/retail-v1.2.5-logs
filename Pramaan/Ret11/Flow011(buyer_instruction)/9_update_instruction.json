@@ -1,0 +1,37 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "update",
+      "transaction_id": "c66d56a8-e059-4cb1-a3f6-e5651cc68b2d",
+      "message_id": "747d14f5-10f7-4f9b-97f9-a11765b58d6b",
+      "timestamp": "2025-05-26T05:53:27.903Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "update_target": "fulfillment",
+      "order": {
+        "id": "SS1748238788888",
+        "fulfillments": [
+          {
+            "id": "dcef60e0-50db-4463-9045-e8693712336f",
+            "end": {
+              "instructions": {
+                "long_desc": "leave the package at door",
+                "additional_desc": {
+                  "content_type": "text/html",
+                  "url": "url for additional info"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+}
