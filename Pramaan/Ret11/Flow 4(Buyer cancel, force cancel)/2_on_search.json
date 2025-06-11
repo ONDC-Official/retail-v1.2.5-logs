@@ -1,13 +1,13 @@
 {
-    "context": {
+  "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_search",
-      "transaction_id": "14220f2a-29e8-47e1-802a-0b3de7d6cc38",
-      "message_id": "ec81300c-f2ec-41c1-b268-b6782b7abf82",
-      "timestamp": "2025-05-22T06:51:41.350Z",
+      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
+      "message_id": "f1bd386e-9329-45fd-a20f-5064015cb97b",
+      "timestamp": "2025-06-11T12:26:20.367Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -200,19 +200,6 @@
                         "value": "1"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -251,19 +238,6 @@
                         "value": "2"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -300,19 +274,6 @@
                       {
                         "code": "seq",
                         "value": "3"
-                      }
-                    ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
                       }
                     ]
                   }
@@ -406,19 +367,6 @@
                         "value": "1"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -457,19 +405,6 @@
                         "value": "2"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -506,19 +441,6 @@
                       {
                         "code": "seq",
                         "value": "3"
-                      }
-                    ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
                       }
                     ]
                   }
@@ -599,19 +521,6 @@
                     "value": "2100"
                   }
                 ]
-              },
-              {
-                "code": "np_fees",
-                "list": [
-                  {
-                    "code": "channel_margin_type",
-                    "value": "percent"
-                  },
-                  {
-                    "code": "channel_margin_value",
-                    "value": "0.50"
-                  }
-                ]
               }
             ],
             "items": [
@@ -619,7 +528,7 @@
                 "id": "id_ancc5_0_0",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-05-08T07:30:00.000Z"
+                  "timestamp": "2025-05-27T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -683,6 +592,7 @@
                 "category_ids": [
                   "CM11:1"
                 ],
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -710,19 +620,6 @@
                         "value": "CG11"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ],
                 "related": false,
@@ -733,7 +630,8 @@
                 "@ondc/org/seller_pickup_return": true,
                 "@ondc/org/time_to_ship": "PT45M",
                 "@ondc/org/available_on_cod": true,
-                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210"
+                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210",
+                "rating": "2"
               },
               {
                 "id": "id_1bai73_1_0",
@@ -760,6 +658,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -828,6 +727,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -896,6 +796,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -964,6 +865,7 @@
                   "maximum_value": "25"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1032,6 +934,7 @@
                   "maximum_value": "50"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1100,6 +1003,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1159,6 +1063,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1218,6 +1123,7 @@
                   "maximum_value": "95"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1256,7 +1162,7 @@
                 "id": "id_1cctu3_9_0",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-05-08T07:30:00.000Z"
+                  "timestamp": "2025-05-27T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -1276,7 +1182,7 @@
                     }
                   },
                   "available": {
-                    "count": "0"
+                    "count": "99"
                   },
                   "maximum": {
                     "count": "99"
@@ -1320,6 +1226,7 @@
                 "category_ids": [
                   "CM21:2"
                 ],
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1347,19 +1254,6 @@
                         "value": "CG41"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ],
                 "related": false,
@@ -1370,7 +1264,8 @@
                 "@ondc/org/seller_pickup_return": false,
                 "@ondc/org/time_to_ship": "PT45M",
                 "@ondc/org/available_on_cod": false,
-                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210"
+                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210",
+                "rating": "2"
               },
               {
                 "id": "id_4ohjq_a_0",
@@ -1397,6 +1292,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1465,6 +1361,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1533,6 +1430,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1601,6 +1499,7 @@
                   "maximum_value": "25"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1669,6 +1568,7 @@
                   "maximum_value": "50"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1737,6 +1637,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1796,6 +1697,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1855,6 +1757,7 @@
                   "maximum_value": "95"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -1890,8 +1793,614 @@
                 ]
               }
             ],
-            "@ondc/org/fssai_license_no": "89673451203241",
-            "offers": []
+            "offers": [
+              {
+                "id": "discp60",
+                "descriptor": {
+                  "code": "discount",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "SSL1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "159.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-60.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-120.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "no"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "flat150",
+                "descriptor": {
+                  "code": "discount",
+                  "images": [
+                    "https://snp.com/images/offer2-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "SSL1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "499.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "amount"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-150.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buy2get3",
+                "descriptor": {
+                  "code": "buyXgetY",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "SSL1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "2"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "1"
+                      },
+                      {
+                        "code": "item_id",
+                        "value": "I2"
+                      },
+                      {
+                        "code": "item_value",
+                        "value": "0.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "freebie1",
+                "descriptor": {
+                  "code": "freebie",
+                  "images": [
+                    "https://snp.com/images/offer3-banner.png"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "598.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "1"
+                      },
+                      {
+                        "code": "item_id",
+                        "value": "I4"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "slab1",
+                "descriptor": {
+                  "code": "slab",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "6"
+                      },
+                      {
+                        "code": "item_count_upper",
+                        "value": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-10.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-100.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "slab2",
+                "descriptor": {
+                  "code": "slab",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "10"
+                      },
+                      {
+                        "code": "item_count_upper",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-20.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-200.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "combo1",
+                "descriptor": {
+                  "code": "combo",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_id",
+                        "value": "id_1cctu3_9_0,id_4ohjq_a_0"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-50.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-200.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "delivery1",
+                "descriptor": {
+                  "code": "delivery",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "299.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-100.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-75.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "exchange1",
+                "descriptor": {
+                  "code": "exchange",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "financing1",
+                "descriptor": {
+                  "code": "financing",
+                  "images": [
+                    "https://snp.com/images/offer2-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_0"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "@ondc/org/fssai_license_no": "89673451203241"
           },
           {
             "id": "pramaan_provider_2",
@@ -2025,19 +2534,6 @@
                         "value": "1"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -2076,19 +2572,6 @@
                         "value": "2"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -2125,19 +2608,6 @@
                       {
                         "code": "seq",
                         "value": "3"
-                      }
-                    ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
                       }
                     ]
                   }
@@ -2231,19 +2701,6 @@
                         "value": "1"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -2282,19 +2739,6 @@
                         "value": "2"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ]
               },
@@ -2331,19 +2775,6 @@
                       {
                         "code": "seq",
                         "value": "3"
-                      }
-                    ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
                       }
                     ]
                   }
@@ -2431,7 +2862,7 @@
                 "id": "id_ancc5_0_1",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-05-08T07:30:00.000Z"
+                  "timestamp": "2025-05-27T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -2495,6 +2926,7 @@
                 "category_ids": [
                   "CM12:1"
                 ],
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2522,19 +2954,6 @@
                         "value": "CG12"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ],
                 "related": false,
@@ -2545,7 +2964,8 @@
                 "@ondc/org/seller_pickup_return": true,
                 "@ondc/org/time_to_ship": "PT45M",
                 "@ondc/org/available_on_cod": true,
-                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210"
+                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210",
+                "rating": "2"
               },
               {
                 "id": "id_1bai73_1_1",
@@ -2572,6 +2992,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2640,6 +3061,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2708,6 +3130,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2776,6 +3199,7 @@
                   "maximum_value": "25"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2844,6 +3268,7 @@
                   "maximum_value": "50"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2912,6 +3337,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -2971,6 +3397,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3030,6 +3457,7 @@
                   "maximum_value": "95"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3068,7 +3496,7 @@
                 "id": "id_1cctu3_9_1",
                 "time": {
                   "label": "enable",
-                  "timestamp": "2025-05-08T07:30:00.000Z"
+                  "timestamp": "2025-05-27T07:30:00.000Z"
                 },
                 "fulfillment_id": "F0",
                 "descriptor": {
@@ -3132,6 +3560,7 @@
                 "category_ids": [
                   "CM22:2"
                 ],
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3159,19 +3588,6 @@
                         "value": "CG42"
                       }
                     ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
                   }
                 ],
                 "related": false,
@@ -3182,7 +3598,8 @@
                 "@ondc/org/seller_pickup_return": false,
                 "@ondc/org/time_to_ship": "PT45M",
                 "@ondc/org/available_on_cod": false,
-                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210"
+                "@ondc/org/contact_details_consumer_care": "Papa John,papaJohn@gmail.com,9876543210",
+                "rating": "2"
               },
               {
                 "id": "id_4ohjq_a_1",
@@ -3209,6 +3626,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3277,6 +3695,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3345,6 +3764,7 @@
                   "maximum_value": "0"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3413,6 +3833,7 @@
                   "maximum_value": "25"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3481,6 +3902,7 @@
                   "maximum_value": "50"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3549,6 +3971,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3608,6 +4031,7 @@
                   "maximum_value": "35"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3667,6 +4091,7 @@
                   "maximum_value": "95"
                 },
                 "category_id": "F&B",
+                "replacement_terms": null,
                 "tags": [
                   {
                     "code": "veg_nonveg",
@@ -3702,8 +4127,614 @@
                 ]
               }
             ],
-            "@ondc/org/fssai_license_no": "78935612403214",
-            "offers": []
+            "offers": [
+              {
+                "id": "discp60",
+                "descriptor": {
+                  "code": "discount",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "SSL1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "159.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-60.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-120.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "no"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "flat150",
+                "descriptor": {
+                  "code": "discount",
+                  "images": [
+                    "https://snp.com/images/offer2-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "SSL1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "499.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "amount"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-150.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buy2get3",
+                "descriptor": {
+                  "code": "buyXgetY",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "SSL1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "2"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "1"
+                      },
+                      {
+                        "code": "item_id",
+                        "value": "I2"
+                      },
+                      {
+                        "code": "item_value",
+                        "value": "0.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "freebie1",
+                "descriptor": {
+                  "code": "freebie",
+                  "images": [
+                    "https://snp.com/images/offer3-banner.png"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "598.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "1"
+                      },
+                      {
+                        "code": "item_id",
+                        "value": "I4"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "slab1",
+                "descriptor": {
+                  "code": "slab",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "6"
+                      },
+                      {
+                        "code": "item_count_upper",
+                        "value": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-10.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-100.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "slab2",
+                "descriptor": {
+                  "code": "slab",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_count",
+                        "value": "10"
+                      },
+                      {
+                        "code": "item_count_upper",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-20.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-200.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "combo1",
+                "descriptor": {
+                  "code": "combo",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "item_id",
+                        "value": "id_1cctu3_9_0,id_4ohjq_a_0"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-50.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-200.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "delivery1",
+                "descriptor": {
+                  "code": "delivery",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "qualifier",
+                    "list": [
+                      {
+                        "code": "min_value",
+                        "value": "299.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "benefit",
+                    "list": [
+                      {
+                        "code": "value_type",
+                        "value": "percent"
+                      },
+                      {
+                        "code": "value",
+                        "value": "-100.00"
+                      },
+                      {
+                        "code": "value_cap",
+                        "value": "-75.00"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "exchange1",
+                "descriptor": {
+                  "code": "exchange",
+                  "images": [
+                    "https://snp.com/images/offer1-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_1cctu3_9_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "financing1",
+                "descriptor": {
+                  "code": "financing",
+                  "images": [
+                    "https://snp.com/images/offer2-banner.webp"
+                  ]
+                },
+                "location_ids": [
+                  "L1"
+                ],
+                "category_ids": [
+                  "F&B"
+                ],
+                "item_ids": [
+                  "id_ancc5_0_1"
+                ],
+                "time": {
+                  "label": "valid",
+                  "range": {
+                    "start": "2025-01-01T16:00:00.000Z",
+                    "end": "2025-01-01T23:00:00.000Z"
+                  }
+                },
+                "tags": [
+                  {
+                    "code": "meta",
+                    "list": [
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "@ondc/org/fssai_license_no": "78935612403214"
           }
         ]
       }

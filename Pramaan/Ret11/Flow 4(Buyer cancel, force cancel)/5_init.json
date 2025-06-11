@@ -1,13 +1,13 @@
 {
-    "context": {
+  "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "init",
-      "transaction_id": "14220f2a-29e8-47e1-802a-0b3de7d6cc38",
-      "message_id": "2aebbf3e-8e2d-442a-9051-bf348211052d",
-      "timestamp": "2025-05-22T06:52:39.083Z",
+      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
+      "message_id": "27174a08-f59b-4f04-82a8-de3d49d4eb58",
+      "timestamp": "2025-06-11T12:26:46.799Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S",
@@ -41,18 +41,9 @@
                     "value": "item"
                   }
                 ]
-              },
-              {
-                "code": "np_fees",
-                "list": [
-                  {
-                    "code": "id",
-                    "value": "1"
-                  }
-                ]
               }
             ],
-            "fulfillment_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+            "fulfillment_id": "9c35b212-fef4-4518-9c76-b14a41a0358a"
           },
           {
             "id": "id_5yzai_2_0",
@@ -84,7 +75,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+            "fulfillment_id": "9c35b212-fef4-4518-9c76-b14a41a0358a"
           }
         ],
         "billing": {
@@ -101,13 +92,13 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-05-22T06:52:39.083Z",
-          "updated_at": "2025-05-22T06:52:39.083Z"
+          "created_at": "2025-06-11T12:26:46.799Z",
+          "updated_at": "2025-06-11T12:26:46.799Z"
         },
         "fulfillments": [
           {
-            "id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
-            "type": "Delivery",
+            "id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
+            "type": "Self-Pickup",
             "end": {
               "location": {
                 "gps": "28.4554726,77.0219019",

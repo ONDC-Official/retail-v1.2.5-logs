@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "cancel",
-      "transaction_id": "14220f2a-29e8-47e1-802a-0b3de7d6cc38",
-      "message_id": "be25cbac-e1ca-4274-b927-c18674919c9b",
-      "timestamp": "2025-05-22T06:54:42.626Z",
+      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
+      "message_id": "58308898-7d41-4be1-84eb-44a55c0ce5e1",
+      "timestamp": "2025-06-11T12:27:09.682Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -15,11 +15,11 @@
       "ttl": "PT30S"
     },
     "message": {
-      "order_id": "SS1747896802591",
+      "order_id": "SS1749644810614",
       "cancellation_reason_id": "006",
       "descriptor": {
         "name": "fulfillment",
-        "short_desc": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
+        "short_desc": "9c35b212-fef4-4518-9c76-b14a41a0358a",
         "tags": [
           {
             "code": "params",

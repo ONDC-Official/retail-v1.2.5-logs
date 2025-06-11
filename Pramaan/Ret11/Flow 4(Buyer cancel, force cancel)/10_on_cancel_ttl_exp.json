@@ -1,0 +1,26 @@
+{
+  "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "on_cancel",
+      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
+      "message_id": "bcf4e0c0-88ee-4a58-8794-2e5759e63848",
+      "timestamp": "2025-06-11T12:27:03.036Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "ack": {
+        "status": "NACK"
+      },
+      "error": {
+        "code": "30001",
+        "message": "Your TTL is expired"
+      }
+    }
+}

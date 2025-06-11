@@ -1,13 +1,13 @@
 {
-    "context": {
+  "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "select",
-      "transaction_id": "14220f2a-29e8-47e1-802a-0b3de7d6cc38",
-      "message_id": "bfd30a54-61dc-4944-9c9d-e22a63caaa49",
-      "timestamp": "2025-05-22T06:51:44.300Z",
+      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
+      "message_id": "1bb69832-33d9-4370-b180-4bd1b5c84991",
+      "timestamp": "2025-06-11T12:26:24.513Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S",
@@ -86,21 +86,6 @@
                 }
               }
             }
-          }
-        ],
-        "tags": [
-          {
-            "code": "bnp_demand_signal",
-            "list": [
-              {
-                "code": "source",
-                "value": "digihaat.com"
-              },
-              {
-                "code": "campaign",
-                "value": "RD76_sale"
-              }
-            ]
           }
         ]
       }

@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_cancel",
-      "transaction_id": "14220f2a-29e8-47e1-802a-0b3de7d6cc38",
-      "message_id": "be25cbac-e1ca-4274-b927-c18674919c9b",
-      "timestamp": "2025-05-22T06:54:42.641Z",
+      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
+      "message_id": "58308898-7d41-4be1-84eb-44a55c0ce5e1",
+      "timestamp": "2025-06-11T12:27:09.727Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -16,7 +16,7 @@
     },
     "message": {
       "order": {
-        "id": "SS1747896802591",
+        "id": "SS1749644810614",
         "state": "Cancelled",
         "provider": {
           "id": "pramaan_provider_1",
@@ -42,18 +42,9 @@
                     "value": "item"
                   }
                 ]
-              },
-              {
-                "code": "np_fees",
-                "list": [
-                  {
-                    "code": "id",
-                    "value": "1"
-                  }
-                ]
               }
             ],
-            "fulfillment_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+            "fulfillment_id": "9c35b212-fef4-4518-9c76-b14a41a0358a"
           },
           {
             "id": "id_5yzai_2_0",
@@ -85,21 +76,49 @@
                 ]
               }
             ],
-            "fulfillment_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+            "fulfillment_id": "9c35b212-fef4-4518-9c76-b14a41a0358a"
+          },
+          {
+            "quantity": {
+              "count": 0
+            },
+            "id": "id_ancc5_0_0",
+            "fulfillment_id": "0a83509a-c37f-466e-a905-0a946a9a0906"
+          },
+          {
+            "quantity": {
+              "count": 0
+            },
+            "id": "id_5yzai_2_0",
+            "fulfillment_id": "0a83509a-c37f-466e-a905-0a946a9a0906"
+          },
+          {
+            "quantity": {
+              "count": 0
+            },
+            "id": "id_ancc5_0_0",
+            "fulfillment_id": "dbe37e61-5d6a-444f-b24a-5725fc36a166"
+          },
+          {
+            "quantity": {
+              "count": 0
+            },
+            "id": "id_5yzai_2_0",
+            "fulfillment_id": "dbe37e61-5d6a-444f-b24a-5725fc36a166"
           },
           {
             "quantity": {
               "count": 2
             },
             "id": "id_ancc5_0_0",
-            "fulfillment_id": "17f97635-aef4-4362-ab5a-15a344a8fcd4"
+            "fulfillment_id": "dbe37e61-5d6a-444f-b24a-5725fc36a166"
           },
           {
             "quantity": {
               "count": 2
             },
             "id": "id_5yzai_2_0",
-            "fulfillment_id": "17f97635-aef4-4362-ab5a-15a344a8fcd4"
+            "fulfillment_id": "dbe37e61-5d6a-444f-b24a-5725fc36a166"
           }
         ],
         "billing": {
@@ -116,8 +135,8 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-05-22T06:52:39.083Z",
-          "updated_at": "2025-05-22T06:52:39.083Z"
+          "created_at": "2025-06-11T12:26:46.799Z",
+          "updated_at": "2025-06-11T12:26:46.799Z"
         },
         "payment": {
           "@ondc/org/buyer_app_finder_fee_type": "percent",
@@ -141,26 +160,26 @@
           "@ondc/org/settlement_window": "P1D",
           "@ondc/org/withholding_amount": "10.00",
           "params": {
-            "amount": "845.00",
+            "amount": "562.00",
             "currency": "INR",
-            "transaction_id": "9e743f4f-079a-464f-8314-0121c61e13bb"
+            "transaction_id": "25a22eaf-a631-4e47-bf69-998748ef34ef"
           },
           "type": "ON-ORDER",
           "status": "PAID"
         },
         "fulfillments": [
           {
-            "id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
+            "id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
             "@ondc/org/provider_name": "Pramaan Store 1",
-            "@ondc/org/category": "Immediate Delivery",
+            "@ondc/org/category": "Takeaway",
             "@ondc/org/TAT": "PT24H",
             "state": {
               "descriptor": {
                 "code": "Cancelled"
               }
             },
-            "type": "Delivery",
-            "tracking": true,
+            "type": "Self-Pickup",
+            "tracking": false,
             "start": {
               "location": {
                 "id": "SSL1",
@@ -180,40 +199,13 @@
               },
               "time": {
                 "range": {
-                  "start": "2025-05-22T06:53:22.613Z",
-                  "end": "2025-05-22T23:00:00.000Z"
+                  "start": "2025-06-11T12:26:50.710Z",
+                  "end": "2025-06-11T23:00:00.000Z"
                 }
               },
               "contact": {
                 "phone": "9876543210",
                 "email": "ss_seller_1@ss.com"
-              }
-            },
-            "end": {
-              "location": {
-                "gps": "28.4554726,77.0219019",
-                "address": {
-                  "name": "Nirdosh Chauhan",
-                  "building": "221 B",
-                  "locality": "Baker Steeet",
-                  "city": "Gurgaon",
-                  "state": "Haryana",
-                  "country": "India",
-                  "area_code": "122007"
-                }
-              },
-              "contact": {
-                "phone": "9876543210",
-                "email": "nirdosh.chauhan@sequelstring.com"
-              },
-              "person": {
-                "name": "Nirdosh Chauhan"
-              },
-              "time": {
-                "range": {
-                  "start": "2025-05-23T09:30:00.000Z",
-                  "end": "2025-05-23T19:00:00.000Z"
-                }
               }
             },
             "tags": [
@@ -235,18 +227,55 @@
                 "list": [
                   {
                     "code": "fulfillment_state",
-                    "value": "Pending"
+                    "value": "Cancelled"
                   },
                   {
                     "code": "updated_at",
-                    "value": "2025-05-22T06:53:22.613Z"
+                    "value": "2025-06-11T12:27:03.021Z"
                   }
                 ]
               }
             ]
           },
           {
-            "id": "17f97635-aef4-4362-ab5a-15a344a8fcd4",
+            "id": "0a83509a-c37f-466e-a905-0a946a9a0906",
+            "type": "Cancel",
+            "state": {
+              "descriptor": {
+                "code": "Cancelled"
+              }
+            },
+            "tags": [
+              {
+                "code": "cancel_request",
+                "list": [
+                  {
+                    "code": "reason_id",
+                    "value": "006"
+                  },
+                  {
+                    "code": "initiated_by",
+                    "value": "ondc.sequelstring.com/buyer/protocol"
+                  }
+                ]
+              },
+              {
+                "code": "precancel_state",
+                "list": [
+                  {
+                    "code": "fulfillment_state",
+                    "value": "Cancelled"
+                  },
+                  {
+                    "code": "updated_at",
+                    "value": "2025-06-11T12:27:03.021Z"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "dbe37e61-5d6a-444f-b24a-5725fc36a166",
             "type": "Cancel",
             "state": {
               "descriptor": {
@@ -271,7 +300,7 @@
                   },
                   {
                     "code": "value",
-                    "value": "-530.00"
+                    "value": "0.00"
                   },
                   {
                     "code": "parent_item_id",
@@ -296,7 +325,7 @@
                   },
                   {
                     "code": "value",
-                    "value": "-0.00"
+                    "value": "0.00"
                   },
                   {
                     "code": "parent_item_id",
@@ -313,7 +342,7 @@
                   },
                   {
                     "code": "id",
-                    "value": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+                    "value": "9c35b212-fef4-4518-9c76-b14a41a0358a"
                   },
                   {
                     "code": "currency",
@@ -321,7 +350,28 @@
                   },
                   {
                     "code": "value",
-                    "value": "-40"
+                    "value": "0.00"
+                  }
+                ]
+              },
+              {
+                "code": "quote_trail",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "packing"
+                  },
+                  {
+                    "code": "id",
+                    "value": "9c35b212-fef4-4518-9c76-b14a41a0358a"
+                  },
+                  {
+                    "code": "currency",
+                    "value": "INR"
+                  },
+                  {
+                    "code": "value",
+                    "value": "0.00"
                   }
                 ]
               },
@@ -334,7 +384,7 @@
                   },
                   {
                     "code": "id",
-                    "value": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+                    "value": "9c35b212-fef4-4518-9c76-b14a41a0358a"
                   },
                   {
                     "code": "currency",
@@ -342,7 +392,7 @@
                   },
                   {
                     "code": "value",
-                    "value": "-5"
+                    "value": "0.00"
                   }
                 ]
               },
@@ -351,11 +401,11 @@
                 "list": [
                   {
                     "code": "type",
-                    "value": "misc"
+                    "value": "offer"
                   },
                   {
                     "code": "id",
-                    "value": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
+                    "value": "buy2get3"
                   },
                   {
                     "code": "currency",
@@ -363,28 +413,7 @@
                   },
                   {
                     "code": "value",
-                    "value": "-40"
-                  }
-                ]
-              },
-              {
-                "code": "quote_trail",
-                "list": [
-                  {
-                    "code": "type",
-                    "value": "tax"
-                  },
-                  {
-                    "code": "id",
-                    "value": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0"
-                  },
-                  {
-                    "code": "currency",
-                    "value": "INR"
-                  },
-                  {
-                    "code": "value",
-                    "value": "-5"
+                    "value": "0.00"
                   }
                 ]
               }
@@ -526,7 +555,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
+              "@ondc/org/item_id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -535,7 +564,16 @@
               }
             },
             {
-              "@ondc/org/item_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
+              "@ondc/org/item_id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
+              "title": "Packing charges",
+              "@ondc/org/title_type": "packing",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              }
+            },
+            {
+              "@ondc/org/item_id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -550,10 +588,6 @@
                       {
                         "code": "type",
                         "value": "fulfillment"
-                      },
-                      {
-                        "code": "subtype",
-                        "value": "delivery"
                       }
                     ]
                   }
@@ -561,9 +595,12 @@
               }
             },
             {
-              "@ondc/org/item_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
-              "title": "Convenience Fee",
-              "@ondc/org/title_type": "misc",
+              "@ondc/org/item_id": "buy2get3",
+              "@ondc/org/item_quantity": {
+                "count": "1"
+              },
+              "title": "Item count offer applied",
+              "@ondc/org/title_type": "offer",
               "price": {
                 "currency": "INR",
                 "value": "0"
@@ -575,59 +612,36 @@
                     "list": [
                       {
                         "code": "type",
-                        "value": "item"
+                        "value": "order"
                       }
                     ]
                   },
                   {
-                    "code": "np_fees",
-                    "list": [
-                      {
-                        "code": "id",
-                        "value": "1"
-                      },
-                      {
-                        "code": "channel_margin_type",
-                        "value": "percent"
-                      },
-                      {
-                        "code": "channel_margin_value",
-                        "value": "0.50"
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "@ondc/org/item_id": "4cc3458e-be39-44c0-8ec8-9ff21f0e72a0",
-              "title": "Tax",
-              "@ondc/org/title_type": "tax",
-              "price": {
-                "currency": "INR",
-                "value": "0"
-              },
-              "item": {
-                "tags": [
-                  {
-                    "code": "quote",
+                    "code": "offer",
                     "list": [
                       {
                         "code": "type",
-                        "value": "item"
+                        "value": "buyXgetY"
                       },
                       {
-                        "code": "subtype",
-                        "value": "misc"
-                      }
-                    ]
-                  },
-                  {
-                    "code": "np_fees",
-                    "list": [
+                        "code": "additive",
+                        "value": "no"
+                      },
                       {
-                        "code": "id",
+                        "code": "auto",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "item_count",
                         "value": "1"
+                      },
+                      {
+                        "code": "item_id",
+                        "value": "I2"
+                      },
+                      {
+                        "code": "item_value",
+                        "value": "0.00"
                       }
                     ]
                   }
@@ -636,8 +650,8 @@
             }
           ]
         },
-        "created_at": "2025-05-22T06:53:22.591Z",
-        "updated_at": "2025-05-22T06:54:42.637Z"
+        "created_at": "2025-06-11T12:26:50.614Z",
+        "updated_at": "2025-06-11T12:27:09.716Z"
       }
     }
 }
