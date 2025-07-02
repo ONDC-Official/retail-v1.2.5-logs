@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_status",
-      "transaction_id": "98c12455-4bcb-45b7-944b-4bf8d1f9ad07",
-      "message_id": "bd8ee1b0-63bb-45fc-b220-57b00a3e930a",
-      "timestamp": "2025-05-21T08:10:08.844Z",
+      "transaction_id": "1e92b806-c54a-4dde-adc0-da141e722cd5",
+      "message_id": "eb00ae62-342b-445e-bd32-97808bef7e1d",
+      "timestamp": "2025-07-02T10:09:13.828Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -16,7 +16,7 @@
     },
     "message": {
       "order": {
-        "id": "SS1747814965916",
+        "id": "SS1751450730062",
         "state": "In-progress",
         "provider": {
           "id": "pramaan_provider_1",
@@ -53,7 +53,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "b9785924-037a-47d3-b820-08536d15ede1"
+            "fulfillment_id": "d90f06fc-e390-4724-9a10-e90e98a74e32"
           },
           {
             "id": "id_5yzai_2_0",
@@ -85,7 +85,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "b9785924-037a-47d3-b820-08536d15ede1"
+            "fulfillment_id": "d90f06fc-e390-4724-9a10-e90e98a74e32"
           }
         ],
         "billing": {
@@ -102,12 +102,12 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-05-21T08:08:43.297Z",
-          "updated_at": "2025-05-21T08:08:43.297Z"
+          "created_at": "2025-07-02T10:05:10.278Z",
+          "updated_at": "2025-07-02T10:05:10.278Z"
         },
         "fulfillments": [
           {
-            "id": "b9785924-037a-47d3-b820-08536d15ede1",
+            "id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
             "@ondc/org/provider_name": "Pramaan Store 1",
             "@ondc/org/category": "Immediate Delivery",
             "@ondc/org/TAT": "PT24H",
@@ -137,8 +137,8 @@
               },
               "time": {
                 "range": {
-                  "start": "2025-05-21T08:09:25.935Z",
-                  "end": "2025-05-21T23:00:00.000Z"
+                  "start": "2025-07-02T10:05:30.090Z",
+                  "end": "2025-07-02T23:00:00.000Z"
                 }
               },
               "contact": {
@@ -168,8 +168,8 @@
               },
               "time": {
                 "range": {
-                  "start": "2025-05-22T09:30:00.000Z",
-                  "end": "2025-05-22T19:00:00.000Z"
+                  "start": "2025-07-03T09:30:00.000Z",
+                  "end": "2025-07-03T19:00:00.000Z"
                 }
               }
             },
@@ -196,7 +196,7 @@
                   },
                   {
                     "code": "url",
-                    "value": "https://ondc.sequelstring.com/track/b9785924-037a-47d3-b820-08536d15ede1"
+                    "value": "https://ondc.sequelstring.com/track/d90f06fc-e390-4724-9a10-e90e98a74e32"
                   }
                 ]
               }
@@ -206,7 +206,7 @@
         "quote": {
           "price": {
             "currency": "INR",
-            "value": "845.00"
+            "value": "157.00"
           },
           "breakup": [
             {
@@ -264,6 +264,27 @@
                       {
                         "code": "channel_margin_value",
                         "value": "0.50"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "timing",
+                    "list": [
+                      {
+                        "code": "day_from",
+                        "value": "1"
+                      },
+                      {
+                        "code": "day_to",
+                        "value": "5"
+                      },
+                      {
+                        "code": "time_from",
+                        "value": "1800"
+                      },
+                      {
+                        "code": "time_to",
+                        "value": "2200"
                       }
                     ]
                   }
@@ -332,7 +353,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -341,7 +362,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -367,7 +388,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -406,7 +427,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -439,6 +460,123 @@
                   }
                 ]
               }
+            },
+            {
+              "@ondc/org/item_id": "discp60",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-120"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "discount"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "no"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "flat150",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-150"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "discount"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "delivery1",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-75"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "delivery"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -464,9 +602,9 @@
           "@ondc/org/settlement_window": "P1D",
           "@ondc/org/withholding_amount": "10.00",
           "params": {
-            "amount": "845.00",
+            "amount": "157.00",
             "currency": "INR",
-            "transaction_id": "d56d3bc0-dc3f-4df0-9405-affe08f8fb13"
+            "transaction_id": "71a2d398-7f09-40f0-b9a1-ffecaa569331"
           },
           "type": "ON-ORDER",
           "status": "PAID"
@@ -523,8 +661,8 @@
             ]
           }
         ],
-        "created_at": "2025-05-21T08:09:25.916Z",
-        "updated_at": "2025-05-21T08:10:08.844Z"
+        "created_at": "2025-07-02T10:05:30.062Z",
+        "updated_at": "2025-07-02T10:09:13.828Z"
       }
     }
 }

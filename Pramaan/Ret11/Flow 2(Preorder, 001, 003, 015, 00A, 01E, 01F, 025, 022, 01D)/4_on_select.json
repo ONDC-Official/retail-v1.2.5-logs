@@ -1,13 +1,13 @@
 {
-    "context": {
+     "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_select",
-      "transaction_id": "98c12455-4bcb-45b7-944b-4bf8d1f9ad07",
-      "message_id": "334055f0-8a41-4e3e-94f2-4e5a9b3ee65c",
-      "timestamp": "2025-05-21T08:07:08.896Z",
+      "transaction_id": "1e92b806-c54a-4dde-adc0-da141e722cd5",
+      "message_id": "9590d0eb-eee9-4e0c-98f6-dc47c773521c",
+      "timestamp": "2025-07-02T10:03:31.443Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -17,7 +17,7 @@
       "order": {
         "fulfillments": [
           {
-            "id": "b9785924-037a-47d3-b820-08536d15ede1",
+            "id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
             "type": "Delivery",
             "@ondc/org/provider_name": "Pramaan Store 1",
             "tracking": true,
@@ -31,14 +31,14 @@
             "end": {
               "time": {
                 "range": {
-                  "start": "2025-05-21T09:07:08.891Z",
-                  "end": "2025-05-21T10:07:08.893Z"
+                  "start": "2025-07-02T11:03:31.435Z",
+                  "end": "2025-07-02T12:03:31.436Z"
                 }
               }
             }
           },
           {
-            "id": "d68dca56-b018-4eaf-a125-e59df24a7834",
+            "id": "c6aed883-17bd-4565-880a-4c1d087da1ce",
             "type": "Delivery",
             "@ondc/org/provider_name": "Pramaan Store 1",
             "tracking": true,
@@ -52,14 +52,14 @@
             "end": {
               "time": {
                 "range": {
-                  "start": "2025-05-21T10:07:08.893Z",
-                  "end": "2025-05-21T11:07:08.893Z"
+                  "start": "2025-07-02T12:03:31.438Z",
+                  "end": "2025-07-02T13:03:31.439Z"
                 }
               }
             }
           },
           {
-            "id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+            "id": "5c011f69-d362-4de3-ac36-8bb83297503b",
             "type": "Self-Pickup",
             "@ondc/org/provider_name": "Pramaan Store 1",
             "tracking": false,
@@ -72,7 +72,7 @@
             }
           },
           {
-            "id": "52b861b1-9845-43c5-8582-2042b734cefa",
+            "id": "5b01ffb6-4218-4afd-bb52-44005f381584",
             "type": "Buyer-Delivery",
             "@ondc/org/provider_name": "Pramaan Store 1",
             "tracking": false,
@@ -136,8 +136,8 @@
             ],
             "location_id": "SSL1",
             "fulfillment_id": [
-              "b9785924-037a-47d3-b820-08536d15ede1",
-              "d68dca56-b018-4eaf-a125-e59df24a7834"
+              "d90f06fc-e390-4724-9a10-e90e98a74e32",
+              "c6aed883-17bd-4565-880a-4c1d087da1ce"
             ]
           },
           {
@@ -171,15 +171,15 @@
               }
             ],
             "fulfillment_id": [
-              "b9785924-037a-47d3-b820-08536d15ede1",
-              "d68dca56-b018-4eaf-a125-e59df24a7834"
+              "d90f06fc-e390-4724-9a10-e90e98a74e32",
+              "c6aed883-17bd-4565-880a-4c1d087da1ce"
             ]
           }
         ],
         "quote": {
           "price": {
             "currency": "INR",
-            "value": "895.00"
+            "value": "552.00"
           },
           "breakup": [
             {
@@ -245,6 +245,27 @@
                       {
                         "code": "channel_margin_value",
                         "value": "0.50"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "timing",
+                    "list": [
+                      {
+                        "code": "day_from",
+                        "value": "1"
+                      },
+                      {
+                        "code": "day_to",
+                        "value": "5"
+                      },
+                      {
+                        "code": "time_from",
+                        "value": "1800"
+                      },
+                      {
+                        "code": "time_to",
+                        "value": "2200"
                       }
                     ]
                   }
@@ -321,7 +342,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -330,7 +351,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -356,7 +377,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -395,7 +416,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -434,7 +455,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -469,7 +490,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "b9785924-037a-47d3-b820-08536d15ede1",
+              "@ondc/org/item_id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -504,7 +525,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -513,7 +534,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
               "title": "Packing charges",
               "@ondc/org/title_type": "packing",
               "price": {
@@ -522,7 +543,33 @@
               }
             },
             {
-              "@ondc/org/item_id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "2"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      },
+                      {
+                        "code": "subtype",
+                        "value": "packaging"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -557,7 +604,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -592,7 +639,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -631,7 +678,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "f37be5d5-5232-4434-bc63-64a3d547a090",
+              "@ondc/org/item_id": "5c011f69-d362-4de3-ac36-8bb83297503b",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -670,7 +717,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "52b861b1-9845-43c5-8582-2042b734cefa",
+              "@ondc/org/item_id": "5b01ffb6-4218-4afd-bb52-44005f381584",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
@@ -679,7 +726,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "52b861b1-9845-43c5-8582-2042b734cefa",
+              "@ondc/org/item_id": "5b01ffb6-4218-4afd-bb52-44005f381584",
               "title": "Packing charges",
               "@ondc/org/title_type": "packing",
               "price": {
@@ -688,7 +735,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "52b861b1-9845-43c5-8582-2042b734cefa",
+              "@ondc/org/item_id": "5b01ffb6-4218-4afd-bb52-44005f381584",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -723,7 +770,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "52b861b1-9845-43c5-8582-2042b734cefa",
+              "@ondc/org/item_id": "5b01ffb6-4218-4afd-bb52-44005f381584",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
@@ -758,7 +805,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "52b861b1-9845-43c5-8582-2042b734cefa",
+              "@ondc/org/item_id": "5b01ffb6-4218-4afd-bb52-44005f381584",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -797,7 +844,7 @@
               }
             },
             {
-              "@ondc/org/item_id": "52b861b1-9845-43c5-8582-2042b734cefa",
+              "@ondc/org/item_id": "5b01ffb6-4218-4afd-bb52-44005f381584",
               "title": "Convenience Fee",
               "@ondc/org/title_type": "misc",
               "price": {
@@ -829,6 +876,123 @@
                       {
                         "code": "channel_margin_value",
                         "value": "0.75"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "discp60",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-120"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "discount"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "no"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "flat150",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-150"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "discount"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "delivery1",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-75"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "delivery"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
                       }
                     ]
                   }

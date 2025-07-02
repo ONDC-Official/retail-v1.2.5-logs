@@ -6,8 +6,8 @@
       "core_version": "1.2.5",
       "action": "on_status",
       "transaction_id": "1e92b806-c54a-4dde-adc0-da141e722cd5",
-      "message_id": "95e6a16f-7b5f-454f-a38f-4afcdbac877c",
-      "timestamp": "2025-07-02T10:10:11.696Z",
+      "message_id": "cb84a922-977c-4d15-ae90-2cef9761a448",
+      "timestamp": "2025-07-02T10:11:15.014Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -17,7 +17,7 @@
     "message": {
       "order": {
         "id": "SS1751450730062",
-        "state": "In-progress",
+        "state": "Completed",
         "provider": {
           "id": "pramaan_provider_1",
           "locations": [
@@ -113,7 +113,7 @@
             "@ondc/org/TAT": "PT24H",
             "state": {
               "descriptor": {
-                "code": "Order-picked-up"
+                "code": "Order-delivered"
               }
             },
             "type": "Delivery",
@@ -171,7 +171,8 @@
                 "range": {
                   "start": "2025-07-03T09:30:00.000Z",
                   "end": "2025-07-03T19:00:00.000Z"
-                }
+                },
+                "timestamp": "2025-07-02T10:11:15.014Z"
               }
             },
             "tags": [
@@ -663,7 +664,7 @@
           }
         ],
         "created_at": "2025-07-02T10:05:30.062Z",
-        "updated_at": "2025-07-02T10:10:11.696Z",
+        "updated_at": "2025-07-02T10:11:15.014Z",
         "documents": [
           {
             "label": "Invoice",
