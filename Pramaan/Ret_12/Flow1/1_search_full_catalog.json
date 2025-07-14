@@ -1,0 +1,128 @@
+{
+   "context": {
+      "domain": "ONDC:RET12",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "4082bb7c-6594-45c2-b1e1-6dc3146b1071",
+      "message_id": "e5f85744-78ad-45df-b00b-7f9fbe09d8af",
+      "timestamp": "2025-05-22T09:12:35.195Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "bnp_demand_signal",
+            "list": [
+              {
+                "code": "search_term",
+                "value": "track suit"
+              }
+            ]
+          },
+          {
+            "code": "catalog_full",
+            "list": [
+              {
+                "code": "payload_type",
+                "value": "inline"
+              }
+            ]
+          },
+          {
+            "code": "bap_promos",
+            "list": [
+              {
+                "code": "category",
+                "value": "track suit"
+              },
+              {
+                "code": "from",
+                "value": "2025-05-21T18:30:00Z"
+              },
+              {
+                "code": "to",
+                "value": "2025-06-20T18:30:00Z"
+              }
+            ]
+          },
+          {
+            "code": "bap_features",
+            "list": [
+              {
+                "code": "006",
+                "value": "yes"
+              },
+              {
+                "code": "00B",
+                "value": "yes"
+              },
+              {
+                "code": "012",
+                "value": "yes"
+              },
+              {
+                "code": "017",
+                "value": "yes"
+              },
+              {
+                "code": "00D",
+                "value": "yes"
+              },
+              {
+                "code": "00A",
+                "value": "yes"
+              },
+              {
+                "code": "002",
+                "value": "yes"
+              },
+              {
+                "code": "00F",
+                "value": "yes"
+              },
+              {
+                "code": "011",
+                "value": "yes"
+              },
+              {
+                "code": "01D",
+                "value": "yes"
+              },
+              {
+                "code": "01E",
+                "value": "yes"
+              },
+              {
+                "code": "01F",
+                "value": "yes"
+              },
+              {
+                "code": "022",
+                "value": "yes"
+              },
+              {
+                "code": "020",
+                "value": "yes"
+              },
+              {
+                "code": "025",
+                "value": "yes"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "context": {
+      "domain": "ONDC:RET12",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "cancel",
+      "transaction_id": "0e5d2340-cf92-426b-95f5-7ab6db2fd9f2",
+      "message_id": "ee1032b1-eb0a-4f85-b419-1a0b4b4053fa",
+      "timestamp": "2025-04-28T09:47:43.090Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "order_id": "SS1745833620254",
+      "cancellation_reason_id": "001",
+      "descriptor": {
+        "name": "fulfillment",
+        "short_desc": "f452402c-902b-4909-8ad9-fbf92436a5d4"
+      }
+    }
+  }

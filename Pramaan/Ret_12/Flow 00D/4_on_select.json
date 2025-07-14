@@ -1,0 +1,660 @@
+{
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "on_select",
+    "transaction_id": "0e5d2340-cf92-426b-95f5-7ab6db2fd9f2",
+    "message_id": "5974fb44-6ac6-4895-a44d-e081f9ac8105",
+    "timestamp": "2025-04-28T09:46:54.941Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "https://ondc.sequelstring.com/protocol"
+  },
+  "message": {
+    "order": {
+      "fulfillments": [
+        {
+          "id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+          "type": "Delivery",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "tracking": true,
+          "@ondc/org/category": "Standard Delivery",
+          "@ondc/org/TAT": "PT24H",
+          "state": {
+            "descriptor": {
+              "code": "Serviceable"
+            }
+          }
+        },
+        {
+          "id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+          "type": "Self-Pickup",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "tracking": false,
+          "@ondc/org/category": "Takeaway",
+          "@ondc/org/TAT": "PT24H",
+          "state": {
+            "descriptor": {
+              "code": "Serviceable"
+            }
+          }
+        },
+        {
+          "id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+          "type": "Buyer-Delivery",
+          "@ondc/org/provider_name": "Pramaan Store 1",
+          "tracking": false,
+          "@ondc/org/category": "Standard Delivery",
+          "@ondc/org/TAT": "PT15M",
+          "state": {
+            "descriptor": {
+              "code": "Serviceable"
+            }
+          },
+          "tags": [
+            {
+              "code": "order_details",
+              "list": [
+                {
+                  "code": "weight_unit",
+                  "value": "kilogram"
+                },
+                {
+                  "code": "weight_value",
+                  "value": "3.0"
+                },
+                {
+                  "code": "dim_unit",
+                  "value": "centimeter"
+                },
+                {
+                  "code": "length",
+                  "value": "1.0"
+                },
+                {
+                  "code": "breadth",
+                  "value": "1.0"
+                },
+                {
+                  "code": "height",
+                  "value": "1.0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "id_1bai73_0_0",
+          "quantity": {
+            "count": 2
+          },
+          "location_id": "SSL1",
+          "fulfillment_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d"
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "2765.00"
+        },
+        "breakup": [
+          {
+            "@ondc/org/item_id": "id_1bai73_0_0",
+            "title": "Adidas Track Suit",
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "2400.00"
+            },
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "99"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1200.00"
+              }
+            }
+          },
+          {
+            "@ondc/org/item_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            }
+          },
+          {
+            "@ondc/org/item_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "fulfillment"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "delivery"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "2"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.75"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "ed0d1e5e-2a3e-4312-83b2-1f5b2e65bd4d",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            }
+          },
+          {
+            "@ondc/org/item_id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+            "title": "Packing charges",
+            "@ondc/org/title_type": "packing",
+            "price": {
+              "currency": "INR",
+              "value": "25"
+            }
+          },
+          {
+            "@ondc/org/item_id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "f7985bd7-81f5-48af-a44c-16c86da67ef4",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "2"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.75"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "0"
+            }
+          },
+          {
+            "@ondc/org/item_id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+            "title": "Packing charges",
+            "@ondc/org/title_type": "packing",
+            "price": {
+              "currency": "INR",
+              "value": "25"
+            }
+          },
+          {
+            "@ondc/org/item_id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "5"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    },
+                    {
+                      "code": "subtype",
+                      "value": "misc"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "1"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.50"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "673bc844-1cfc-4195-bd02-557f4dd5672a",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "40"
+            },
+            "item": {
+              "tags": [
+                {
+                  "code": "quote",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                },
+                {
+                  "code": "np_fees",
+                  "list": [
+                    {
+                      "code": "id",
+                      "value": "2"
+                    },
+                    {
+                      "code": "channel_margin_type",
+                      "value": "percent"
+                    },
+                    {
+                      "code": "channel_margin_value",
+                      "value": "0.75"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "ttl": "PT6H"
+      },
+      "provider": {
+        "id": "pramaan_provider_1",
+        "locations": [
+          {
+            "id": "SSL1"
+          }
+        ]
+      }
+    }
+  }
+}

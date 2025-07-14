@@ -1,0 +1,67 @@
+{
+    "context": {
+      "domain": "ONDC:RET12",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "update",
+      "transaction_id": "a103f233-455e-4cf7-88e6-fe47f9fcb3a0",
+      "message_id": "6e589ab9-97b9-4997-b5ae-f3986e9a26c1",
+      "timestamp": "2025-04-28T09:15:46.564Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "update_target": "item",
+      "order": {
+        "id": "SS1745831486572",
+        "fulfillments": [
+          {
+            "type": "Return",
+            "tags": [
+              {
+                "code": "return_request",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "2d2fa186-8954-4003-a27c-5a3aeae9087c"
+                  },
+                  {
+                    "code": "item_id",
+                    "value": "id_1bai73_0_0"
+                  },
+                  {
+                    "code": "item_quantity",
+                    "value": "1"
+                  },
+                  {
+                    "code": "reason_id",
+                    "value": "003"
+                  },
+                  {
+                    "code": "reason_desc",
+                    "value": "some detailed reason for return"
+                  },
+                  {
+                    "code": "images",
+                    "value": "https://some-images-for-item.com"
+                  },
+                  {
+                    "code": "ttl_approval",
+                    "value": "PT24H"
+                  },
+                  {
+                    "code": "ttl_reverseqc",
+                    "value": "P3D"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
