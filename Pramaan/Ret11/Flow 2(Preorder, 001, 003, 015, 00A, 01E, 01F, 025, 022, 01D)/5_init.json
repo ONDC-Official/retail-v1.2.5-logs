@@ -1,13 +1,13 @@
 {
-    "context": {
+  "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "init",
-      "transaction_id": "1e92b806-c54a-4dde-adc0-da141e722cd5",
-      "message_id": "d8d405d9-0958-4576-af0b-1ef0f861ce15",
-      "timestamp": "2025-07-02T10:05:10.278Z",
+      "transaction_id": "a6cb5cdc-2038-4f09-849c-b5c61072ec39",
+      "message_id": "4fcc13db-bb28-4e46-992b-ad3fe015b633",
+      "timestamp": "2025-07-14T11:46:00.111Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S",
@@ -52,7 +52,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "d90f06fc-e390-4724-9a10-e90e98a74e32"
+            "fulfillment_id": "421a5198-7289-495f-9b6f-5a7d2d3c574e"
           },
           {
             "id": "id_5yzai_2_0",
@@ -84,7 +84,79 @@
                 ]
               }
             ],
-            "fulfillment_id": "d90f06fc-e390-4724-9a10-e90e98a74e32"
+            "fulfillment_id": "421a5198-7289-495f-9b6f-5a7d2d3c574e"
+          }
+        ],
+        "offers": [
+          {
+            "id": "flat150",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "delivery1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "combo1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "freebie1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buy2get3",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "billing": {
@@ -101,12 +173,12 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-07-02T10:05:10.278Z",
-          "updated_at": "2025-07-02T10:05:10.278Z"
+          "created_at": "2025-07-14T11:46:00.111Z",
+          "updated_at": "2025-07-14T11:46:00.111Z"
         },
         "fulfillments": [
           {
-            "id": "d90f06fc-e390-4724-9a10-e90e98a74e32",
+            "id": "421a5198-7289-495f-9b6f-5a7d2d3c574e",
             "type": "Delivery",
             "end": {
               "location": {

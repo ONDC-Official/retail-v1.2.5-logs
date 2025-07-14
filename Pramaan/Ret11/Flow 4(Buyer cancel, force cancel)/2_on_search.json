@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_search",
-      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
-      "message_id": "f1bd386e-9329-45fd-a20f-5064015cb97b",
-      "timestamp": "2025-06-11T12:26:20.367Z",
+      "transaction_id": "b1719203-7371-45a4-a7bc-482a8101b1a5",
+      "message_id": "6c1f462b-b4f6-4e80-9522-0de82cf9972e",
+      "timestamp": "2025-07-14T11:55:19.030Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -1875,7 +1875,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_0"
+                  "id_ancc5_0_0"
                 ],
                 "time": {
                   "label": "valid",
@@ -1965,7 +1965,7 @@
                       },
                       {
                         "code": "item_id",
-                        "value": "I2"
+                        "value": "id_ancc5_0_0"
                       },
                       {
                         "code": "item_value",
@@ -2003,7 +2003,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_0"
+                  "id_ancc5_0_0"
                 ],
                 "time": {
                   "label": "valid",
@@ -2031,7 +2031,7 @@
                       },
                       {
                         "code": "item_id",
-                        "value": "I4"
+                        "value": "id_1cctu3_9_0"
                       }
                     ]
                   },
@@ -2132,7 +2132,7 @@
                   "L1"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_0"
+                  "id_ancc5_0_0"
                 ],
                 "time": {
                   "label": "valid",
@@ -2202,6 +2202,7 @@
                   "F&B"
                 ],
                 "item_ids": [
+                  "id_ancc5_0_0",
                   "id_1cctu3_9_0"
                 ],
                 "time": {
@@ -2217,7 +2218,7 @@
                     "list": [
                       {
                         "code": "item_id",
-                        "value": "id_1cctu3_9_0,id_4ohjq_a_0"
+                        "value": "id_ancc5_0_0,id_ancc5_0_0"
                       }
                     ]
                   },
@@ -2268,7 +2269,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_0"
+                  "id_ancc5_0_0"
                 ],
                 "time": {
                   "label": "valid",
@@ -2334,7 +2335,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_0"
+                  "id_ancc5_0_0"
                 ],
                 "time": {
                   "label": "valid",
@@ -4137,7 +4138,7 @@
                   ]
                 },
                 "location_ids": [
-                  "SSL1"
+                  "L1"
                 ],
                 "category_ids": [
                   "F&B"
@@ -4203,7 +4204,7 @@
                   ]
                 },
                 "location_ids": [
-                  "SSL1"
+                  "L1"
                 ],
                 "category_ids": [
                   "F&B"
@@ -4265,13 +4266,13 @@
                   ]
                 },
                 "location_ids": [
-                  "SSL1"
+                  "L1"
                 ],
                 "category_ids": [
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_1"
+                  "id_ancc5_0_1"
                 ],
                 "time": {
                   "label": "valid",
@@ -4299,7 +4300,7 @@
                       },
                       {
                         "code": "item_id",
-                        "value": "I2"
+                        "value": "id_ancc5_0_1"
                       },
                       {
                         "code": "item_value",
@@ -4337,7 +4338,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_1"
+                  "id_ancc5_0_1"
                 ],
                 "time": {
                   "label": "valid",
@@ -4365,7 +4366,7 @@
                       },
                       {
                         "code": "item_id",
-                        "value": "I4"
+                        "value": "id_1cctu3_9_1"
                       }
                     ]
                   },
@@ -4399,7 +4400,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_1"
+                  "id_ancc5_0_1"
                 ],
                 "time": {
                   "label": "valid",
@@ -4466,7 +4467,7 @@
                   "L1"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_1"
+                  "id_ancc5_0_1"
                 ],
                 "time": {
                   "label": "valid",
@@ -4536,7 +4537,8 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_ancc5_0_1"
+                  "id_ancc5_0_1",
+                  "id_1cctu3_9_1"
                 ],
                 "time": {
                   "label": "valid",
@@ -4551,7 +4553,7 @@
                     "list": [
                       {
                         "code": "item_id",
-                        "value": "id_1cctu3_9_0,id_4ohjq_a_0"
+                        "value": "id_ancc5_0_1,id_ancc5_0_1"
                       }
                     ]
                   },
@@ -4602,7 +4604,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_1"
+                  "id_ancc5_0_1"
                 ],
                 "time": {
                   "label": "valid",
@@ -4668,7 +4670,7 @@
                   "F&B"
                 ],
                 "item_ids": [
-                  "id_1cctu3_9_1"
+                  "id_ancc5_0_1"
                 ],
                 "time": {
                   "label": "valid",

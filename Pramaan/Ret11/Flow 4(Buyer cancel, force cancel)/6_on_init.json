@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_init",
-      "transaction_id": "92eebcb9-98ba-4257-8e84-f2a55e3bb626",
-      "message_id": "27174a08-f59b-4f04-82a8-de3d49d4eb58",
-      "timestamp": "2025-06-11T12:26:46.890Z",
+      "transaction_id": "b1719203-7371-45a4-a7bc-482a8101b1a5",
+      "message_id": "11a9423a-a840-4063-bef8-5ac22964df09",
+      "timestamp": "2025-07-14T11:56:11.000Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
@@ -42,7 +42,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "9c35b212-fef4-4518-9c76-b14a41a0358a"
+            "fulfillment_id": "a149058d-8ec3-41f2-bef4-a6053c9d7d7e"
           },
           {
             "id": "id_5yzai_2_0",
@@ -74,13 +74,13 @@
                 ]
               }
             ],
-            "fulfillment_id": "9c35b212-fef4-4518-9c76-b14a41a0358a"
+            "fulfillment_id": "a149058d-8ec3-41f2-bef4-a6053c9d7d7e"
           }
         ],
         "quote": {
           "price": {
             "currency": "INR",
-            "value": "562.00"
+            "value": "455.00"
           },
           "breakup": [
             {
@@ -138,6 +138,27 @@
                       {
                         "code": "channel_margin_value",
                         "value": "0.50"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "timing",
+                    "list": [
+                      {
+                        "code": "day_from",
+                        "value": "1"
+                      },
+                      {
+                        "code": "day_to",
+                        "value": "5"
+                      },
+                      {
+                        "code": "time_from",
+                        "value": "1800"
+                      },
+                      {
+                        "code": "time_to",
+                        "value": "2200"
                       }
                     ]
                   }
@@ -206,30 +227,21 @@
               }
             },
             {
-              "@ondc/org/item_id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
+              "@ondc/org/item_id": "a149058d-8ec3-41f2-bef4-a6053c9d7d7e",
               "title": "Delivery charges",
               "@ondc/org/title_type": "delivery",
               "price": {
                 "currency": "INR",
-                "value": "0"
+                "value": "40"
               }
             },
             {
-              "@ondc/org/item_id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
-              "title": "Packing charges",
-              "@ondc/org/title_type": "packing",
-              "price": {
-                "currency": "INR",
-                "value": "25"
-              }
-            },
-            {
-              "@ondc/org/item_id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
+              "@ondc/org/item_id": "a149058d-8ec3-41f2-bef4-a6053c9d7d7e",
               "title": "Tax",
               "@ondc/org/title_type": "tax",
               "price": {
                 "currency": "INR",
-                "value": "2"
+                "value": "5"
               },
               "item": {
                 "tags": [
@@ -246,15 +258,12 @@
               }
             },
             {
-              "@ondc/org/item_id": "buy2get3",
-              "@ondc/org/item_quantity": {
-                "count": "1"
-              },
-              "title": "Item count offer applied",
+              "@ondc/org/item_id": "discp60",
+              "title": "Min value offer applied",
               "@ondc/org/title_type": "offer",
               "price": {
                 "currency": "INR",
-                "value": "0.00"
+                "value": "-120"
               },
               "item": {
                 "tags": [
@@ -272,27 +281,15 @@
                     "list": [
                       {
                         "code": "type",
-                        "value": "buyXgetY"
+                        "value": "discount"
                       },
                       {
                         "code": "additive",
-                        "value": "no"
-                      },
-                      {
-                        "code": "auto",
                         "value": "yes"
                       },
                       {
-                        "code": "item_count",
-                        "value": "1"
-                      },
-                      {
-                        "code": "item_id",
-                        "value": "I2"
-                      },
-                      {
-                        "code": "item_value",
-                        "value": "0.00"
+                        "code": "auto",
+                        "value": "no"
                       }
                     ]
                   }
@@ -343,7 +340,7 @@
               "percentage": "10.00",
               "amount": {
                 "currency": "INR",
-                "value": "62.70"
+                "value": "10.35"
               }
             }
           },
@@ -358,7 +355,7 @@
               "percentage": "30.00",
               "amount": {
                 "currency": "INR",
-                "value": "188.10"
+                "value": "31.05"
               }
             }
           },
@@ -373,7 +370,7 @@
               "percentage": "35.00",
               "amount": {
                 "currency": "INR",
-                "value": "219.45"
+                "value": "36.23"
               }
             }
           }
@@ -392,22 +389,32 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-06-11T12:26:46.799Z",
-          "updated_at": "2025-06-11T12:26:46.799Z"
+          "created_at": "2025-07-14T11:56:10.981Z",
+          "updated_at": "2025-07-14T11:56:10.981Z"
         },
         "fulfillments": [
           {
-            "id": "9c35b212-fef4-4518-9c76-b14a41a0358a",
-            "type": "Self-Pickup",
-            "@ondc/org/provider_name": "Pramaan Store 1",
-            "tracking": false,
-            "@ondc/org/category": "Takeaway",
-            "@ondc/org/TAT": "PT24H",
-            "state": {
-              "descriptor": {
-                "code": "Serviceable"
+            "id": "a149058d-8ec3-41f2-bef4-a6053c9d7d7e",
+            "type": "Delivery",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
               }
-            }
+            },
+            "tracking": true
           }
         ],
         "payment": {
