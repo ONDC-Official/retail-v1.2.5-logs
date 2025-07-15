@@ -1,0 +1,52 @@
+{
+  "context": {
+    "action": "update",
+    "bap_id": "dev-automation.ondc.org",
+    "bap_uri": "https://dev-automation.ondc.org/buyer",
+    "domain": "ONDC:RET10",
+    "city": "std:011",
+    "country": "IND",
+    "message_id": "0346d9e1-12f3-4c4e-8463-6ea13226e2bf",
+    "timestamp": "2025-06-19T08:47:20.454Z",
+    "transaction_id": "eb58ddc1-8cc3-4d96-8b5c-22eac25aec29",
+    "core_version": "1.2.5",
+    "ttl": "PT30S",
+    "bpp_id": "dev-automation.ondc.org",
+    "bpp_uri": "https://dev-automation.ondc.org/seller"
+  },
+  "message": {
+    "update_target": "fulfillment",
+    "order": {
+      "id": "484277",
+      "fulfillments": [
+        {
+          "id": "F32822",
+          "tags": [
+            {
+              "code": "update_state",
+              "list": [
+                {
+                  "code": "state",
+                  "value": "Order-delivered"
+                }
+              ]
+            },
+            {
+              "code": "update_fulfillment_time",
+              "list": [
+                {
+                  "code": "state",
+                  "value": "Order-delivered"
+                },
+                {
+                  "code": "timestamp",
+                  "value": "2025-06-19T08:47:20.455Z"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

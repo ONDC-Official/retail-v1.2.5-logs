@@ -1,0 +1,37 @@
+{
+  "context": {
+    "action": "update",
+    "bap_id": "dev-automation.ondc.org",
+    "bap_uri": "https://dev-automation.ondc.org/buyer",
+    "domain": "ONDC:RET10",
+    "city": "std:011",
+    "country": "IND",
+    "message_id": "fa61efdd-024b-4fba-a3a6-0f403747d6d0",
+    "timestamp": "2025-06-19T08:47:20.484Z",
+    "transaction_id": "c73494aa-1704-4a9e-ab2b-2fa20c033a04",
+    "core_version": "1.2.5",
+    "ttl": "PT30S",
+    "bpp_id": "dev-automation.ondc.org",
+    "bpp_uri": "https://dev-automation.ondc.org/seller"
+  },
+  "message": {
+    "update_target": "fulfillment",
+    "order": {
+      "id": "865411",
+      "fulfillments": [
+        {
+          "id": "F1",
+          "end": {
+            "instructions": {
+              "long_desc": "Leave package outside the door and do not ring the bell.",
+              "additional_desc": {
+                "content_type": "text/html",
+                "url": "url for additional info"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

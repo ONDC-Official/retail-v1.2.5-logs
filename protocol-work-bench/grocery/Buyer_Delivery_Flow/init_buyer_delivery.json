@@ -1,0 +1,108 @@
+{
+  "context": {
+    "action": "init",
+    "bap_id": "dev-automation.ondc.org",
+    "bap_uri": "https://dev-automation.ondc.org/buyer",
+    "domain": "ONDC:RET10",
+    "city": "std:011",
+    "country": "IND",
+    "message_id": "95cb841e-a899-4109-bc26-f31ad9abb0ea",
+    "timestamp": "2025-06-19T08:47:20.431Z",
+    "transaction_id": "eb58ddc1-8cc3-4d96-8b5c-22eac25aec29",
+    "core_version": "1.2.5",
+    "ttl": "PT30S",
+    "bpp_id": "dev-automation.ondc.org",
+    "bpp_uri": "https://dev-automation.ondc.org/seller"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "P1",
+        "locations": [
+          {
+            "id": "L1"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "I1",
+          "fulfillment_id": "F32822",
+          "quantity": {
+            "count": 1
+          }
+        },
+        {
+          "id": "I3",
+          "fulfillment_id": "F32822",
+          "quantity": {
+            "count": 1
+          }
+        },
+        {
+          "id": "I2",
+          "fulfillment_id": "F32822",
+          "quantity": {
+            "count": 1
+          }
+        }
+      ],
+      "billing": {
+        "address": {
+          "name": "Door no. or building name",
+          "building": "New_Building",
+          "locality": "6th Cross Road",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "country": "IND",
+          "area_code": "560027"
+        },
+        "phone": "9399788618",
+        "name": "John Doe",
+        "email": "nobody@nomail.com",
+        "created_at": "2025-06-19T08:47:15.431Z",
+        "updated_at": "2025-06-19T08:47:15.431Z"
+      },
+      "fulfillments": [
+        {
+          "id": "F32822",
+          "type": "Buyer-Delivery",
+          "end": {
+            "contact": {
+              "email": "nobody@nomail.com",
+              "phone": "9898989898"
+            },
+            "location": {
+              "gps": "12.1233,12.9992",
+              "address": {
+                "building": "mock-building",
+                "city": "mock-city",
+                "state": "mock-state",
+                "country": "IND",
+                "area_code": "110092",
+                "locality": "mock-locality",
+                "name": "mock-house-name"
+              }
+            }
+          }
+        }
+      ],
+      "offers": [
+        {
+          "id": "combo1",
+          "tags": [
+            {
+              "code": "selection",
+              "list": [
+                {
+                  "code": "apply",
+                  "value": "yes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "context": {
+    "action": "select",
+    "bap_id": "dev-automation.ondc.org",
+    "bap_uri": "https://dev-automation.ondc.org/buyer",
+    "domain": "ONDC:RET10",
+    "city": "std:011",
+    "country": "IND",
+    "message_id": "ae6eab70-bf08-48dc-826b-4639315e00dd",
+    "timestamp": "2025-06-19T08:47:20.276Z",
+    "transaction_id": "f26f2439-891b-4e0a-8007-52d7aeeed25b",
+    "core_version": "1.2.5",
+    "ttl": "PT30S",
+    "bpp_id": "dev-automation.ondc.org",
+    "bpp_uri": "https://dev-automation.ondc.org/seller"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "P1",
+        "locations": [
+          {
+            "id": "L1"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "I1",
+          "quantity": {
+            "count": 1
+          },
+          "location": "L1"
+        },
+        {
+          "id": "I3",
+          "quantity": {
+            "count": 1
+          },
+          "location": "L1"
+        },
+        {
+          "id": "I2",
+          "quantity": {
+            "count": 1
+          },
+          "location": "L1"
+        }
+      ],
+      "fulfillments": [
+        {
+          "end": {
+            "location": {
+              "gps": "12.1233,12.9992",
+              "address": {
+                "area_code": "110092"
+              }
+            }
+          }
+        }
+      ],
+      "offers": [
+        {
+          "id": "combo1",
+          "tags": [
+            {
+              "code": "selection",
+              "list": [
+                {
+                  "code": "apply",
+                  "value": "yes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
