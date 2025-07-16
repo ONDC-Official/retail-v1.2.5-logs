@@ -1,0 +1,103 @@
+{
+    "context": {
+      "domain": "ONDC:RET15",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "update",
+      "transaction_id": "03dc3cdb-5fa6-459b-9cb7-01e26aa08abf",
+      "message_id": "2bad0d36-2a39-4324-8b2e-22f6508fc535",
+      "timestamp": "2025-05-17T06:48:47.138Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "update_target": "item",
+      "order": {
+        "id": "SS1747464417256",
+        "fulfillments": [
+          {
+            "type": "Return",
+            "tags": [
+              {
+                "code": "return_request",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "5e340e5a-e0fa-4928-92d9-d234476c2407"
+                  },
+                  {
+                    "code": "item_id",
+                    "value": "id_18yq4w_0_0"
+                  },
+                  {
+                    "code": "item_quantity",
+                    "value": "1"
+                  },
+                  {
+                    "code": "reason_id",
+                    "value": "003"
+                  },
+                  {
+                    "code": "reason_desc",
+                    "value": "some detailed reason for return"
+                  },
+                  {
+                    "code": "images",
+                    "value": "https://some-images-for-item.com"
+                  },
+                  {
+                    "code": "ttl_approval",
+                    "value": "PT24H"
+                  },
+                  {
+                    "code": "ttl_reverseqc",
+                    "value": "P3D"
+                  },
+                  {
+                    "code": "exchange",
+                    "value": "yes"
+                  },
+                  {
+                    "code": "brand",
+                    "value": "Xiaomi"
+                  },
+                  {
+                    "code": "model",
+                    "value": "2201116TI"
+                  },
+                  {
+                    "code": "ram_unit",
+                    "value": "GB"
+                  },
+                  {
+                    "code": "ram",
+                    "value": "12"
+                  },
+                  {
+                    "code": "storage_unit",
+                    "value": "GB"
+                  },
+                  {
+                    "code": "storage",
+                    "value": "128"
+                  },
+                  {
+                    "code": "condition_id",
+                    "value": "001"
+                  },
+                  {
+                    "code": "condition_desc",
+                    "value": "minor screen scratches"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
