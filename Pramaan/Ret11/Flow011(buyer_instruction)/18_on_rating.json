@@ -11,7 +11,7 @@
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
-      "bpp_uri": "https://ondc.sequelstring.com/protocol"
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
     },
     "message": {
       "feedback_form": {

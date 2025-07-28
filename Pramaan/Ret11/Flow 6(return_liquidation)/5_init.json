@@ -12,7 +12,7 @@
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
-      "bpp_uri": "https://ondc.sequelstring.com/protocol"
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
     },
     "message": {
       "order": {
