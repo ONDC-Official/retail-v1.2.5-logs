@@ -1,0 +1,443 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "on_confirm",
+      "transaction_id": "a9e38f85-72f2-4627-8388-17420eff570a",
+      "message_id": "2f59df4b-a179-447f-9d69-3a419bc4e1e3",
+      "timestamp": "2025-07-28T05:26:50.891Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
+    },
+    "message": {
+      "order": {
+        "id": "SS1753680410861",
+        "state": "Accepted",
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "id_ancc5_0_0",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6126f419-3c5c-45df-baa8-a999f27306c7"
+          },
+          {
+            "id": "id_5yzai_2_0",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "customization"
+                  }
+                ]
+              },
+              {
+                "code": "parent",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "CG11"
+                  },
+                  {
+                    "code": "default",
+                    "value": "yes"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6126f419-3c5c-45df-baa8-a999f27306c7"
+          }
+        ],
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122007"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-07-28T05:25:22.724Z",
+          "updated_at": "2025-07-28T05:25:22.724Z"
+        },
+        "fulfillments": [
+          {
+            "id": "6126f419-3c5c-45df-baa8-a999f27306c7",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "@ondc/org/category": "Immediate Delivery",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Pending"
+              }
+            },
+            "type": "Delivery",
+            "tracking": true,
+            "start": {
+              "location": {
+                "id": "SSL1",
+                "gps": "28.527300,77.182100",
+                "descriptor": {
+                  "name": "Pramaan Store 1",
+                  "images": [
+                    "https://ondc.org/assets/theme/images/ondc_registered_logo.svg?v=399788fda7"
+                  ]
+                },
+                "address": {
+                  "locality": "N. Caldwell",
+                  "city": "New Delhi",
+                  "area_code": "110030",
+                  "state": "New Delhi"
+                }
+              },
+              "time": {
+                "range": {
+                  "start": "2025-07-28T05:26:50.891Z",
+                  "end": "2025-07-28T23:00:00.000Z"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "ss_seller_1@ss.com"
+              }
+            },
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              },
+              "person": {
+                "name": "Nirdosh Chauhan"
+              },
+              "time": {
+                "range": {
+                  "start": "2025-07-29T09:30:00.000Z",
+                  "end": "2025-07-29T19:00:00.000Z"
+                }
+              }
+            }
+          }
+        ],
+        "cancellation_terms": [
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Pending",
+                "short_desc": "002"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "0.00",
+              "amount": {
+                "currency": "INR",
+                "value": "0.00"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Packed",
+                "short_desc": "001,003"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "0.00",
+              "amount": {
+                "currency": "INR",
+                "value": "0.00"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Order-picked-up",
+                "short_desc": "001,003"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "10.00",
+              "amount": {
+                "currency": "INR",
+                "value": "20.20"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Out-for-delivery",
+                "short_desc": "009"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "30.00",
+              "amount": {
+                "currency": "INR",
+                "value": "60.60"
+              }
+            }
+          },
+          {
+            "fulfillment_state": {
+              "descriptor": {
+                "code": "Out-for-delivery",
+                "short_desc": "010,011,012,013,014,015"
+              }
+            },
+            "cancellation_fee": {
+              "percentage": "35.00",
+              "amount": {
+                "currency": "INR",
+                "value": "70.70"
+              }
+            }
+          }
+        ],
+        "quote": {
+          "price": {
+            "currency": "INR",
+            "value": "575.00"
+          },
+          "breakup": [
+            {
+              "@ondc/org/item_id": "id_ancc5_0_0",
+              "title": "Farmhouse Pizza",
+              "@ondc/org/item_quantity": {
+                "count": 2
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "530.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "265"
+                }
+              }
+            },
+            {
+              "@ondc/org/item_id": "id_5yzai_2_0",
+              "title": "100% Wheat Thin Crust",
+              "@ondc/org/item_quantity": {
+                "count": 2
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "item": {
+                "price": {
+                  "currency": "INR",
+                  "value": "0"
+                }
+              }
+            },
+            {
+              "@ondc/org/item_id": "6126f419-3c5c-45df-baa8-a999f27306c7",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            {
+              "@ondc/org/item_id": "6126f419-3c5c-45df-baa8-a999f27306c7",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "5"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "freebie1",
+              "@ondc/org/item_quantity": {
+                "count": "1"
+              },
+              "title": "Item count offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "0.00"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "freebie"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "item_count",
+                        "value": "1"
+                      },
+                      {
+                        "code": "item_id",
+                        "value": "id_1cctu3_9_0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "ttl": "PT1H"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3",
+          "@ondc/org/settlement_details": [
+            {
+              "settlement_counterparty": "seller-app",
+              "upi_address": "",
+              "beneficiary_name": "SEQUELSTRING AI",
+              "settlement_type": "neft",
+              "settlement_bank_account_no": "9876543210012",
+              "settlement_ifsc_code": "AXIS123456",
+              "settlement_phase": "sale-amount",
+              "settlement_status": "NOT-PAID",
+              "bank_name": "AXIS BANK LTD ",
+              "branch_name": "NAVI MUMBAI"
+            }
+          ]
+        },
+        "tags": [
+          {
+            "code": "bpp_terms",
+            "list": [
+              {
+                "code": "np_type",
+                "value": "MSN"
+              },
+              {
+                "code": "tax_number",
+                "value": "00CBADE2145H1Z5"
+              },
+              {
+                "code": "max_liability",
+                "value": "2"
+              },
+              {
+                "code": "max_liability_cap",
+                "value": "10000.00"
+              },
+              {
+                "code": "mandatory_arbitration",
+                "value": "false"
+              },
+              {
+                "code": "court_jurisdiction",
+                "value": "New Delhi"
+              },
+              {
+                "code": "delay_interest",
+                "value": "7.50"
+              },
+              {
+                "code": "provider_tax_number",
+                "value": "ABCDE1234F"
+              }
+            ]
+          },
+          {
+            "code": "bap_terms",
+            "list": [
+              {
+                "code": "tax_number",
+                "value": "00XYZAB1234C1Z8"
+              },
+              {
+                "code": "accept_bpp_terms",
+                "value": "Y"
+              }
+            ]
+          }
+        ],
+        "created_at": "2025-07-28T05:26:50.861Z",
+        "updated_at": "2025-07-28T05:26:50.891Z"
+      }
+    }
+}

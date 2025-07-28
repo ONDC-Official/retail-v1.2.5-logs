@@ -1,0 +1,179 @@
+{
+     "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "init",
+      "transaction_id": "a9e38f85-72f2-4627-8388-17420eff570a",
+      "message_id": "345c5b2c-eef2-4329-a027-561a77513197",
+      "timestamp": "2025-07-28T05:25:22.724Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "id_ancc5_0_0",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6126f419-3c5c-45df-baa8-a999f27306c7"
+          },
+          {
+            "id": "id_5yzai_2_0",
+            "quantity": {
+              "count": 2
+            },
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "customization"
+                  }
+                ]
+              },
+              {
+                "code": "parent",
+                "list": [
+                  {
+                    "code": "id",
+                    "value": "CG11"
+                  },
+                  {
+                    "code": "default",
+                    "value": "yes"
+                  }
+                ]
+              }
+            ],
+            "fulfillment_id": "6126f419-3c5c-45df-baa8-a999f27306c7"
+          }
+        ],
+        "offers": [
+          {
+            "id": "flat150",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buy2get3",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "combo1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "delivery1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122007"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-07-28T05:25:22.724Z",
+          "updated_at": "2025-07-28T05:25:22.724Z"
+        },
+        "fulfillments": [
+          {
+            "id": "6126f419-3c5c-45df-baa8-a999f27306c7",
+            "type": "Delivery",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              }
+            }
+          }
+        ]
+      }
+    }
+}
