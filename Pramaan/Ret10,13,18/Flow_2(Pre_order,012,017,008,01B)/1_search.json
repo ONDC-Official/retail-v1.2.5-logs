@@ -1,0 +1,78 @@
+{
+   "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:011",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "098c239e-d41f-47d1-a5b4-21f688fe1f60",
+      "message_id": "b31299d6-0ccb-49b6-96a9-91fceb260307",
+      "timestamp": "2025-07-29T06:19:49.653Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "category": {
+          "id": "Bakery, Cakes & Dairy"
+        },
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "catalog_full",
+            "list": [
+              {
+                "code": "payload_type",
+                "value": "inline"
+              }
+            ]
+          },
+          {
+            "code": "bap_terms",
+            "list": [
+              {
+                "code": "static_terms",
+                "value": ""
+              },
+              {
+                "code": "static_terms_new",
+                "value": "https://github.com/ONDC-Official/NP-Static-Terms/buyerNP_BNP/1.0/tc.pdf"
+              },
+              {
+                "code": "effective_date",
+                "value": "2025-02-01T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "code": "bap_features",
+            "list": [
+              {
+                "code": "012",
+                "value": "yes"
+              },
+              {
+                "code": "017",
+                "value": "yes"
+              },
+              {
+                "code": "008",
+                "value": "yes"
+              },
+              {
+                "code": "01B",
+                "value": "yes"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

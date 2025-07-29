@@ -1,0 +1,44 @@
+{
+   "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:011",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "d3936365-969f-4811-b55d-44d53ac123c0",
+      "message_id": "9e6d6a3d-42be-42ba-90f2-9a2e4da9429f",
+      "timestamp": "2025-07-28T05:24:40.240Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "category": {
+          "id": "Bakery, Cakes & Dairy"
+        },
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "catalog_inc",
+            "list": [
+              {
+                "code": "start_time",
+                "value": "2025-07-28T05:19:40.239Z"
+              },
+              {
+                "code": "end_time",
+                "value": "2025-07-28T05:24:40.239Z"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}
