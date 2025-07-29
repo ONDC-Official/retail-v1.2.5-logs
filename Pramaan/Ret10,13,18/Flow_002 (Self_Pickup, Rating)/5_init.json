@@ -1,0 +1,79 @@
+{
+   "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:011",
+      "core_version": "1.2.5",
+      "action": "init",
+      "transaction_id": "31bff64c-9be9-426c-a204-72aa2d35503c",
+      "message_id": "6dfebfbc-b0c1-4aec-934e-5ceaa57dc58b",
+      "timestamp": "2025-07-28T05:54:38.637Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        },
+        "items": [
+          {
+            "id": "id_5yzai_3_0",
+            "quantity": {
+              "count": 1
+            },
+            "fulfillment_id": "49677747-d07e-4d15-8c95-eca003a8b403"
+          }
+        ],
+        "billing": {
+          "address": {
+            "name": "Nirdosh Chauhan",
+            "building": "221 B",
+            "locality": "Baker Steeet Gotham city",
+            "city": "Gurgaon",
+            "state": "Haryana",
+            "country": "India",
+            "area_code": "122001"
+          },
+          "tax_number": "00ABCDE1234F1Z5",
+          "name": "Nirdosh Chauhan",
+          "email": "nirdosh.chauhan@sequelstring.com",
+          "phone": "9876543210",
+          "created_at": "2025-07-28T05:54:38.637Z",
+          "updated_at": "2025-07-28T05:54:38.637Z"
+        },
+        "fulfillments": [
+          {
+            "id": "49677747-d07e-4d15-8c95-eca003a8b403",
+            "type": "Self-Pickup",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "Nirdosh Chauhan",
+                  "building": "221 B",
+                  "locality": "Baker Steeet Gotham city",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122001"
+                }
+              },
+              "contact": {
+                "phone": "9876543210",
+                "email": "nirdosh.chauhan@sequelstring.com"
+              }
+            }
+          }
+        ]
+      }
+    }
+}

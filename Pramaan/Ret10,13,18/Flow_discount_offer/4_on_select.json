@@ -1,0 +1,340 @@
+{
+   "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:011",
+      "core_version": "1.2.5",
+      "action": "on_select",
+      "transaction_id": "34f6921e-8bae-4380-9cf8-c4a71c2852f6",
+      "message_id": "ae422667-58a1-410c-a630-ffbb2ee2f548",
+      "timestamp": "2025-07-29T03:42:51.660Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
+    },
+    "message": {
+      "order": {
+        "fulfillments": [
+          {
+            "id": "2e15ac0e-ddc1-454d-86d9-9093b76ae1d1",
+            "type": "Delivery",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "tracking": true,
+            "@ondc/org/category": "Standard Delivery",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Serviceable"
+              }
+            },
+            "end": {
+              "time": {
+                "range": {
+                  "start": "2025-07-29T04:42:51.643Z",
+                  "end": "2025-07-29T05:42:51.644Z"
+                }
+              }
+            }
+          },
+          {
+            "id": "26dee6b0-96e6-4163-86c3-8e6c3346cbbd",
+            "type": "Delivery",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "tracking": true,
+            "@ondc/org/category": "Standard Delivery",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Serviceable"
+              }
+            },
+            "end": {
+              "time": {
+                "range": {
+                  "start": "2025-07-29T05:42:51.644Z",
+                  "end": "2025-07-29T06:42:51.646Z"
+                }
+              }
+            }
+          },
+          {
+            "id": "fb0c5103-d20f-4880-b3fe-2cba1d9a0926",
+            "type": "Self-Pickup",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "tracking": false,
+            "@ondc/org/category": "Takeaway",
+            "@ondc/org/TAT": "PT24H",
+            "state": {
+              "descriptor": {
+                "code": "Serviceable"
+              }
+            }
+          },
+          {
+            "id": "691b1526-874b-4af2-b0c7-395d6f59e4ab",
+            "type": "Buyer-Delivery",
+            "@ondc/org/provider_name": "Pramaan Store 1",
+            "tracking": false,
+            "@ondc/org/category": "Standard Delivery",
+            "@ondc/org/TAT": "PT15M",
+            "state": {
+              "descriptor": {
+                "code": "Serviceable"
+              }
+            },
+            "tags": [
+              {
+                "code": "order_details",
+                "list": [
+                  {
+                    "code": "weight_unit",
+                    "value": "kilogram"
+                  },
+                  {
+                    "code": "weight_value",
+                    "value": "3.0"
+                  },
+                  {
+                    "code": "dim_unit",
+                    "value": "centimeter"
+                  },
+                  {
+                    "code": "length",
+                    "value": "1.0"
+                  },
+                  {
+                    "code": "breadth",
+                    "value": "1.0"
+                  },
+                  {
+                    "code": "height",
+                    "value": "1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "id": "id_5yzai_3_0",
+            "quantity": {
+              "count": 1
+            },
+            "fulfillment_id": "2e15ac0e-ddc1-454d-86d9-9093b76ae1d1"
+          }
+        ],
+        "quote": {
+          "price": {
+            "currency": "INR",
+            "value": "63.00"
+          },
+          "breakup": [
+            {
+              "@ondc/org/item_id": "id_5yzai_3_0",
+              "title": "Arhar Dal",
+              "@ondc/org/item_quantity": {
+                "count": 1
+              },
+              "@ondc/org/title_type": "item",
+              "price": {
+                "currency": "INR",
+                "value": "149.00"
+              },
+              "item": {
+                "quantity": {
+                  "available": {
+                    "count": "99"
+                  },
+                  "maximum": {
+                    "count": "99"
+                  }
+                },
+                "price": {
+                  "currency": "INR",
+                  "value": "149.00"
+                }
+              }
+            },
+            {
+              "@ondc/org/item_id": "2e15ac0e-ddc1-454d-86d9-9093b76ae1d1",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "40"
+              }
+            },
+            {
+              "@ondc/org/item_id": "2e15ac0e-ddc1-454d-86d9-9093b76ae1d1",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "5"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "fb0c5103-d20f-4880-b3fe-2cba1d9a0926",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              }
+            },
+            {
+              "@ondc/org/item_id": "fb0c5103-d20f-4880-b3fe-2cba1d9a0926",
+              "title": "Packing charges",
+              "@ondc/org/title_type": "packing",
+              "price": {
+                "currency": "INR",
+                "value": "25"
+              }
+            },
+            {
+              "@ondc/org/item_id": "fb0c5103-d20f-4880-b3fe-2cba1d9a0926",
+              "title": "Tax",
+              "@ondc/org/title_type": "tax",
+              "price": {
+                "currency": "INR",
+                "value": "2"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "fulfillment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "691b1526-874b-4af2-b0c7-395d6f59e4ab",
+              "title": "Delivery charges",
+              "@ondc/org/title_type": "delivery",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              }
+            },
+            {
+              "@ondc/org/item_id": "691b1526-874b-4af2-b0c7-395d6f59e4ab",
+              "title": "Packing charges",
+              "@ondc/org/title_type": "packing",
+              "price": {
+                "currency": "INR",
+                "value": "25"
+              }
+            },
+            {
+              "@ondc/org/item_id": "discp60",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-120"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "discount"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "yes"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "no"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@ondc/org/item_id": "combo1",
+              "title": "Min value offer applied",
+              "@ondc/org/title_type": "offer",
+              "price": {
+                "currency": "INR",
+                "value": "-63"
+              },
+              "item": {
+                "tags": [
+                  {
+                    "code": "quote",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "order"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "offer",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "combo"
+                      },
+                      {
+                        "code": "additive",
+                        "value": "no"
+                      },
+                      {
+                        "code": "auto",
+                        "value": "yes"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "ttl": "PT6H"
+        },
+        "provider": {
+          "id": "pramaan_provider_1",
+          "locations": [
+            {
+              "id": "SSL1"
+            }
+          ]
+        }
+      }
+    }
+}

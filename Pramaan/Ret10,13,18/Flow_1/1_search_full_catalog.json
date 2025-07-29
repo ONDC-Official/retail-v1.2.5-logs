@@ -1,0 +1,57 @@
+{
+  "context": {
+      "domain": "ONDC:RET10",
+      "country": "IND",
+      "city": "std:011",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "c67a13eb-e10f-4b0b-a9b3-11a394a85f6b",
+      "message_id": "4c1ec681-61eb-4af8-9c28-faee96a6ead1",
+      "timestamp": "2025-07-28T05:18:05.844Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "category": {
+          "id": "Bakery, Cakes & Dairy"
+        },
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "catalog_full",
+            "list": [
+              {
+                "code": "payload_type",
+                "value": "inline"
+              }
+            ]
+          },
+          {
+            "code": "bap_terms",
+            "list": [
+              {
+                "code": "static_terms",
+                "value": ""
+              },
+              {
+                "code": "static_terms_new",
+                "value": "https://github.com/ONDC-Official/NP-Static-Terms/buyerNP_BNP/1.0/tc.pdf"
+              },
+              {
+                "code": "effective_date",
+                "value": "2025-02-01T00:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}
