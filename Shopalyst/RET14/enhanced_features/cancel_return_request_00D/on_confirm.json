@@ -1,0 +1,199 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_confirm",
+        "core_version": "1.2.5",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify",
+        "transaction_id": "25baec4c-61ae-4f40-a5c8-2d495471f9d7",
+        "message_id": "ca984b88-fe0f-490e-b711-31d53c53bef7",
+        "timestamp": "2025-07-29T05:33:40.699Z"
+    },
+    "message": {
+        "order": {
+            "id": "SS1753767220577",
+            "state": "Created",
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                    "fulfillment_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "379.00"
+                },
+                "breakup": [
+                    {
+                        "title": "Little's Organix Gentle Baby Powder I Contains Organic Aloevera & Neem Extract-400gm",
+                        "price": {
+                            "currency": "INR",
+                            "value": "179.00"
+                        },
+                        "@ondc/org/item_id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "179.00"
+                            }
+                        },
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/title_type": "item"
+                    },
+                    {
+                        "title": "Delivery Charges",
+                        "price": {
+                            "currency": "INR",
+                            "value": "200.00"
+                        },
+                        "@ondc/org/item_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                        "@ondc/org/title_type": "delivery"
+                    }
+                ],
+                "ttl": "PT15M"
+            },
+            "billing": {
+                "name": "Nirdosh Chauhan",
+                "address": {
+                    "name": "Nirdosh Chauhan",
+                    "building": "221 B",
+                    "locality": "Baker Steeet",
+                    "city": "Gurgaon",
+                    "state": "Haryana",
+                    "country": "India",
+                    "area_code": "122007"
+                },
+                "email": "nirdosh.chauhan@sequelstring.com",
+                "phone": "9876543210",
+                "created_at": "2025-07-29T05:33:32.849Z",
+                "updated_at": "2025-07-29T05:33:32.849Z",
+                "tax_number": "00ABCDE1234F1Z5"
+            },
+            "fulfillments": [
+                {
+                    "id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "type": "Delivery",
+                    "tracking": true,
+                    "start": {
+                        "location": {
+                            "id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "descriptor": {
+                                "name": "wellify"
+                            },
+                            "gps": "28.5165669,77.1965571",
+                            "address": {
+                                "locality": "250 Block E, Paryavaran Complex, Sainik Farm",
+                                "city": "New Delhi",
+                                "state": "Delhi",
+                                "area_code": "110030"
+                            }
+                        },
+                        "contact": {
+                            "phone": "9441434431",
+                            "email": "consumercare@piramal.com"
+                        }
+                    },
+                    "end": {
+                        "location": {
+                            "gps": "28.4554726,77.0219019",
+                            "address": {
+                                "name": "Nirdosh Chauhan",
+                                "building": "221 B",
+                                "locality": "Baker Steeet",
+                                "city": "Gurgaon",
+                                "state": "Haryana",
+                                "country": "India",
+                                "area_code": "122007"
+                            },
+                            "time": {
+                                "range": {
+                                    "start": "2025-08-05T13:29:59.000Z",
+                                    "end": "2025-08-05T18:29:59.000Z"
+                                }
+                            }
+                        },
+                        "contact": {
+                            "phone": "9876543210"
+                        },
+                        "person": {
+                            "name": "Nirdosh Chauhan"
+                        }
+                    },
+                    "state": {
+                        "descriptor": {
+                            "code": "Pending"
+                        }
+                    },
+                    "@ondc/org/TAT": "P7D",
+                    "@ondc/org/provider_name": "wellify"
+                }
+            ],
+            "payment": {
+                "type": "ON-ORDER",
+                "status": "PAID",
+                "collected_by": "BAP",
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
+                "@ondc/org/withholding_amount": "10.00",
+                "@ondc/org/settlement_basis": "delivery",
+                "@ondc/org/settlement_window": "P1D",
+                "@ondc/org/settlement_details": [
+                    {
+                        "settlement_counterparty": "seller-app",
+                        "settlement_phase": "sale-amount",
+                        "settlement_type": "neft",
+                        "settlement_bank_account_no": "1112220032274181",
+                        "settlement_ifsc_code": "RAZR0000001",
+                        "beneficiary_name": "Kishor",
+                        "bank_name": "sate bank of india",
+                        "branch_name": "manikonda"
+                    }
+                ],
+                "params": {
+                    "transaction_id": "d1290d2d-54fe-4fe3-96a3-eb8bae3d8f5c",
+                    "amount": "379.00",
+                    "currency": "INR"
+                }
+            },
+            "created_at": "2025-07-29T05:33:40.577Z",
+            "updated_at": "2025-07-29T05:33:40.652Z",
+            "tags": [
+                {
+                    "code": "bpp_terms",
+                    "list": [
+                        {
+                            "code": "np_type",
+                            "value": "ISN"
+                        },
+                        {
+                            "code": "tax_number",
+                            "value": ""
+                        },
+                        {
+                            "code": "provider_tax_number",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

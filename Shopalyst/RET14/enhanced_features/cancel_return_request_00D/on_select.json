@@ -1,0 +1,93 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_select",
+        "core_version": "1.2.5",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify",
+        "transaction_id": "25baec4c-61ae-4f40-a5c8-2d495471f9d7",
+        "message_id": "59051772-308e-4bf5-9b80-a6eafc54347c",
+        "timestamp": "2025-07-29T05:32:39.591Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                    "fulfillment_id": "fb577d817ac843bf8d035c23d8a5ea70_1"
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "379.00"
+                },
+                "breakup": [
+                    {
+                        "title": "Little's Organix Gentle Baby Powder I Contains Organic Aloevera & Neem Extract-400gm",
+                        "price": {
+                            "currency": "INR",
+                            "value": "179.00"
+                        },
+                        "@ondc/org/item_id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "179.00"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "1"
+                                }
+                            }
+                        },
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/title_type": "item"
+                    },
+                    {
+                        "title": "Delivery Charges",
+                        "price": {
+                            "currency": "INR",
+                            "value": "200.00"
+                        },
+                        "@ondc/org/item_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                        "@ondc/org/title_type": "delivery"
+                    }
+                ],
+                "ttl": "PT15M"
+            },
+            "fulfillments": [
+                {
+                    "id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "type": "Delivery",
+                    "tracking": true,
+                    "state": {
+                        "descriptor": {
+                            "code": "Serviceable"
+                        }
+                    },
+                    "@ondc/org/category": "Standard Delivery",
+                    "@ondc/org/TAT": "P7D",
+                    "@ondc/org/provider_name": "wellify"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_select",
+        "core_version": "1.2.5",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify",
+        "transaction_id": "a3a45203-16c1-49e4-b67d-ecfa51b36f42",
+        "message_id": "14174d67-946e-485d-a82d-e79cc793a7a5",
+        "timestamp": "2025-08-07T05:19:59.939Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "B45EC67DF95DF7164E44A215905C9809_44089657229571_default",
+                    "fulfillment_id": "fb577d817ac843bf8d035c23d8a5ea70_1"
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "429.00"
+                },
+                "breakup": [
+                    {
+                        "title": "Little's Organix Baby Shampoo | Contains Organic Aloevera and Neem Extract-400gm",
+                        "price": {
+                            "currency": "INR",
+                            "value": "229.00"
+                        },
+                        "@ondc/org/item_id": "B45EC67DF95DF7164E44A215905C9809_44089657229571_default",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "229.00"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                }
+                            }
+                        },
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/title_type": "item"
+                    },
+                    {
+                        "title": "Delivery Charges",
+                        "price": {
+                            "currency": "INR",
+                            "value": "200.00"
+                        },
+                        "@ondc/org/item_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                        "@ondc/org/title_type": "delivery"
+                    }
+                ],
+                "ttl": "PT15M"
+            },
+            "fulfillments": [
+                {
+                    "id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "type": "Delivery",
+                    "tracking": true,
+                    "state": {
+                        "descriptor": {
+                            "code": "Serviceable"
+                        }
+                    },
+                    "@ondc/org/category": "Standard Delivery",
+                    "@ondc/org/TAT": "P7D",
+                    "@ondc/org/provider_name": "wellify"
+                }
+            ]
+        }
+    }
+}

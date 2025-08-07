@@ -1,0 +1,150 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_init",
+        "core_version": "1.2.5",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify",
+        "transaction_id": "25baec4c-61ae-4f40-a5c8-2d495471f9d7",
+        "message_id": "b55a624e-c935-4831-b565-490fd9e7fdcb",
+        "timestamp": "2025-07-29T05:33:33.840Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                    "fulfillment_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "379.00"
+                },
+                "breakup": [
+                    {
+                        "title": "Little's Organix Gentle Baby Powder I Contains Organic Aloevera & Neem Extract-400gm",
+                        "price": {
+                            "currency": "INR",
+                            "value": "179.00"
+                        },
+                        "@ondc/org/item_id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "179.00"
+                            }
+                        },
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/title_type": "item"
+                    },
+                    {
+                        "title": "Delivery Charges",
+                        "price": {
+                            "currency": "INR",
+                            "value": "200.00"
+                        },
+                        "@ondc/org/item_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                        "@ondc/org/title_type": "delivery"
+                    }
+                ],
+                "ttl": "PT15M"
+            },
+            "billing": {
+                "name": "Nirdosh Chauhan",
+                "address": {
+                    "name": "Nirdosh Chauhan",
+                    "building": "221 B",
+                    "locality": "Baker Steeet",
+                    "city": "Gurgaon",
+                    "state": "Haryana",
+                    "country": "India",
+                    "area_code": "122007"
+                },
+                "email": "nirdosh.chauhan@sequelstring.com",
+                "phone": "9876543210",
+                "created_at": "2025-07-29T05:33:32.849Z",
+                "updated_at": "2025-07-29T05:33:32.849Z",
+                "tax_number": "00ABCDE1234F1Z5"
+            },
+            "fulfillments": [
+                {
+                    "id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "type": "Delivery",
+                    "provider_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                    "tracking": true,
+                    "end": {
+                        "location": {
+                            "gps": "28.4554726,77.0219019",
+                            "address": {
+                                "name": "Nirdosh Chauhan",
+                                "building": "221 B",
+                                "locality": "Baker Steeet",
+                                "city": "Gurgaon",
+                                "state": "Haryana",
+                                "country": "India",
+                                "area_code": "122007"
+                            }
+                        },
+                        "contact": {
+                            "phone": "9876543210"
+                        }
+                    }
+                }
+            ],
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
+                "@ondc/org/settlement_details": [
+                    {
+                        "settlement_counterparty": "seller-app",
+                        "settlement_phase": "sale-amount",
+                        "settlement_type": "neft",
+                        "settlement_bank_account_no": "1112220032274181",
+                        "settlement_ifsc_code": "RAZR0000001",
+                        "beneficiary_name": "Kishor",
+                        "bank_name": "sate bank of india",
+                        "branch_name": "manikonda"
+                    }
+                ]
+            },
+            "tags": [
+                {
+                    "code": "bpp_terms",
+                    "list": [
+                        {
+                            "code": "np_type",
+                            "value": "ISN"
+                        },
+                        {
+                            "code": "tax_number",
+                            "value": ""
+                        },
+                        {
+                            "code": "provider_tax_number",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

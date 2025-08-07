@@ -1,0 +1,53 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "core_version": "1.2.5",
+        "action": "select",
+        "transaction_id": "25baec4c-61ae-4f40-a5c8-2d495471f9d7",
+        "message_id": "59051772-308e-4bf5-9b80-a6eafc54347c",
+        "timestamp": "2025-07-29T05:32:38.249Z",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "ttl": "PT30S",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                    "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "fulfillments": [
+                {
+                    "end": {
+                        "location": {
+                            "gps": "28.4554726,77.0219019",
+                            "address": {
+                                "area_code": "122007"
+                            }
+                        }
+                    }
+                }
+            ],
+            "payment": {
+                "type": "ON-ORDER"
+            }
+        }
+    }
+}

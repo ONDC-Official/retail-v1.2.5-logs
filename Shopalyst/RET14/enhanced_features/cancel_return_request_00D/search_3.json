@@ -1,0 +1,63 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "core_version": "1.2.5",
+        "action": "search",
+        "transaction_id": "25baec4c-61ae-4f40-a5c8-2d495471f9d7",
+        "message_id": "77ed030b-91ce-4536-b253-f88a773c4b44",
+        "timestamp": "2025-07-29T05:32:11.167Z",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "intent": {
+            "fulfillment": {
+                "type": "Delivery"
+            },
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "3"
+            },
+            "tags": [
+                {
+                    "code": "catalog_full",
+                    "list": [
+                        {
+                            "code": "payload_type",
+                            "value": "inline"
+                        }
+                    ]
+                },
+                {
+                    "code": "bap_terms",
+                    "list": [
+                        {
+                            "code": "static_terms",
+                            "value": ""
+                        },
+                        {
+                            "code": "static_terms_new",
+                            "value": "https://github.com/ONDC-Official/NP-Static-Terms/buyerNP_BNP/1.0/tc.pdf"
+                        },
+                        {
+                            "code": "effective_date",
+                            "value": "2025-02-01T00:00:00.000Z"
+                        }
+                    ]
+                },
+                {
+                    "code": "bap_features",
+                    "list": [
+                        {
+                            "code": "00D",
+                            "value": "yes"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

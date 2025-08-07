@@ -1,0 +1,2 @@
+- The `fulfillment_delay` tag is currently used for failure cases such as `pickup-fail` or `delivery-fail`.
+- The `state` field within this tag represents the next intended success state following the failure.

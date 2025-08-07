@@ -1,0 +1,1656 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_search",
+        "core_version": "1.2.5",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify",
+        "transaction_id": "25baec4c-61ae-4f40-a5c8-2d495471f9d7",
+        "message_id": "77ed030b-91ce-4536-b253-f88a773c4b44",
+        "timestamp": "2025-07-29T05:32:11.644Z"
+    },
+    "message": {
+        "catalog": {
+            "bpp/descriptor": {
+                "name": "Wellify",
+                "symbol": "https://static.shopalyst.com/assets/campaigns/wellify_logo.webp",
+                "short_desc": "Wellify",
+                "long_desc": "Wellify",
+                "images": [
+                    "https://static.shopalyst.com/assets/campaigns/wellify_logo.webp"
+                ],
+                "tags": [
+                    {
+                        "code": "bpp_terms",
+                        "list": [
+                            {
+                                "code": "np_type",
+                                "value": "ISN"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bpp/providers": [
+                {
+                    "id": "f9797c26d48520881bfda42059ad5f5d",
+                    "descriptor": {
+                        "name": "Littles",
+                        "symbol": "https://www.littlesindia.in/images/237b5783-5f20-4bca-bd26-1c7e02a5862905-Sep-16122527PM.png",
+                        "short_desc": "Littles",
+                        "long_desc": "Littles",
+                        "images": [
+                            "https://www.littlesindia.in/images/237b5783-5f20-4bca-bd26-1c7e02a5862905-Sep-16122527PM.png"
+                        ]
+                    },
+                    "locations": [
+                        {
+                            "id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "gps": "28.5165669,77.1965571",
+                            "address": {
+                                "street": "250 Block E, Paryavaran Complex, Sainik Farm",
+                                "locality": "250 Block E, Paryavaran Complex, Sainik Farm",
+                                "city": "New Delhi",
+                                "state": "Delhi",
+                                "area_code": "110030"
+                            },
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable",
+                                "range": {
+                                    "start": "0000",
+                                    "end": "2359"
+                                },
+                                "days": "1,2,3,4,5,6,7",
+                                "schedule": {
+                                    "holidays": []
+                                }
+                            }
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "id": "396ea33c",
+                            "descriptor": {
+                                "name": "Little's Care Package (Little's Comfy Baby Pants | Medium I Superjumbo Pack of 1, Little's Soft Cleansing Baby Wipes Lid Pack of 1, Little's Organix Gentle Baby Liquid Detergent | Contains Organic Aloevera & Neem Extract-400gm)"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2e3b8664",
+                            "descriptor": {
+                                "name": "Little's Organix Moisturising Baby Cream (200 g  - Tube) with Organic Ingredients (Aloe Vera and Neem extract)"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fa5f314d",
+                            "descriptor": {
+                                "name": "Little's Poly Maxi Feeding Bottle 240ml"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "292bb6a3",
+                            "descriptor": {
+                                "name": "Little's Soft Cleansing Baby Wipes | Contains Aloe Vera & Jojoba Oil-80 wipes Buy 5 Get 5"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5d885829",
+                            "descriptor": {
+                                "name": "Little's Colourful Activity Chain Links"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3d9fb015",
+                            "descriptor": {
+                                "name": "Littles Poly Mini Feeding Bottle | Tumbler, Sipper & Silicon Nipple -120 ml"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "85fb0e3b",
+                            "descriptor": {
+                                "name": "Little's Soft Cleansing Baby Wipes | Contains Aloe Vera & Jojoba Oil -(30 Wipes*5)"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f08fb36c",
+                            "descriptor": {
+                                "name": "Little's Organix Gentle Baby Liquid Detergent | Contains Organic Aloevera & Neem Extract-400gm"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f919e9d2",
+                            "descriptor": {
+                                "name": "Little's Organix Nourishing Baby Lotion (400 ml  - Pump Pack) with Organic Ingredients (Aloe Vera and Neem extract)"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1027ff4d",
+                            "descriptor": {
+                                "name": "Little's Organix Baby Shampoo | Contains Organic Aloevera and Neem Extract-400gm"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ca2b1655",
+                            "descriptor": {
+                                "name": "Little's Organix Gentle Baby Powder I Contains Organic Aloevera & Neem Extract-400gm"
+                            },
+                            "tags": [
+                                {
+                                    "code": "type",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "variant_group"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attr",
+                                    "list": [
+                                        {
+                                            "code": "name",
+                                            "value": "item.quantity.unitized.measure"
+                                        },
+                                        {
+                                            "code": "seq",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "026127E91A68D4287C349E73C11D3166_44089668141315_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "3d9fb015",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "gram",
+                                        "value": "150.0"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Littles Poly Mini Feeding Bottle | Tumbler, Sipper & Silicon Nipple -120 ml",
+                                "code": "5:44089668141315",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_sPolyMiniPackof3.jpg%3Fv%3D1689833310&mw=2000",
+                                "short_desc": "Product Description\nLittle's Poly Mini is a long lasting, economical and safe product that helps in comfortable and hygienic feeding.\nProduct Features\n\nLittle\u00e2\u0080\u0099s Poly bottles are 3-in-1 bottles that come with a tumbler, sipper and a nipple.\nSipper helps easy drinking and tumbler acts as the first drinking cup of the baby.\nThe leak free cap fits the nipple perfectly in the bottle and the sealing disc prevents leakage.\nMade from BPA free Food Grade Polypropene (PP) Material.\nEasily sterilisable and reusable.\nPasses through multiple point quality checks.\n\nManufactured By: Daman Rubber Products Ltd, Plot No 6, Survey No 217-P,Dadra & Nagar Haveli, Village Dadra, Silvassa- 396320, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 36 Months from the Manufacturing date\nNote:-Non- Returnable -\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Product Description\nLittle's Poly Mini is a long lasting, economical and safe product that helps in comfortable and hygienic feeding.\nProduct Features\n\nLittle\u00e2\u0080\u0099s Poly bottles are 3-in-1 bottles that come with a tumbler, sipper and a nipple.\nSipper helps easy drinking and tumbler acts as the first drinking cup of the baby.\nThe leak free cap fits the nipple perfectly in the bottle and the sealing disc prevents leakage.\nMade from BPA free Food Grade Polypropene (PP) Material.\nEasily sterilisable and reusable.\nPasses through multiple point quality checks.\n\nManufactured By: Daman Rubber Products Ltd, Plot No 6, Survey No 217-P,Dadra & Nagar Haveli, Village Dadra, Silvassa- 396320, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 36 Months from the Manufacturing date\nNote:-Non- Returnable -\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_sPolyMiniPackof3.jpg%3Fv%3D1689833310&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_sPolyMiniPackof3-1.jpg%3Fv%3D1689833310&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_sPolyMiniPackof3-2.jpg%3Fv%3D1689833310&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_sPolyMiniPackof3-3.jpg%3Fv%3D1689833310&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittlesPolyMiniBOP.jpg%3Fv%3D1689833310&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "285.00",
+                                "maximum_value": "285.00"
+                            },
+                            "related": false,
+                            "category_id": "Nursing and Feeding",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Daman Rubber Products Ltd",
+                                "manufacturer_or_packer_address": "Daman Rubber Products Ltd, Plot No 6, Survey No 217-P,Dadra & Nagar Haveli, Village Dadra, Silvassa- 396320",
+                                "common_or_generic_name_of_commodity": "Feeding Bottle",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittlesPolyMiniBOP.jpg%3Fv%3D1689833310&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0B46AE1DDFA26DEE0C8B6D383198F27B_44089664143619_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "85fb0e3b",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "gram",
+                                        "value": "1.0"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Soft Cleansing Baby Wipes | Contains Aloe Vera & Jojoba Oil -(30 Wipes*5)",
+                                "code": "5:44089664143619",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes.jpg%3Fv%3D1689833230&mw=2000",
+                                "short_desc": "Product Description\nExtra thick and soft for daily use. Wipes are untouched by hands. Dermatologist tested and alcohol free. Little's soft cleansing baby wipes is a 50: 50 blend of polyester and viscose. While both are manmade fibers, they offer a better Alternative to cotton.\nProduct Features\n\nLittle's Cleansing Baby Wipes are long, extra thick and extra moist for your baby's gentle skin.\nLittle\u00e2\u0080\u0099s Baby Wipes are ideal for gently cleansing & moisturizing your baby\u00e2\u0080\u0099s delicate skin during diaper change or for cleaning your baby\u00e2\u0080\u0099s face & hands during playtime, mealtime & while travelling.\nEnriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the baby wipes keeps your baby fresh and happy all day long.\nThese wipes are free from parabens and alcohol, and contain hypoallergenic ingredients that are clinically tested to ensure that they do not cause any irritation to your baby.\nLittle\u00e2\u0080\u0099s Wipes can also be used by adults to cleanse and freshen up, and are excellent for use by the whole family, anywhere & anytime.\n\nProduct Dimensions: 15.2 x 8.1 x 25.4 cm Weight: 1.8 Kilograms\nManufactured By: \u00e2\u0080\u008eWelspun India Ltd., Welspun City, Survey Nos. 666, 667, 675, 700, 775, Anjar, Kutch- 370110, Gujarat, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-Non- Returnable:-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Product Description\nExtra thick and soft for daily use. Wipes are untouched by hands. Dermatologist tested and alcohol free. Little's soft cleansing baby wipes is a 50: 50 blend of polyester and viscose. While both are manmade fibers, they offer a better Alternative to cotton.\nProduct Features\n\nLittle's Cleansing Baby Wipes are long, extra thick and extra moist for your baby's gentle skin.\nLittle\u00e2\u0080\u0099s Baby Wipes are ideal for gently cleansing & moisturizing your baby\u00e2\u0080\u0099s delicate skin during diaper change or for cleaning your baby\u00e2\u0080\u0099s face & hands during playtime, mealtime & while travelling.\nEnriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the baby wipes keeps your baby fresh and happy all day long.\nThese wipes are free from parabens and alcohol, and contain hypoallergenic ingredients that are clinically tested to ensure that they do not cause any irritation to your baby.\nLittle\u00e2\u0080\u0099s Wipes can also be used by adults to cleanse and freshen up, and are excellent for use by the whole family, anywhere & anytime.\n\nProduct Dimensions: 15.2 x 8.1 x 25.4 cm Weight: 1.8 Kilograms\nManufactured By: \u00e2\u0080\u008eWelspun India Ltd., Welspun City, Survey Nos. 666, 667, 675, 700, 775, Anjar, Kutch- 370110, Gujarat, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-Non- Returnable:-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes.jpg%3Fv%3D1689833230&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes2.jpg%3Fv%3D1689833230&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes3.jpg%3Fv%3D1689833230&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes4.jpg%3Fv%3D1689833230&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes5.jpg%3Fv%3D1689833230&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBabyWipesPackof5-30Wipes6.jpg%3Fv%3D1689833230&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FWipes-30-N-02.png%3Fv%3D1689833230&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "219.00",
+                                "maximum_value": "245.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care - Wipes and Buds",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Hygiene Plus Private Limited",
+                                "manufacturer_or_packer_address": "417-kha,418, Village Nagla Chamroo, Dadri, Gautam Budh Nagar, Uttar Pradesh, 203027, India",
+                                "common_or_generic_name_of_commodity": "Baby Wipes",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FWipes-30-N-02.png%3Fv%3D1689833230&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1B85A69B469C1FDE03E5A99B27F552A2_44089659130115_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "ca2b1655",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "1"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "gram",
+                                        "value": "400.0"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Organix Gentle Baby Powder I Contains Organic Aloevera & Neem Extract-400gm",
+                                "code": "5:44089659130115",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-01.jpg%3Fv%3D1689833060&mw=2000",
+                                "short_desc": "Product Description\nLittle's Organix Gentle Baby Powder is a fragrant talcum powder enriched with corn starch, an excellent absorbent that provides additional protection against wetness and ensures baby's skin remains soft, smooth & dry for longer. It has no parabens or pthalates which makes it safe to use on babies. This is ideal to use after bath, at every nappy change, and at bedtime. Regular use ensures no chafing, keeps baby fresh & happy for longer.\nProduct Features\n\nLittle's Organix Gentle Baby Powder is a fragrant talcum powder enriched with corn starch, an excellent absorbent that provides additional protection against wetness and ensures baby's skin remains soft, smooth & dry for longer.\nNo parabens or pthalates which makes it safe to use on babies.\nLittle's Organix Gentle Baby Powder is ideal to use after bath, at every nappy change, and at bedtime.\nRegular use ensures no chafing, keeps baby fresh & happy.\n\nSafety Information:\n1) Avoid contact with eyes, mouth and nose, 2) In case of contact with eyes, rinse immediately with water, 3) Discontinued use in case of irritation & consult doctor, 4) Avoid accidental inhalation and contact with broken, chapped skin & mucous membranes, 5) Keep out of reach of children\nDirections:\nSprinkle powder on palms and apply gently on baby's skin after bath, nappy change and bedtime\nManufactured By: \u00e2\u0080\u008eShivom Industries, Plot No. 72, Govt. Industrial Estate, Village - Khadoli, Silvassa - 396230, D & NH, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\n\nNote:-\n\nNon- Returnable:-For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Product Description\nLittle's Organix Gentle Baby Powder is a fragrant talcum powder enriched with corn starch, an excellent absorbent that provides additional protection against wetness and ensures baby's skin remains soft, smooth & dry for longer. It has no parabens or pthalates which makes it safe to use on babies. This is ideal to use after bath, at every nappy change, and at bedtime. Regular use ensures no chafing, keeps baby fresh & happy for longer.\nProduct Features\n\nLittle's Organix Gentle Baby Powder is a fragrant talcum powder enriched with corn starch, an excellent absorbent that provides additional protection against wetness and ensures baby's skin remains soft, smooth & dry for longer.\nNo parabens or pthalates which makes it safe to use on babies.\nLittle's Organix Gentle Baby Powder is ideal to use after bath, at every nappy change, and at bedtime.\nRegular use ensures no chafing, keeps baby fresh & happy.\n\nSafety Information:\n1) Avoid contact with eyes, mouth and nose, 2) In case of contact with eyes, rinse immediately with water, 3) Discontinued use in case of irritation & consult doctor, 4) Avoid accidental inhalation and contact with broken, chapped skin & mucous membranes, 5) Keep out of reach of children\nDirections:\nSprinkle powder on palms and apply gently on baby's skin after bath, nappy change and bedtime\nManufactured By: \u00e2\u0080\u008eShivom Industries, Plot No. 72, Govt. Industrial Estate, Village - Khadoli, Silvassa - 396230, D & NH, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\n\nNote:-\n\nNon- Returnable:-For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-01.jpg%3Fv%3D1689833060&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-02.jpg%3Fv%3D1689833060&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-03.jpg%3Fv%3D1689833060&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-04.jpg%3Fv%3D1689833060&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-05.jpg%3Fv%3D1689833060&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-06.jpg%3Fv%3D1689833060&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-07.jpg%3Fv%3D1689833060&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "179.00",
+                                "maximum_value": "290.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Shivom Industries",
+                                "manufacturer_or_packer_address": "Plot No. 72, Govt. Industrial Estate, Village - Khadoli, Silvassa - 396230, D & NH, India",
+                                "common_or_generic_name_of_commodity": "Baby Powder",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FTop-Tiles-07.jpg%3Fv%3D1689833060&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2354DF31CB681FC2EE57891986DE6F07_44089639829763_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "396ea33c",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "unit",
+                                        "value": "1"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Care Package (Little's Comfy Baby Pants | Medium I Superjumbo Pack of 1, Little's Soft Cleansing Baby Wipes Lid Pack of 1, Little's Organix Gentle Baby Liquid Detergent | Contains Organi",
+                                "code": "5:44089639829763",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-01.jpg%3Fv%3D1689832731&mw=2000",
+                                "short_desc": "Product Description1.Upto 12 hours absorption protection helps in uninterrupted sleep for your baby and you 2.Extra thick and extra moist for your baby's tender skin and Enriched with aloe vera, jojoba oil and vitamin E3.Wetness indicator turns from yellow to blue indicating it is time to change diaper4.Enriched with safe and organic ingredients - aloe vera and neem5.Aloe Vera maintains fabric quality & keeps it soft for your baby\u00e2\u0080\u0099s delicate skin6.Neem\u00e2\u0080\u0099s natural anti-bacterial properties help in effective cleaningManufactured By: Since this a combo products refer to box for the details.Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: Since this a combo products refer to box for the details.",
+                                "long_desc": "Product Description1.Upto 12 hours absorption protection helps in uninterrupted sleep for your baby and you 2.Extra thick and extra moist for your baby's tender skin and Enriched with aloe vera, jojoba oil and vitamin E3.Wetness indicator turns from yellow to blue indicating it is time to change diaper4.Enriched with safe and organic ingredients - aloe vera and neem5.Aloe Vera maintains fabric quality & keeps it soft for your baby\u00e2\u0080\u0099s delicate skin6.Neem\u00e2\u0080\u0099s natural anti-bacterial properties help in effective cleaningManufactured By: Since this a combo products refer to box for the details.Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: Since this a combo products refer to box for the details.",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-01.jpg%3Fv%3D1689832731&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-02.jpg%3Fv%3D1689832731&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-03.jpg%3Fv%3D1689832731&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-04.jpg%3Fv%3D1689832731&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-05.jpg%3Fv%3D1689832731&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-06.jpg%3Fv%3D1689832731&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "1199.00",
+                                "maximum_value": "1694.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care - Wipes and Buds",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Ginni Filaments Ltd",
+                                "manufacturer_or_packer_address": "Ginni Filaments Ltd",
+                                "common_or_generic_name_of_commodity": "baby wipes lid pack",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FCare-Package-Top-Tiles-06.jpg%3Fv%3D1689832731&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "37919D106FB883B83A2586279D6BE98E_44089659916547_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "2e3b8664",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "unit",
+                                        "value": "1"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Organix Moisturising Baby Cream (200 g  - Tube) with Organic Ingredients (Aloe Vera and Neem extract)",
+                                "code": "5:44089659916547",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-01.jpg%3Fv%3D1689833084&mw=2000",
+                                "short_desc": "Short Description\nLittle's Organix Moisturising Baby Cream is enriched with organic ingredients - Neem & Aloe Vera. It moisturizes and nourishes baby's skin keeping it soft and supple. It helps to restore natural protector barrier on baby's delicate skin.Ideal for daily use in all seasons.\nBullet Points\n1. Enriched with safe and organic ingredients - Neem & Aloe Vera2. Non-sticky and light2. The moisturising properties of Aloe Vera keep the baby\u00e2\u0080\u0099s delicate skin soft and supple3. Neem\u00e2\u0080\u0099s natural anti-bacterial and anti-inflammatory properties keep skin healthy4. Free from harmful ingredients like Parabens & Pthalates5. Dermatologically tested\nDirections for use:\nTake Little's moisturising baby cream into your hands and gently apply on baby's delicate skin\nSafety Warning:\n1. Avoid contact with eyes, mouth & nose2. In case of contact with eyes, rinse immediately with water3. Discotinue use in case of irritation & consult doctor4. Keep out of reach of children5. For external use only\nAdditional Info\nManufactured By: Pontika Aerotech Limited Village - Johron, PO Puruwala, Nahan Road, Paonta Sahib, Dist - Sirmour, HP - 173001Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-\n\nNon- Returnable:-For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Short Description\nLittle's Organix Moisturising Baby Cream is enriched with organic ingredients - Neem & Aloe Vera. It moisturizes and nourishes baby's skin keeping it soft and supple. It helps to restore natural protector barrier on baby's delicate skin.Ideal for daily use in all seasons.\nBullet Points\n1. Enriched with safe and organic ingredients - Neem & Aloe Vera2. Non-sticky and light2. The moisturising properties of Aloe Vera keep the baby\u00e2\u0080\u0099s delicate skin soft and supple3. Neem\u00e2\u0080\u0099s natural anti-bacterial and anti-inflammatory properties keep skin healthy4. Free from harmful ingredients like Parabens & Pthalates5. Dermatologically tested\nDirections for use:\nTake Little's moisturising baby cream into your hands and gently apply on baby's delicate skin\nSafety Warning:\n1. Avoid contact with eyes, mouth & nose2. In case of contact with eyes, rinse immediately with water3. Discotinue use in case of irritation & consult doctor4. Keep out of reach of children5. For external use only\nAdditional Info\nManufactured By: Pontika Aerotech Limited Village - Johron, PO Puruwala, Nahan Road, Paonta Sahib, Dist - Sirmour, HP - 173001Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-\n\nNon- Returnable:-For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-01.jpg%3Fv%3D1689833084&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-02.jpg%3Fv%3D1689833084&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-03.jpg%3Fv%3D1689833084&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-04.jpg%3Fv%3D1689833084&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-05.jpg%3Fv%3D1689833084&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-06.jpg%3Fv%3D1689833084&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-07.jpg%3Fv%3D1689833084&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "209.00",
+                                "maximum_value": "270.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Pontika Aerotech Limited Village - Johron",
+                                "manufacturer_or_packer_address": "Pontika Aerotech Limited Village - Johron, PO Puruwala, Nahan Road, Paonta Sahib, Dist - Sirmour, HP - 173001",
+                                "common_or_generic_name_of_commodity": "Skin Care",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FBaby-Cream-Top-Tiles-07.jpg%3Fv%3D1689833084&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5D00BACB383687D0D0D57900D23958A4_44089661292803_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "fa5f314d",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "millilitre",
+                                        "value": "240"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Poly Maxi Feeding Bottle 240ml",
+                                "code": "5:44089661292803",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F51rEpMziOgL._SL1000.jpg%3Fv%3D1689833136&mw=2000",
+                                "short_desc": "Product Description\nLittle's Poly Maxi is a long lasting, economical and safe product that helps in comfortable and hygienic feeding.\nProduct Features\n\nSpecially designed with functionality of sipper and feeding bottle.\nHood shaped tumbler acts as the first drinking cup for the baby.\nOther features: BPA free and Made from Food Grade Polypropylene (PP) Material Sterilisable and reusable Multi point quality checks\n\nManufactured By: Daman Rubber Products LtdMarketed By: Piramal Pharma LtdCountry of Origin: IndiaShelf life: 36 Months\nNote:-\u00c2\u00a0Non- Returnable :-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Product Description\nLittle's Poly Maxi is a long lasting, economical and safe product that helps in comfortable and hygienic feeding.\nProduct Features\n\nSpecially designed with functionality of sipper and feeding bottle.\nHood shaped tumbler acts as the first drinking cup for the baby.\nOther features: BPA free and Made from Food Grade Polypropylene (PP) Material Sterilisable and reusable Multi point quality checks\n\nManufactured By: Daman Rubber Products LtdMarketed By: Piramal Pharma LtdCountry of Origin: IndiaShelf life: 36 Months\nNote:-\u00c2\u00a0Non- Returnable :-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F51rEpMziOgL._SL1000.jpg%3Fv%3D1689833136&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F619RrDZ9hCL._SL1000.jpg%3Fv%3D1689833136&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61XlA92oqCL._SL1000.jpg%3Fv%3D1689833136&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61kqO5FKibL._SL1000.jpg%3Fv%3D1689833137&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "315.00",
+                                "maximum_value": "315.00"
+                            },
+                            "related": false,
+                            "category_id": "Nursing and Feeding",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Daman Rubber Products Ltd",
+                                "manufacturer_or_packer_address": "Daman Rubber Products Ltd",
+                                "common_or_generic_name_of_commodity": "Feeding Bottle",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61kqO5FKibL._SL1000.jpg%3Fv%3D1689833137&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5F002F71DDBB3FEA4E237AC0D30830CD_44089658310915_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "f08fb36c",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "kilogram",
+                                        "value": "1.0"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Organix Gentle Baby Liquid Detergent | Contains Organic Aloevera & Neem Extract-400gm",
+                                "code": "5:44089658310915",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61770JV5jZS._SL1500.jpg%3Fv%3D1689833047&mw=2000",
+                                "short_desc": "Product Description\nLittle's Organix Gentle Baby Liquid Detergent is a safe and effective laundry wash for your baby's clothes. It is free of harmful ingredients like triclosan and is specially formulated with organic ingredients, neem and aloe vera that gently and thoroughly clean your baby's clothes by effectively removing stains while maintaining the softness of the fabric. It has a mild and fresh fragrance which helps in removing odour. It also helps in maintaining the colour of the fabric as it is free of bleach, brighteners and phosphates.\nProduct Features\n\nLittle's Organix Gentle Baby Liquid Detergent is a safe and effective laundry wash for your baby's clothes.\nFree of harmful ingredients: No Parabens, Flourescent, Phosphates, bleach & brighteners.\nSpecially formulated with organic ingredients: Neem and Aloe vera extracts that gently and thoroughly clean your baby's clothes by effectively removing stains while maintaining the softness of the fabric.\nIt has a mild and fresh fragrance which helps in removing odour.\nIt also helps in maintaining the colour of the fabric as it is free of bleach, brighteners.\nThis detergent is suitable for both, hand wash & machine wash (Front load & Top load)\n\nSpecifications\nItem Dimensions LxWxH \u00e2\u0080\u008f : \u00e2\u0080\u008e 5 x 10.2 x 24.5 cmItem Weight: 1kg\nManufactured By: Alaina Healthcare Pvt. Ltd., Khasra No. 127-132, 707/133 & 685/608/32, Village Jharmajri, Dist. Solan, Baddi - 174103, (H.P.)Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-\u00c2\u00a0Non- Returnable :-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Product Description\nLittle's Organix Gentle Baby Liquid Detergent is a safe and effective laundry wash for your baby's clothes. It is free of harmful ingredients like triclosan and is specially formulated with organic ingredients, neem and aloe vera that gently and thoroughly clean your baby's clothes by effectively removing stains while maintaining the softness of the fabric. It has a mild and fresh fragrance which helps in removing odour. It also helps in maintaining the colour of the fabric as it is free of bleach, brighteners and phosphates.\nProduct Features\n\nLittle's Organix Gentle Baby Liquid Detergent is a safe and effective laundry wash for your baby's clothes.\nFree of harmful ingredients: No Parabens, Flourescent, Phosphates, bleach & brighteners.\nSpecially formulated with organic ingredients: Neem and Aloe vera extracts that gently and thoroughly clean your baby's clothes by effectively removing stains while maintaining the softness of the fabric.\nIt has a mild and fresh fragrance which helps in removing odour.\nIt also helps in maintaining the colour of the fabric as it is free of bleach, brighteners.\nThis detergent is suitable for both, hand wash & machine wash (Front load & Top load)\n\nSpecifications\nItem Dimensions LxWxH \u00e2\u0080\u008f : \u00e2\u0080\u008e 5 x 10.2 x 24.5 cmItem Weight: 1kg\nManufactured By: Alaina Healthcare Pvt. Ltd., Khasra No. 127-132, 707/133 & 685/608/32, Village Jharmajri, Dist. Solan, Baddi - 174103, (H.P.)Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-\u00c2\u00a0Non- Returnable :-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61770JV5jZS._SL1500.jpg%3Fv%3D1689833047&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71NCiOny-cS._SL1500.jpg%3Fv%3D1689833047&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71_5x5ymf4S._SL1280.jpg%3Fv%3D1689833047&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71d45_cKx2S._SL1500.jpg%3Fv%3D1689833047&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71iVRbU78wS._SL1500.jpg%3Fv%3D1689833047&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71ol49-bs2S._SL1500.jpg%3Fv%3D1689833047&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71uBE_lSO3S._SL1500.jpg%3Fv%3D1689833047&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "314.00",
+                                "maximum_value": "475.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Alaina Healthcare Pvt. Ltd.",
+                                "manufacturer_or_packer_address": "Khasra No. 127-132, 707/133 & 685/608/32, Village Jharmajri, Dist. Solan, Baddi - 174103, (H.P.)",
+                                "common_or_generic_name_of_commodity": "baby detergent",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71uBE_lSO3S._SL1500.jpg%3Fv%3D1689833047&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9566BB4BF665B56BBE7AAD77344D9423_44089666961667_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "292bb6a3",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "unit",
+                                        "value": "1"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Soft Cleansing Baby Wipes | Contains Aloe Vera & Jojoba Oil-80 wipes Buy 5 Get 5",
+                                "code": "5:44089666961667",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F1080x1080R1.jpg%3Fv%3D1689833274&mw=2000",
+                                "short_desc": "Product DescriptionLittle's Baby Wipes are extra thick and extra moist for your baby's gentle skin, enriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the wipes keeps your baby fresh and happy all day long without causing any irritation. Little's Baby Wipes are ideal for gently cleansing and moisturizing your baby's delicate skin during diaper change or for cleaning your baby's face and hands during mealtime, playtime and while travelling.Product Features\n\nLittle's Cleansing Baby Wipes are long, extra thick and extra moist for your baby's gentle skin.\nLittle\u00e2\u0080\u0099s Baby Wipes are ideal for gently cleansing & moisturizing your baby\u00e2\u0080\u0099s delicate skin during diaper change or for cleaning your baby\u00e2\u0080\u0099s face & hands during playtime, mealtime & while travelling.\nEnriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the baby wipes keeps your baby fresh and happy all day long.\nThese wipes are free from parabens and alcohol, and contain hypoallergenic ingredients that are clinically tested to ensure that they do not cause any irritation to your baby.\nLittle\u00e2\u0080\u0099s Wipes can also be used by adults to cleanse and freshen up, and are excellent for use by the whole family, anywhere & anytime.\n\nManufactured By: \u00e2\u0080\u008eGinni Filaments Ltd., Plot No.98, Sector 5, IIE, SIDCUL, Distt. Haridwar - 249403, Uttarakhand, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date",
+                                "long_desc": "Product DescriptionLittle's Baby Wipes are extra thick and extra moist for your baby's gentle skin, enriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the wipes keeps your baby fresh and happy all day long without causing any irritation. Little's Baby Wipes are ideal for gently cleansing and moisturizing your baby's delicate skin during diaper change or for cleaning your baby's face and hands during mealtime, playtime and while travelling.Product Features\n\nLittle's Cleansing Baby Wipes are long, extra thick and extra moist for your baby's gentle skin.\nLittle\u00e2\u0080\u0099s Baby Wipes are ideal for gently cleansing & moisturizing your baby\u00e2\u0080\u0099s delicate skin during diaper change or for cleaning your baby\u00e2\u0080\u0099s face & hands during playtime, mealtime & while travelling.\nEnriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the baby wipes keeps your baby fresh and happy all day long.\nThese wipes are free from parabens and alcohol, and contain hypoallergenic ingredients that are clinically tested to ensure that they do not cause any irritation to your baby.\nLittle\u00e2\u0080\u0099s Wipes can also be used by adults to cleanse and freshen up, and are excellent for use by the whole family, anywhere & anytime.\n\nManufactured By: \u00e2\u0080\u008eGinni Filaments Ltd., Plot No.98, Sector 5, IIE, SIDCUL, Distt. Haridwar - 249403, Uttarakhand, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F1080x1080R1.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F612bIy6faQL._SL1000_5f9e93e2-1817-46d8-8b10-bae48bc80b02.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F612bIy6faQL._SL1000_efc5b31c-7527-4228-9973-83f56e683c53.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61NvxJWun5L._SL1000_64bbf9cc-8c6a-4d4e-89ac-aa79adffc179.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61UJ1ctlyWL._SL1000_53c39abe-6855-456e-8b37-779dec252fa1.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61UJ1ctlyWL._SL1000_8072b54e-8273-44e7-8530-7bad46f1abbb.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61Wv6g4qpBL._SL1000__1_2813acdc-0dae-4f82-b9da-1255daf44420.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61Y0fVmC3aL._SL1000_5af7bffd-5d73-4031-a3f4-a9011a55a22a.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61gkPGgtuVL._SL1000_cc215c95-c100-47f2-aad4-6c3ad68f5ca2.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61of6sBPrNL._SL1000_f367fd51-32d3-45aa-99ca-d5fb2fd7228f.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FImage-3_55bfa9bb-afcd-4a76-94c1-d4dae9c175dd.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FImage-4_449082ea-6f8a-42f1-af4e-cfa572f21aa1.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FImage-5_91a1253e-41d0-44f1-80c9-ba4f88d2a56c.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FImage-6_d44edb88-efd5-4883-8139-3e20c9843171.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FImage-7_2_-Copy_841b2a3a-3117-4c61-8971-3841cc6ee167.jpg%3Fv%3D1689833274&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_s-80-Wipes---BOP_b92e3ace-162c-41a4-b825-940dfdf71433.jpg%3Fv%3D1689833274&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "806.00",
+                                "maximum_value": "950.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care - Wipes and Buds",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Ginni Filaments Ltd.",
+                                "manufacturer_or_packer_address": "Plot No.98, Sector 5, IIE, SIDCUL, Distt. Haridwar - 249403, Uttarakhand",
+                                "common_or_generic_name_of_commodity": "Baby Wipes",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittle_s-80-Wipes---BOP_b92e3ace-162c-41a4-b825-940dfdf71433.jpg%3Fv%3D1689833274&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "AA01C2FFECDBE82403B10D9296277A63_44089660178691_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "f919e9d2",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "8"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "unit",
+                                        "value": "1"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Organix Nourishing Baby Lotion (400 ml  - Pump Pack) with Organic Ingredients (Aloe Vera and Neem extract)",
+                                "code": "5:44089660178691",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-01.jpg%3Fv%3D1689833096&mw=2000",
+                                "short_desc": "Short Description\nLittle's Organix Nourishing Baby Lotion is enriched with organic ingredients - Neem & Aloe Vera. It moisturizes and nourishes baby's skin keeping it soft and supple.Ideal for daily use in all seasons.\nBullet Points\n1. Enriched with safe and organic ingredients - Neem & Aloe Vera2. For face and body2. The moisturising properties of Aloe Vera keep the baby\u00e2\u0080\u0099s delicate skin soft and supple3. Neem\u00e2\u0080\u0099s natural anti-bacterial and anti-inflammatory properties keep skin healthy4. Free from harmful ingredients like Parabens & Pthalates5. Dermatologically testedDirections for useTake Little's nourishing baby lotion in your hands and gently apply all over baby's body after bath.\nSafety Warning\n1. Avoid contact with eyes & mouth2. In case of contact with eyes, rinse immediately with water3. Discotinue use in case of irritation & consult doctor4. Keep out of reach of children5. For external use onlyManufactured By: Pontika Aerotech Limited Village - Johron, PO Puruwala, Nahan Road, Paonta Sahib, Dist - Sirmour, HP - 173001Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-\n\nNon- Returnable :-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Short Description\nLittle's Organix Nourishing Baby Lotion is enriched with organic ingredients - Neem & Aloe Vera. It moisturizes and nourishes baby's skin keeping it soft and supple.Ideal for daily use in all seasons.\nBullet Points\n1. Enriched with safe and organic ingredients - Neem & Aloe Vera2. For face and body2. The moisturising properties of Aloe Vera keep the baby\u00e2\u0080\u0099s delicate skin soft and supple3. Neem\u00e2\u0080\u0099s natural anti-bacterial and anti-inflammatory properties keep skin healthy4. Free from harmful ingredients like Parabens & Pthalates5. Dermatologically testedDirections for useTake Little's nourishing baby lotion in your hands and gently apply all over baby's body after bath.\nSafety Warning\n1. Avoid contact with eyes & mouth2. In case of contact with eyes, rinse immediately with water3. Discotinue use in case of irritation & consult doctor4. Keep out of reach of children5. For external use onlyManufactured By: Pontika Aerotech Limited Village - Johron, PO Puruwala, Nahan Road, Paonta Sahib, Dist - Sirmour, HP - 173001Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-\n\nNon- Returnable :-\u00c2\u00a0For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-01.jpg%3Fv%3D1689833096&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-02.jpg%3Fv%3D1689833096&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-03.jpg%3Fv%3D1689833096&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-04.jpg%3Fv%3D1689833096&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-05.jpg%3Fv%3D1689833096&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-06.jpg%3Fv%3D1689833096&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-07.jpg%3Fv%3D1689833096&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "225.00",
+                                "maximum_value": "290.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Pontika Aerotech",
+                                "manufacturer_or_packer_address": "\u00c2\u00a0Village - Johron, PO Puruwala, Nahan Road, Paonta Sahib, Dist - Sirmour, HP - 173001",
+                                "common_or_generic_name_of_commodity": "Skin Care",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLotion-Top-Tile-07.jpg%3Fv%3D1689833096&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "B45EC67DF95DF7164E44A215905C9809_44089657229571_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "1027ff4d",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "gram",
+                                        "value": "400.0"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Organix Baby Shampoo | Contains Organic Aloevera and Neem Extract-400gm",
+                                "code": "5:44089657229571",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71kM7H-i_sL._SL1500.jpg%3Fv%3D1689833017&mw=2000",
+                                "short_desc": "Product Description\nLittle's Organix Baby Shampoo is a safe and gentle shampoo for your baby. It is free of harmful ingredients and is enriched with organic ingredients, like Aloe vera and Neem. It is especially formulated to gently clean and nourish your baby's hair and scalp without causing any irritation. Little's Shampoo helps in maintaining the texture of the hair and gives the required softness, while maintaining a fresh fragrance.\nProduct Features\n\nLittle's Organix Baby Shampoo is a safe and gentle shampoo for your baby.\nFree from harmful ingredients, No added Paraben and Phthalates.\nEnriched with organic ingredients: Aloe vera and Neem.\nThis shampoo is especially formulated to gently clean and nourish your baby's hair and scalp without causing any irritation.\nIt helps in maintaining the texture of your baby\u00e2\u0080\u0099s hair and gives the required softness, while leaving a fresh fragrance.\nLittle's Baby Shampoo is Dermatologically Tested.\n\nSpecifications:\nItem Dimensions LxWxH: 8 x 4 x 22 CentimetersItem Weight: 400 g\nManufactured By: \u00e2\u0080\u008eKrishnendu Ent, Alaina healthcare Pvt. Ltd, Khasara No. -127-132,707/133, 685/608/32, Village Jharmajri,Baddi, Dist. Solan. (H.P) -174103Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-Non- Returnable :-For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Product Description\nLittle's Organix Baby Shampoo is a safe and gentle shampoo for your baby. It is free of harmful ingredients and is enriched with organic ingredients, like Aloe vera and Neem. It is especially formulated to gently clean and nourish your baby's hair and scalp without causing any irritation. Little's Shampoo helps in maintaining the texture of the hair and gives the required softness, while maintaining a fresh fragrance.\nProduct Features\n\nLittle's Organix Baby Shampoo is a safe and gentle shampoo for your baby.\nFree from harmful ingredients, No added Paraben and Phthalates.\nEnriched with organic ingredients: Aloe vera and Neem.\nThis shampoo is especially formulated to gently clean and nourish your baby's hair and scalp without causing any irritation.\nIt helps in maintaining the texture of your baby\u00e2\u0080\u0099s hair and gives the required softness, while leaving a fresh fragrance.\nLittle's Baby Shampoo is Dermatologically Tested.\n\nSpecifications:\nItem Dimensions LxWxH: 8 x 4 x 22 CentimetersItem Weight: 400 g\nManufactured By: \u00e2\u0080\u008eKrishnendu Ent, Alaina healthcare Pvt. Ltd, Khasara No. -127-132,707/133, 685/608/32, Village Jharmajri,Baddi, Dist. Solan. (H.P) -174103Marketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: 24 Months from the Manufacturing date\nNote:-Non- Returnable :-For a Damaged, Defective, Wrong or expired item, you can request a refund or replacement within 5 days of delivery. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F71kM7H-i_sL._SL1500.jpg%3Fv%3D1689833017&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2F61ueofAd9fL._SL1500.jpg%3Fv%3D1689833017&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittles1.jpg%3Fv%3D1689833017&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FLittles2.jpg%3Fv%3D1689833017&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2Flittles3.jpg%3Fv%3D1689833017&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2Flittles4.jpg%3Fv%3D1689833017&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "229.00",
+                                "maximum_value": "320.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Krishnendu Ent",
+                                "manufacturer_or_packer_address": "Krishnendu Ent, Alaina healthcare Pvt. Ltd, Khasara No. -127-132,707/133, 685/608/32, Village Jharmajri,Baddi, Dist. Solan. (H.P) -174103",
+                                "common_or_generic_name_of_commodity": "baby shampoo",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2Flittles4.jpg%3Fv%3D1689833017&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CDDB3D92E25CC9F860AD700216130E76_44089639993603_default",
+                            "time": {
+                                "timestamp": "2025-07-29T05:32:11.644Z",
+                                "label": "enable"
+                            },
+                            "parent_item_id": "5d885829",
+                            "quantity": {
+                                "available": {
+                                    "count": "99"
+                                },
+                                "maximum": {
+                                    "count": "99"
+                                },
+                                "unitized": {
+                                    "measure": {
+                                        "unit": "unit",
+                                        "value": "1"
+                                    }
+                                }
+                            },
+                            "descriptor": {
+                                "name": "Little's Colourful Activity Chain Links",
+                                "code": "5:44089639993603",
+                                "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-01.jpg%3Fv%3D1689832741&mw=2000",
+                                "short_desc": "Short Description\nLittle's Colourful Activity Chain Links help develop color recognition, motor skills & hand eye coordination of the baby. It comes with 12 colorful square links that can be linked together to form various shapes\nBullet Points\n1. Helps develop motor skills2. Helps develop color recognition3. Helps develop hand eye coordination4. Trying to make different shapes and match colors helps develop reasoning skills5. Helps develop concept of color and shape\nDirections for use\n1. De-assemble the plastic slices.2. Join the pieces to make a simple chain and different innovative shapes\nAdditional Info\nManufactured By: Daman Rubber Products Plot No 6, Survey No 217- P, Dadra and Nagar Havelli, Village- Dadra,Silvassa- 396230, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: Not Applicable\nNote:-Within 7 days from the date of delivery for Physical Damage,Defective,Wrong and Missing Item. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "long_desc": "Short Description\nLittle's Colourful Activity Chain Links help develop color recognition, motor skills & hand eye coordination of the baby. It comes with 12 colorful square links that can be linked together to form various shapes\nBullet Points\n1. Helps develop motor skills2. Helps develop color recognition3. Helps develop hand eye coordination4. Trying to make different shapes and match colors helps develop reasoning skills5. Helps develop concept of color and shape\nDirections for use\n1. De-assemble the plastic slices.2. Join the pieces to make a simple chain and different innovative shapes\nAdditional Info\nManufactured By: Daman Rubber Products Plot No 6, Survey No 217- P, Dadra and Nagar Havelli, Village- Dadra,Silvassa- 396230, IndiaMarketed By: Piramal Pharma LtdCountry of Origin: IndiaBest Before: Not Applicable\nNote:-Within 7 days from the date of delivery for Physical Damage,Defective,Wrong and Missing Item. You will need to share the image of the item and its defects against your order id on mailto:consumercare@piramal.com or contact on 1800229898. Refer Return, Refund & Exchange Policy for more details",
+                                "images": [
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-01.jpg%3Fv%3D1689832741&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-02.jpg%3Fv%3D1689832741&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-03.jpg%3Fv%3D1689832741&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-04.jpg%3Fv%3D1689832741&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-05.jpg%3Fv%3D1689832741&mw=2000",
+                                    "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-06.jpg%3Fv%3D1689832741&mw=2000"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "179.00",
+                                "maximum_value": "199.00"
+                            },
+                            "related": false,
+                            "category_id": "Baby Care",
+                            "fulfillment_id": "DeliveryFulfillment",
+                            "location_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                            "@ondc/org/returnable": true,
+                            "@ondc/org/seller_pickup_return": true,
+                            "@ondc/org/return_window": "P7D",
+                            "@ondc/org/cancellable": true,
+                            "@ondc/org/time_to_ship": "P1D",
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/contact_details_consumer_care": "Wellify,consumercare@piramal.com,9441434431",
+                            "@ondc/org/statutory_reqs_packaged_commodities": {
+                                "manufacturer_or_packer_name": "Daman Rubber Products",
+                                "manufacturer_or_packer_address": "Daman Rubber Products Plot No 6, Survey No 217- P, Dadra and Nagar Havelli, Village- Dadra,Silvassa- 396230",
+                                "common_or_generic_name_of_commodity": "Baby Toys & Activity Equipment",
+                                "month_year_of_manufacture_packing_import": "Please refer pack for details",
+                                "multiple_products_name_number_or_qty": "1",
+                                "mfg_license_no": "Please refer pack for details",
+                                "expiry_date": "Please refer pack for details"
+                            },
+                            "tags": [
+                                {
+                                    "code": "origin",
+                                    "list": [
+                                        {
+                                            "code": "country",
+                                            "value": "IND"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "attribute",
+                                    "list": [
+                                        {
+                                            "code": "prescription_required",
+                                            "value": "no"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "image",
+                                    "list": [
+                                        {
+                                            "code": "type",
+                                            "value": "back_image"
+                                        },
+                                        {
+                                            "code": "url",
+                                            "value": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0661%2F9732%2F4035%2Fproducts%2FChain-Links-Top-Tile-06.jpg%3Fv%3D1689832741&mw=2000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "offers": [
+                        {
+                            "id": "FREEDELIVERY",
+                            "descriptor": {
+                                "code": "delivery"
+                            },
+                            "location_ids": [
+                                "fb577d817ac843bf8d035c23d8a5ea70"
+                            ],
+                            "time": {
+                                "label": "valid",
+                                "range": {
+                                    "start": "2024-10-24T00:00:00.000Z",
+                                    "end": "2025-07-30T00:00:00.000Z"
+                                }
+                            },
+                            "tags": [
+                                {
+                                    "code": "meta",
+                                    "list": [
+                                        {
+                                            "code": "additive",
+                                            "value": "no"
+                                        },
+                                        {
+                                            "code": "auto",
+                                            "value": "yes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "qualifier",
+                                    "list": [
+                                        {
+                                            "code": "min_value",
+                                            "value": "400"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "benefit",
+                                    "list": [
+                                        {
+                                            "code": "value",
+                                            "value": "-100"
+                                        },
+                                        {
+                                            "code": "value_cap",
+                                            "value": "-90"
+                                        },
+                                        {
+                                            "code": "value_type",
+                                            "value": "percent"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "DeliveryFulfillment",
+                            "type": "Delivery",
+                            "contact": {
+                                "phone": "9441434431",
+                                "email": "consumercare@piramal.com"
+                            }
+                        }
+                    ],
+                    "ttl": "PT24H",
+                    "tags": [
+                        {
+                            "code": "serviceability",
+                            "list": [
+                                {
+                                    "code": "location",
+                                    "value": "fb577d817ac843bf8d035c23d8a5ea70"
+                                },
+                                {
+                                    "code": "category",
+                                    "value": "Nursing and Feeding"
+                                },
+                                {
+                                    "code": "type",
+                                    "value": "12"
+                                },
+                                {
+                                    "code": "val",
+                                    "value": "IND"
+                                },
+                                {
+                                    "code": "unit",
+                                    "value": "country"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "serviceability",
+                            "list": [
+                                {
+                                    "code": "location",
+                                    "value": "fb577d817ac843bf8d035c23d8a5ea70"
+                                },
+                                {
+                                    "code": "category",
+                                    "value": "Baby Care - Wipes and Buds"
+                                },
+                                {
+                                    "code": "type",
+                                    "value": "12"
+                                },
+                                {
+                                    "code": "val",
+                                    "value": "IND"
+                                },
+                                {
+                                    "code": "unit",
+                                    "value": "country"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "serviceability",
+                            "list": [
+                                {
+                                    "code": "location",
+                                    "value": "fb577d817ac843bf8d035c23d8a5ea70"
+                                },
+                                {
+                                    "code": "category",
+                                    "value": "Baby Care"
+                                },
+                                {
+                                    "code": "type",
+                                    "value": "12"
+                                },
+                                {
+                                    "code": "val",
+                                    "value": "IND"
+                                },
+                                {
+                                    "code": "unit",
+                                    "value": "country"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "timing",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "All"
+                                },
+                                {
+                                    "code": "location",
+                                    "value": "fb577d817ac843bf8d035c23d8a5ea70"
+                                },
+                                {
+                                    "code": "day_from",
+                                    "value": "1"
+                                },
+                                {
+                                    "code": "day_to",
+                                    "value": "7"
+                                },
+                                {
+                                    "code": "time_from",
+                                    "value": "0000"
+                                },
+                                {
+                                    "code": "time_to",
+                                    "value": "2359"
+                                }
+                            ]
+                        }
+                    ],
+                    "time": {
+                        "timestamp": "2025-07-29T05:32:11.642Z",
+                        "label": "enable"
+                    }
+                }
+            ],
+            "bpp/fulfillments": [
+                {
+                    "id": "DeliveryFulfillment",
+                    "type": "Delivery"
+                }
+            ]
+        }
+    }
+}

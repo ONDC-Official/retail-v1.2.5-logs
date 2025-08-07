@@ -1,0 +1,183 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "action": "confirm",
+        "core_version": "1.2.5",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify",
+        "transaction_id": "a3a45203-16c1-49e4-b67d-ecfa51b36f42",
+        "message_id": "340c04c2-22b6-4a2f-bdfd-e7906ef60400",
+        "timestamp": "2025-08-07T05:20:31.019Z",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "order": {
+            "id": "SS1754544031019",
+            "state": "Created",
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "B45EC67DF95DF7164E44A215905C9809_44089657229571_default",
+                    "fulfillment_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "quantity": {
+                        "count": 1
+                    }
+                }
+            ],
+            "billing": {
+                "name": "Nirdosh Chauhan",
+                "address": {
+                    "name": "Nirdosh Chauhan",
+                    "building": "221 B",
+                    "locality": "Baker Steeet",
+                    "city": "Gurgaon",
+                    "state": "Haryana",
+                    "country": "India",
+                    "area_code": "122007"
+                },
+                "email": "nirdosh.chauhan@sequelstring.com",
+                "phone": "9876543210",
+                "created_at": "2025-08-07T05:20:18.993Z",
+                "updated_at": "2025-08-07T05:20:18.993Z",
+                "tax_number": "00ABCDE1234F1Z5"
+            },
+            "fulfillments": [
+                {
+                    "id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "type": "Delivery",
+                    "provider_id": "fb577d817ac843bf8d035c23d8a5ea70",
+                    "tracking": true,
+                    "end": {
+                        "location": {
+                            "gps": "28.4554726,77.0219019",
+                            "address": {
+                                "name": "Nirdosh Chauhan",
+                                "building": "221 B",
+                                "locality": "Baker Steeet",
+                                "city": "Gurgaon",
+                                "state": "Haryana",
+                                "country": "India",
+                                "area_code": "122007"
+                            }
+                        },
+                        "contact": {
+                            "phone": "9876543210"
+                        },
+                        "person": {
+                            "name": "Nirdosh Chauhan"
+                        }
+                    },
+                    "@ondc/org/TAT": "P7D"
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "429.00"
+                },
+                "breakup": [
+                    {
+                        "title": "Little's Organix Baby Shampoo | Contains Organic Aloevera and Neem Extract-400gm",
+                        "price": {
+                            "currency": "INR",
+                            "value": "229.00"
+                        },
+                        "@ondc/org/item_id": "B45EC67DF95DF7164E44A215905C9809_44089657229571_default",
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "229.00"
+                            }
+                        },
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "@ondc/org/title_type": "item"
+                    },
+                    {
+                        "title": "Delivery Charges",
+                        "price": {
+                            "currency": "INR",
+                            "value": "200.00"
+                        },
+                        "@ondc/org/item_id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                        "@ondc/org/title_type": "delivery"
+                    }
+                ],
+                "ttl": "PT15M"
+            },
+            "tags": [
+                {
+                    "code": "bpp_terms",
+                    "list": [
+                        {
+                            "code": "np_type",
+                            "value": "ISN"
+                        },
+                        {
+                            "code": "tax_number",
+                            "value": ""
+                        },
+                        {
+                            "code": "provider_tax_number",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "bap_terms",
+                    "list": [
+                        {
+                            "code": "tax_number",
+                            "value": "00XYZAB1234C1Z8"
+                        },
+                        {
+                            "code": "accept_bpp_terms",
+                            "value": "Y"
+                        }
+                    ]
+                }
+            ],
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
+                "@ondc/org/settlement_details": [
+                    {
+                        "settlement_counterparty": "seller-app",
+                        "settlement_phase": "sale-amount",
+                        "settlement_type": "neft",
+                        "settlement_bank_account_no": "1112220032274181",
+                        "settlement_ifsc_code": "RAZR0000001",
+                        "beneficiary_name": "Kishor",
+                        "bank_name": "sate bank of india",
+                        "branch_name": "manikonda"
+                    }
+                ],
+                "@ondc/org/settlement_basis": "delivery",
+                "@ondc/org/settlement_window": "P1D",
+                "@ondc/org/withholding_amount": "10.00",
+                "params": {
+                    "amount": "429.00",
+                    "currency": "INR",
+                    "transaction_id": "69c4d5b6-991a-4dab-bd32-c570cb32eb31"
+                },
+                "type": "ON-ORDER",
+                "collected_by": "BAP",
+                "status": "PAID"
+            },
+            "created_at": "2025-08-07T05:20:31.019Z",
+            "updated_at": "2025-08-07T05:20:31.019Z"
+        }
+    }
+}

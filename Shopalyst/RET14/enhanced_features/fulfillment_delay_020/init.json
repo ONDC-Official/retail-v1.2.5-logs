@@ -1,0 +1,79 @@
+{
+    "context": {
+        "domain": "ONDC:RET18",
+        "country": "IND",
+        "city": "std:011",
+        "core_version": "1.2.5",
+        "action": "init",
+        "transaction_id": "a3a45203-16c1-49e4-b67d-ecfa51b36f42",
+        "message_id": "0a16da54-8481-476c-8274-8750b6a12e37",
+        "timestamp": "2025-08-07T05:20:18.993Z",
+        "bap_uri": "https://pramaan.ondc.org/beta/preprod/mock/buyer",
+        "bap_id": "pramaan.ondc.org/beta/preprod/mock/buyer",
+        "ttl": "PT30S",
+        "bpp_id": "preprod-wellify-bpp.shopalyst.com",
+        "bpp_uri": "https://preprod-wellify-bpp.shopalyst.com/wellify"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "f9797c26d48520881bfda42059ad5f5d",
+                "locations": [
+                    {
+                        "id": "fb577d817ac843bf8d035c23d8a5ea70"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "B45EC67DF95DF7164E44A215905C9809_44089657229571_default",
+                    "quantity": {
+                        "count": 1
+                    },
+                    "fulfillment_id": "fb577d817ac843bf8d035c23d8a5ea70_1"
+                }
+            ],
+            "billing": {
+                "address": {
+                    "name": "Nirdosh Chauhan",
+                    "building": "221 B",
+                    "locality": "Baker Steeet",
+                    "city": "Gurgaon",
+                    "state": "Haryana",
+                    "country": "India",
+                    "area_code": "122007"
+                },
+                "tax_number": "00ABCDE1234F1Z5",
+                "name": "Nirdosh Chauhan",
+                "email": "nirdosh.chauhan@sequelstring.com",
+                "phone": "9876543210",
+                "created_at": "2025-08-07T05:20:18.993Z",
+                "updated_at": "2025-08-07T05:20:18.993Z"
+            },
+            "fulfillments": [
+                {
+                    "id": "fb577d817ac843bf8d035c23d8a5ea70_1",
+                    "type": "Delivery",
+                    "end": {
+                        "location": {
+                            "gps": "28.4554726,77.0219019",
+                            "address": {
+                                "name": "Nirdosh Chauhan",
+                                "building": "221 B",
+                                "locality": "Baker Steeet",
+                                "city": "Gurgaon",
+                                "state": "Haryana",
+                                "country": "India",
+                                "area_code": "122007"
+                            }
+                        },
+                        "contact": {
+                            "phone": "9876543210",
+                            "email": "nirdosh.chauhan@sequelstring.com"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
