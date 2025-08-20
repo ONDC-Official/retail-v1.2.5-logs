@@ -443,7 +443,6 @@
           "@ondc/org/settlement_details": [
             {
               "settlement_counterparty": "seller-app",
-              "upi_address": "",
               "beneficiary_name": "SEQUELSTRING AI",
               "settlement_type": "neft",
               "settlement_bank_account_no": "9876543210012",
