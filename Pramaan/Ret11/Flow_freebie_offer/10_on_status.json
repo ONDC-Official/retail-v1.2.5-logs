@@ -4,19 +4,20 @@
     "country": "IND",
     "city": "std:0124",
     "core_version": "1.2.5",
-    "action": "on_confirm",
+    "action": "on_status",
     "transaction_id": "2820e19c-2f0e-483c-aff7-41642acb5df1",
-    "message_id": "88e5d0d2-d68e-46c6-89ef-cc775032795c",
-    "timestamp": "2025-08-20T06:54:55.687Z",
+    "message_id": "c80e49c6-9ad1-4246-85ed-f677a3b1b033",
+    "timestamp": "2025-08-20T06:55:14.831Z",
     "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
     "bap_id": "ondc.sequelstring.com/buyer/protocol",
     "bpp_id": "ondc.sequelstring.com/seller/protocol",
-    "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
+    "bpp_uri": "https://ondc.sequelstring.com/seller/protocol",
+    "ttl": "PT30S"
   },
   "message": {
     "order": {
       "id": "SS1755672895636",
-      "state": "Accepted",
+      "state": "In-progress",
       "provider": {
         "id": "pramaan_provider_1",
         "locations": [
@@ -103,7 +104,7 @@
           "@ondc/org/TAT": "PT24H",
           "state": {
             "descriptor": {
-              "code": "Pending"
+              "code": "Agent-assigned"
             }
           },
           "type": "Delivery",
@@ -162,84 +163,35 @@
                 "end": "2025-08-21T19:00:00.000Z"
               }
             }
-          }
-        }
-      ],
-      "cancellation_terms": [
-        {
-          "fulfillment_state": {
-            "descriptor": {
-              "code": "Pending",
-              "short_desc": "002"
-            }
           },
-          "cancellation_fee": {
-            "percentage": "0.00",
-            "amount": {
-              "currency": "INR",
-              "value": "0.00"
+          "tags": [
+            {
+              "code": "routing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "P2P"
+                }
+              ]
+            },
+            {
+              "code": "tracking",
+              "list": [
+                {
+                  "code": "gps_enabled",
+                  "value": "yes"
+                },
+                {
+                  "code": "url_enabled",
+                  "value": "yes"
+                },
+                {
+                  "code": "url",
+                  "value": "https://ondc.sequelstring.com/track/d3b4ee7b-a0f1-4e0e-be9c-47ac4590ad57"
+                }
+              ]
             }
-          }
-        },
-        {
-          "fulfillment_state": {
-            "descriptor": {
-              "code": "Packed",
-              "short_desc": "001,003"
-            }
-          },
-          "cancellation_fee": {
-            "percentage": "0.00",
-            "amount": {
-              "currency": "INR",
-              "value": "0.00"
-            }
-          }
-        },
-        {
-          "fulfillment_state": {
-            "descriptor": {
-              "code": "Order-picked-up",
-              "short_desc": "001,003"
-            }
-          },
-          "cancellation_fee": {
-            "percentage": "10.00",
-            "amount": {
-              "currency": "INR",
-              "value": "20.20"
-            }
-          }
-        },
-        {
-          "fulfillment_state": {
-            "descriptor": {
-              "code": "Out-for-delivery",
-              "short_desc": "009"
-            }
-          },
-          "cancellation_fee": {
-            "percentage": "30.00",
-            "amount": {
-              "currency": "INR",
-              "value": "60.60"
-            }
-          }
-        },
-        {
-          "fulfillment_state": {
-            "descriptor": {
-              "code": "Out-for-delivery",
-              "short_desc": "010,011,012,013,014,015"
-            }
-          },
-          "cancellation_fee": {
-            "percentage": "35.00",
-            "amount": {
-              "currency": "INR",
-              "value": "70.70"
-            }
-          }
+          ]
         }
       ],
       "quote": {
@@ -566,7 +518,7 @@
         }
       ],
       "created_at": "2025-08-20T06:54:55.636Z",
-      "updated_at": "2025-08-20T06:54:55.687Z"
+      "updated_at": "2025-08-20T06:55:14.831Z"
     }
   }
 }
