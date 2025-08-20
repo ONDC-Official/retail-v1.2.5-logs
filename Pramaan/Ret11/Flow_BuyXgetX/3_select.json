@@ -1,0 +1,99 @@
+{
+  "context": {
+    "domain": "ONDC:RET11",
+    "country": "IND",
+    "city": "std:0124",
+    "core_version": "1.2.5",
+    "action": "select",
+    "transaction_id": "b662fc7e-8987-4a64-ad95-a0e823a9479b",
+    "message_id": "305c7e5c-ce83-4300-82e3-9a8181d02e97",
+    "timestamp": "2025-08-20T06:06:13.451Z",
+    "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+    "bap_id": "ondc.sequelstring.com/buyer/protocol",
+    "ttl": "PT30S",
+    "bpp_id": "ondc.sequelstring.com/seller/protocol",
+    "bpp_uri": "https://ondc.sequelstring.com/seller/protocol"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "pramaan_provider_1",
+        "locations": [
+          {
+            "id": "SSL1"
+          }
+        ]
+      },
+      "offers": [
+        {
+          "id": "buy2get3"
+        }
+      ],
+      "items": [
+        {
+          "id": "id_ancc5_0_0",
+          "location_id": "SSL1",
+          "quantity": {
+            "count": 2
+          },
+          "parent_item_id": "P3121",
+          "tags": [
+            {
+              "code": "type",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id_5yzai_2_0",
+          "location_id": "SSL1",
+          "quantity": {
+            "count": 2
+          },
+          "parent_item_id": "P3121",
+          "tags": [
+            {
+              "code": "type",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "customization"
+                }
+              ]
+            },
+            {
+              "code": "parent",
+              "list": [
+                {
+                  "code": "id",
+                  "value": "CG11"
+                },
+                {
+                  "code": "default",
+                  "value": "yes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fulfillments": [
+        {
+          "end": {
+            "location": {
+              "gps": "28.4554726,77.0219019",
+              "address": {
+                "area_code": "122007"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

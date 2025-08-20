@@ -1,0 +1,37 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "search",
+      "transaction_id": "0434d61d-33ab-45ee-b022-e4ff7223fa39",
+      "message_id": "bfe85886-851d-4f6f-88ac-c6eaf6f61260",
+      "timestamp": "2025-04-27T14:53:00.132Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "intent": {
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
+        },
+        "tags": [
+          {
+            "code": "catalog_inc",
+            "list": [
+              {
+                "code": "mode",
+                "value": "start"
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

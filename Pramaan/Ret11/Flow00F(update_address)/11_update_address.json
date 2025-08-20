@@ -1,0 +1,48 @@
+{
+    "context": {
+      "domain": "ONDC:RET11",
+      "country": "IND",
+      "city": "std:0124",
+      "core_version": "1.2.5",
+      "action": "update",
+      "transaction_id": "6f4c47c5-d2b4-45f2-919a-27186e74d158",
+      "message_id": "1ab67735-e8e8-4217-9c81-21cd8eab3432",
+      "timestamp": "2025-05-23T08:12:07.536Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
+      "bap_id": "ondc.sequelstring.com/buyer/protocol",
+      "bpp_id": "ondc.sequelstring.com/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol",
+      "ttl": "PT30S"
+    },
+    "message": {
+      "update_target": "fulfillment",
+      "order": {
+        "id": "SS1747987823423",
+        "fulfillments": [
+          {
+            "id": "88f70bf1-a6d6-498b-baa6-1db2422d893c",
+            "end": {
+              "location": {
+                "gps": "28.4554726,77.0219019",
+                "address": {
+                  "name": "My home",
+                  "building": "221 B",
+                  "locality": "Baker Steeet",
+                  "city": "Gurgaon",
+                  "state": "Haryana",
+                  "country": "India",
+                  "area_code": "122007"
+                }
+              },
+              "person": {
+                "name": "ashu"
+              },
+              "contact": {
+                "phone": "8076163407"
+              }
+            }
+          }
+        ]
+      }
+    }
+}
