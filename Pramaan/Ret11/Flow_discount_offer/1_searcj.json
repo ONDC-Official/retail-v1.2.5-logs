@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "search",
-      "transaction_id": "62579764-4dd5-4c06-92a4-ef9a0aa5a76d",
-      "message_id": "35d9a0fd-10ff-4b5f-8170-edb6f9aa7653",
-      "timestamp": "2025-07-28T04:40:15.930Z",
+      "transaction_id": "b7a13e1a-97fa-45dd-a3dd-cd02b45cb48b",
+      "message_id": "7bccd7e0-aaaa-4cdd-9a42-5e042ba32bc4",
+      "timestamp": "2025-08-20T04:35:53.929Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S"
@@ -50,12 +50,7 @@
           },
           {
             "code": "bap_features",
-            "list": [
-              {
-                "code": "009",
-                "value": "yes"
-              }
-            ]
+            "list": []
           }
         ]
       }

@@ -1,13 +1,13 @@
 {
-    "context": {
+     "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "select",
-      "transaction_id": "62579764-4dd5-4c06-92a4-ef9a0aa5a76d",
-      "message_id": "4e407efe-57fc-45b8-8890-95ca18b46d5e",
-      "timestamp": "2025-07-28T04:40:28.029Z",
+      "transaction_id": "b7a13e1a-97fa-45dd-a3dd-cd02b45cb48b",
+      "message_id": "6c36756a-3d76-4e37-9a01-30b84b28838b",
+      "timestamp": "2025-08-20T04:37:15.897Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S",
@@ -36,6 +36,7 @@
             "quantity": {
               "count": 2
             },
+            "parent_item_id": "P3121",
             "tags": [
               {
                 "code": "type",
@@ -50,9 +51,11 @@
           },
           {
             "id": "id_5yzai_2_0",
+            "location_id": "SSL1",
             "quantity": {
               "count": 2
             },
+            "parent_item_id": "P3121",
             "tags": [
               {
                 "code": "type",

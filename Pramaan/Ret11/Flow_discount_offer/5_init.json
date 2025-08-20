@@ -5,9 +5,9 @@
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "init",
-      "transaction_id": "62579764-4dd5-4c06-92a4-ef9a0aa5a76d",
-      "message_id": "8c6a1b0f-1b44-4096-b350-2ba7ebecac0d",
-      "timestamp": "2025-07-28T04:40:45.086Z",
+      "transaction_id": "b7a13e1a-97fa-45dd-a3dd-cd02b45cb48b",
+      "message_id": "1fe2e587-ceb6-40cf-a591-537defb7f69d",
+      "timestamp": "2025-08-20T04:37:34.951Z",
       "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "ttl": "PT30S",
@@ -30,6 +30,7 @@
             "quantity": {
               "count": 2
             },
+            "parent_item_id": "P3121",
             "tags": [
               {
                 "code": "type",
@@ -41,13 +42,14 @@
                 ]
               }
             ],
-            "fulfillment_id": "2c34301d-0763-4085-910b-dd320337f12c"
+            "fulfillment_id": "d95a0a64-1f2c-41d7-840f-e84599365589"
           },
           {
             "id": "id_5yzai_2_0",
             "quantity": {
               "count": 2
             },
+            "parent_item_id": "P3121",
             "tags": [
               {
                 "code": "type",
@@ -72,7 +74,7 @@
                 ]
               }
             ],
-            "fulfillment_id": "2c34301d-0763-4085-910b-dd320337f12c"
+            "fulfillment_id": "d95a0a64-1f2c-41d7-840f-e84599365589"
           }
         ],
         "offers": [
@@ -145,6 +147,34 @@
                 ]
               }
             ]
+          },
+          {
+            "id": "exchange1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "financing1",
+            "tags": [
+              {
+                "code": "selection",
+                "list": [
+                  {
+                    "code": "apply",
+                    "value": "no"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "billing": {
@@ -161,12 +191,12 @@
           "name": "Nirdosh Chauhan",
           "email": "nirdosh.chauhan@sequelstring.com",
           "phone": "9876543210",
-          "created_at": "2025-07-28T04:40:45.086Z",
-          "updated_at": "2025-07-28T04:40:45.086Z"
+          "created_at": "2025-08-20T04:37:34.951Z",
+          "updated_at": "2025-08-20T04:37:34.951Z"
         },
         "fulfillments": [
           {
-            "id": "2c34301d-0763-4085-910b-dd320337f12c",
+            "id": "d95a0a64-1f2c-41d7-840f-e84599365589",
             "type": "Delivery",
             "end": {
               "location": {

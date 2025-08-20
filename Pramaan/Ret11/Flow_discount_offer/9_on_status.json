@@ -1,17 +1,17 @@
 {
-     "context": {
+    "context": {
       "domain": "ONDC:RET11",
       "country": "IND",
       "city": "std:0124",
       "core_version": "1.2.5",
       "action": "on_status",
       "transaction_id": "b7a13e1a-97fa-45dd-a3dd-cd02b45cb48b",
-      "message_id": "3514dbff-2f6d-4818-a7a6-b9e46381d8ea",
-      "timestamp": "2025-08-20T04:44:12.586Z",
-      "bap_uri": "http://localhost:8000/buyer/protocol",
+      "message_id": "624559a5-b45c-4ef6-b700-5a6bbc648ba1",
+      "timestamp": "2025-08-20T04:42:36.150Z",
+      "bap_uri": "https://ondc.sequelstring.com/buyer/protocol",
       "bap_id": "ondc.sequelstring.com/buyer/protocol",
       "bpp_id": "ondc.sequelstring.com/seller/protocol",
-      "bpp_uri": "http://localhost:5006/seller/protocol",
+      "bpp_uri": "https://ondc.sequelstring.com/seller/protocol",
       "ttl": "PT30S"
     },
     "message": {
@@ -104,7 +104,7 @@
             "@ondc/org/TAT": "PT24H",
             "state": {
               "descriptor": {
-                "code": "Order-picked-up"
+                "code": "Packed"
               }
             },
             "type": "Delivery",
@@ -130,8 +130,7 @@
                 "range": {
                   "start": "2025-08-20T04:38:12.584Z",
                   "end": "2025-08-20T23:00:00.000Z"
-                },
-                "timestamp": "2025-08-20T04:44:12.586Z"
+                }
               },
               "contact": {
                 "phone": "9876543210",
@@ -509,13 +508,7 @@
           }
         ],
         "created_at": "2025-08-20T04:38:12.508Z",
-        "updated_at": "2025-08-20T04:44:12.586Z",
-        "documents": [
-          {
-            "label": "Invoice",
-            "url": "https://ondc.sequelstring.com/seller/document/invoice.pdf"
-          }
-        ]
+        "updated_at": "2025-08-20T04:42:36.150Z"
       }
     }
 }
